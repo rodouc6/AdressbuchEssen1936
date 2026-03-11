@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adressbuch Essen 1936</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <span class="logo">Adressbuch Essen 1936</span>
+  <a href="index.html" class="active">Start</a>
+  <a href="karte.html">Karte</a>
+  <a href="statistik.html">Statistik</a>
+</nav>
+
+<div class="hero">
+  <h1>Adressbuch der Stadt Essen 1936</h1>
+  <p class="subtitle">Historische Einwohnerdaten interaktiv erforschen</p>
+</div>
+
+<div class="page-content">
+
+  <div class="stats-grid" id="stats-grid">
+    <div class="stat-card">
+      <div class="number" id="stat-eintraege">–</div>
+      <div class="label">Einträge gesamt</div>
+    </div>
+    <div class="stat-card">
+      <div class="number" id="stat-geocodiert">–</div>
+      <div class="label">Geocodiert</div>
+    </div>
+    <div class="stat-card">
+      <div class="number" id="stat-adressen">–</div>
+      <div class="label">Eindeutige Adressen</div>
+    </div>
+    <div class="stat-card">
+      <div class="number" id="stat-stadtteile">–</div>
+      <div class="label">Stadtteile</div>
+    </div>
+  </div>
+
+  <div class="cta-row">
+    <a href="karte.html" class="btn btn-primary">
+      <span>🗺</span> Karte erkunden
+    </a>
+    <a href="statistik.html" class="btn btn-secondary">
+      <span>📊</span> Statistiken ansehen
+    </a>
+  </div>
+
+  <h2>Über das Projekt</h2>
+  <p>
+    Das Adressbuch der Stadt Essen von 1936 enthält die Namen, Berufe und Adressen von
+    Einwohnerinnen und Einwohnern sowie Unternehmen der damaligen Industriestadt im Ruhrgebiet.
+    Dieses Projekt macht die historischen Daten digital zugänglich und visualisiert sie auf
+    einer interaktiven Karte.
+  </p>
+
+  <div class="info-grid">
+    <div class="info-card">
+      <h3>Historischer Kontext</h3>
+      <p>
+        Essen war 1936 mit über 650.000 Einwohnern eine der größten Städte Deutschlands
+        und Zentrum der Schwerindustrie. Das Adressbuch spiegelt die Sozialstruktur der
+        Stadt in der NS-Zeit wider: Bergleute, Hüttenarbeiter und Kaufleute prägen das Bild.
+      </p>
+    </div>
+    <div class="info-card">
+      <h3>Methodik</h3>
+      <p>
+        Die Rohdaten wurden aus einer digitalen Erfassung des gedruckten Adressbuchs entnommen,
+        bereinigt und mit modernen Straßennamen abgeglichen. Die Geocodierung erfolgte über
+        OpenStreetMap-Daten (Nominatim).
+      </p>
+    </div>
+    <div class="info-card">
+      <h3>Aufbau des Adressbuchs</h3>
+      <p>
+        Das Original gliedert sich in vier Teile: I. Einwohnerverzeichnis, II. Straßenverzeichnis,
+        III. Branchenverzeichnis, IV. Behörden und Vereine. Die Daten auf dieser Website
+        entstammen hauptsächlich Teil I.
+      </p>
+    </div>
+  </div>
+
+  <div class="source-note">
+    <strong>Quellen:</strong> Adressbuch der Stadt Essen 1936 ·
+    Straßennamen-Konkordanz: Erwin Dickhoff, <em>Essener Straßen</em> (2015, Klartext-Verlag) ·
+    Kartendaten: <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap-Beitragende</a>,
+    bereitgestellt via <a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a>
+  </div>
+
+</div>
+
+<footer>
+  Adressbuch Essen 1936 · Daten: Historische Quelle, digitale Aufbereitung 2025 ·
+  Kartendaten © OpenStreetMap-Beitragende
+</footer>
+
+<script>
+  // Lade Kennzahlen aus statistiken.json
+  fetch('data/statistiken.json')
+    .then(r => r.json())
+    .then(data => {
+      document.getElementById('stat-eintraege').textContent =
+        (data.gesamt_eintraege || 0).toLocaleString('de-DE');
+      document.getElementById('stat-geocodiert').textContent =
+        (data.geocodierte_eintraege || 0).toLocaleString('de-DE');
+      document.getElementById('stat-adressen').textContent =
+        (data.eindeutige_adressen || 0).toLocaleString('de-DE');
+      document.getElementById('stat-stadtteile').textContent =
+        (data.stadtteile || []).length.toLocaleString('de-DE');
+    })
+    .catch(() => {}); // Ignoriere Fehler (z.B. ohne HTTP-Server)
+</script>
+
+</body>
+</html>

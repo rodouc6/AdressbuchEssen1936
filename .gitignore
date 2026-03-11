@@ -1,0 +1,29 @@
+# Rohdaten (zu groß / nicht öffentlich)
+essen1936.csv
+essen1936_bereinigt.csv
+essen1936_bereinigt.csv.bak
+essen1936_bereinigt.csv.bak2
+essen1936_geovorbereitung.csv
+essen1936.geojson
+unique_geoadresses.csv
+geocoding_cache.csv
+
+# OhdAB-Daten
+ohdab.csv
+ohdab_raw.json
+
+# Locks & temporäre Dateien
+.~lock.*
+*.bak
+*.bak2
+
+# Konkordanz / venv
+Konkordanz/venv/
+
+# Sonstiges
+qgis/
+vers.0/
+persönliche Dokumentation/
+restbereinigung.ods
+bereinigung_log.txt
+berufe_unique*.txt

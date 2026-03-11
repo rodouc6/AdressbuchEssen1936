@@ -1,0 +1,529 @@
+Abkürzung,Zeilen_gesamt,Einträge,Beispiel_1,Beispiel_2,Auflösung
+Bergm.,26863,16,Bergm.,"Wilh., Bergm.",Bergmann
+Inval.,7593,8,Inval.,"Heinr., Inval.",Invalide
+Kaufm.,5298,29,Kaufm.,Dipl. Kaufm.,Kaufmann
+Führ.,2632,51,Kraftw. Führ.,Lok. Führ.,Führer
+Ob.,2535,493,Pol. Ob. Wachtmstr.,Ob. Ingen.,Ober
+Fabrkarb.,1815,3,Fabrkarb.,"Fabrkarb., Overbergstr. 2 Erdg",Fabrikarbeiter
+Kraftw.,1612,7,Kraftw. Führ.,Kraftw. Führer,Kraftwagen
+Angest.,1399,39,kfm. Angest.,Angest.,Angestellter
+Reichsb.,1342,193,Reichsb. Assist.,Reichsb. Beamt.,Reichsbahn
+Pol.,1218,120,Pol. Ob. Wachtmstr.,Pol. Hauptwachtmstr.,Polizei
+Bürobeamt.,1124,9,Bürobeamt.,Bürobeamt. a. D.,Bürobeamter
+Beamt.,1038,105,Pol. Beamt.,Beamt.,Beamter
+Werkmstr.,923,12,Werkmstr.,Werkmstr. a. D.,Werkmeister
+Rbhn.,883,135,Rbhn. Bedienst.,Rbhn. Assist.,Reichsbahn
+Sekr.,864,129,Reichsb. Ob. Sekr.,Reichsb. Sekr.,Sekretär
+Straßenb.,807,21,Straßenb. Schaffn.,Straßenb. Führ.,Straßenbahn
+Ingen.,792,33,Ingen.,Ob. Ingen.,Ingenieur
+Bauarb.,738,8,Bauarb.,Ob. Bauarb.,Bauarbeiter
+Schankw.,734,9,Schankw.,Schankw. Vertret.,Schankwirt
+Schaffn.,703,29,Straßenb. Schaffn.,Straßb. Schaffn.,Schaffner
+Assist.,701,76,Reichsb. Assist.,Betr. Assist.,Assistent
+Lok.,682,39,Lok. Führ.,Res. Lok. Führ.,Lokomotive
+Ing.,667,77,Dipl. Ing.,Ob. Ing.,Ingenieur
+Inspekt.,650,121,Reichsb. Ob. Inspekt.,Just. Inspekt.,Inspektor
+Dipl.,625,64,Dipl. Ing.,Dipl. Ingen.,Diplom
+Berginval.,623,1,Berginval.,,Berginvalide
+kfm.,618,29,kfm. Angest.,kfm. Beamt.,kaufmännischer
+Wachtmstr.,587,32,Pol. Ob. Wachtmstr.,Pol. Wachtmstr.,Wachtmeister
+Bedienst.,572,11,Straßenb. Bedienst.,Rbhn. Bedienst.,Bediensteter
+Kolonialwr.,564,1,Kolonialwr.,,Kolonialwaren-Händler
+Schneidermstr.,531,1,Schneidermstr.,,Schneidermeister
+Vorarb.,526,5,Vorarb.,Telegr. Vorarb.,Vorarbeiter
+Fuhrm.,499,1,Fuhrm.,,Fuhrmann
+Betr.,491,85,Betr. Assist.,Reichsb. Betr. Assist.,Betriebs
+Arbeit.,483,15,Arbeit.,Telegr. Arbeit.,Arbeiter
+Postschaffn.,474,6,Postschaffn.,Ob. Postschaffn.,Postschaffner
+Hilfsarb.,455,2,Hilfsarb.,wissenschaftl. Hilfsarb.,Hilfsarbeiter
+Arb.,401,22,Telegr. Arb.,Arb.,Arbeiter
+Buchhalt.,349,5,Buchhalt.,Betr. Buchhalt.,Buchhalter
+Just.,342,49,Just. Inspekt.,Just. Ob. Sekr.,Justiz
+Hausmstr.,337,3,Hausmstr.,Hausmstr. a. D.,Hausmeister
+Telegr.,331,70,Telegr. Arb.,Ob. Telegr. Sekr.,Telegraphen
+Schreinermstr.,321,5,Schreinermstr.,Schreinermstr. a. D.,Schreinermeister
+Geschäftsführ.,318,5,Geschäftsführ.,Geschäftsführ. Aspirant,Geschäftsführer
+Stadtinspekt.,316,11,Stadtinspekt.,techn. Stadtinspekt.,Stadtinspektor
+Metzgermstr.,308,2,Metzgermstr.,Metzgermstr. a. D.,Metzgermeister
+kaufm.,306,16,kaufm. Angest.,kaufm. Beamt.,kaufmännischer
+Kranführ.,301,1,Kranführ.,,Kranführer
+Elektromont.,297,1,Elektromont.,,Elektromonteur
+Landw.,297,12,Landw.,Landw. Arb.,Landwirt
+Hauptwachtmstr.,295,14,Pol. Hauptwachtmstr.,Hauptwachtmstr.,Hauptwachtmeister
+Bäckermstr.,293,6,Bäckermstr.,Bäckermstr. i. R.,Bäckermeister
+techn.,284,99,techn. Stadtinspekt.,techn. Lehrerin,technischer
+Bürovorsteh.,274,7,Bürovorsteh.,Bürovorsteh. a. D.,Bürovorsteher
+Bankbeamt.,262,2,Bankbeamt.,Bankbeamt. a. D.,Bankbeamter
+Straßb.,261,15,Straßb. Schaffn.,Straßb. Bedienst.,Straßenbahn
+Tabakwr.,259,6,Tabakwr.,"Tabakwr., Großhdlg.",Tabakwaren-Händler
+Inh.,241,22,Inh.,Gesch. Inh.,Inhaber
+Tagesarb.,240,1,Tagesarb.,,Tagesarbeiter
+Anstreichermstr.,239,3,Anstreichermstr.,Anstreichermstr. a. D.,Anstreichermeister
+Friseurgesch.,237,1,Friseurgesch.,,Friseurgeschäft
+Schuhmmstr.,235,4,Schuhmmstr.,Orth. Schuhmmstr.,Schuhmachermeister
+Milchhdl.,224,1,Milchhdl.,,Milchhändler
+Büroangest.,221,3,Büroangest.,Reichsb. Büroangest.,Büroangestellter
+Zimmerm.,220,1,Zimmerm.,,Zimmermann
+Schuhm.,220,2,Schuhm.,Schuhm. Bedarfsart.,Schuhmacher
+Bergarb.,219,1,Bergarb.,,Bergarbeiter
+Masch.,217,40,Masch. Schlosser,Masch. Steiger,Maschinen
+Kfm.,212,19,Kfm. Angest.,Kfm.,Kaufmann
+Lagerarb.,211,2,Lagerarb.,Städt. Lagerarb.,Lagerarbeiter
+Eisenb.,204,31,Eisenb. Bedienst.,Eisenb. Arb.,Eisenbahn
+Krim.,196,26,Krim. Assist.,Krim. Sekr.,Kriminal
+Schuhmach.,195,1,Schuhmach.,,Schuhmacher
+Feuerwehrm.,191,4,Feuerwehrm.,Ob. Feuerwehrm.,Feuerwehrmann
+Maurerpol.,190,1,Maurerpol.,,Maurerpolier
+Fuhrgesch.,178,2,Fuhrgesch.,"Autotransporte, Fuhrgesch.",Fuhrgeschäft
+Kraftwführ.,177,1,Kraftwführ.,,Kraftwagenführer
+Vertret.,175,18,Vertret.,Gen. Vertret.,Vertreter
+Bauführ.,170,10,Bauführ.,Telegr. Bauführ.,Bauführer
+Malermstr.,165,2,Malermstr.,Malermstr. u. Bauaustrocknung,Malermeister
+Schloss.,164,5,Schloss.,Masch. Schloss.,Schlosser
+Angestellt.,163,6,Angestellt.,kfm. Angestellt.,Angestellter
+Techn.,162,69,Masch. Techn.,Techn.,Techniker
+Zechenbeamt.,156,5,Zechenbeamt.,Zechenbeamt. a. D.,Zechenbeamter
+Gastw.,155,3,Gastw.,Gastw. Angest.,Gastwirt
+Schachtmstr.,153,2,Schachtmstr.,Ob. Schachtmstr.,Schachtmeister
+Stadtsekr.,152,6,Stadtsekr.,Stadtsekr. a. D.,Stadtsekretär
+Stadtarb.,144,1,Stadtarb.,,Stadtarbeiter
+Zugführ.,140,12,Zugführ.,Zugführ. a. D.,Zugführer
+Bahnarb.,140,1,Bahnarb.,,Bahnarbeiter
+Kokereiarb.,137,1,Kokereiarb.,,Kokerei-Arbeiter
+Bürogeh.,137,3,Bürogeh.,Bürogeh. a. D.,Bürogehilfe
+Schlossermstr.,135,2,Schlossermstr.,Schlossermstr. a. D.,Schlossermeister
+Reg.,134,52,Reg. Baumeister,Reg. Rat,Regierungs
+Postbeamt.,133,3,Postbeamt.,Postbeamt. a. D.,Postbeamter
+Rangiermstr.,129,6,Rangiermstr.,Rangiermstr. a. D.,Rangiermeister
+Milchhdlg.,128,1,Milchhdlg.,,Milchhandlung
+Syndikatsbeamt.,124,2,Syndikatsbeamt.,Syndikatsbeamt. a. D.,Syndikatsbeamter
+Postassist.,122,7,Postassist.,Postassist. a. D.,Postassistent
+Direkt.,122,49,Direkt.,Landger. Direkt.,Direktor
+Postsekr.,119,5,Ob. Postsekr.,Postsekr.,Postsekretär
+Stellwerksmstr.,117,8,Stellwerksmstr.,Stellwerksmstr. a. D.,Stellwerksmeister
+Handelsm.,115,1,Handelsm.,,Handelsmann
+Schmiedemstr.,115,3,Schmiedemstr.,Schmiedemstr. a. D.,Schmiedemeister
+Rechtsanw.,114,14,Rechtsanw.,Rechtsanw. u. Notar,Rechtsanwalt
+Anstreich.,114,1,Anstreich.,,Anstreicher
+Handlgsgeh.,113,2,Handlgsgeh.,kfm. Handlgsgeh.,Handlungsgehilfe
+Bauunternehm.,113,2,Bauunternehm.,Bauunternehm. für Hoch- und Tiefbau,Bauunternehmer
+Klempnermstr.,112,3,Klempnermstr.,"Klempnermstr., Installateur u. Haushaltwr.",Klempnermeister
+Fuhrunternehm.,111,1,Fuhrunternehm.,,Fuhrunternehmer
+Leit.,110,22,Betr. Leit.,Abt. Leit.,Leiter
+Stud.,106,22,Stud. Rat,Stud. Assess.,Studien
+Res.,105,7,Res. Lok. Führ.,Res. Zugführ.,Reserve
+Koksarb.,104,1,Koksarb.,,Koksarbeiter
+Elektrotechn.,103,10,Elektrotechn.,Elektrotechn. Gesch.,Elektrotechniker
+Weichenstell.,99,4,Weichenstell.,Weichenstell. a. D.,Weichensteller
+Gemüsehdl.,94,2,Gemüsehdl.,Obst- u. Gemüsehdl.,Gemüsehändler
+Fabrikarb.,90,1,Fabrikarb.,,Fabrikarbeiter
+Schriftsetz.,89,1,Schriftsetz.,,Schriftsetzer
+Kesselwärt.,88,2,Kesselwärt.,Ob. Kesselwärt.,Kesselwärter
+Schießmstr.,88,2,Schießmstr.,Schießmstr. a. D.,Schießmeister
+Maschinenmstr.,88,3,Maschinenmstr.,Maschinenmstr. a. D.,Maschinenmeister
+Feuerarb.,83,1,Feuerarb.,,Feuerarbeiter
+Stellmach.,82,1,Stellmach.,,Stellmacher
+Baugesch.,80,1,Baugesch.,,Baugeschäft
+Fördermasch.,78,2,Fördermasch.,Fördermasch. a. D.,Fördermaschinen
+Weichenwärt.,78,6,Weichenwärt.,Ob. Weichenwärt.,Weichenwärter
+Anstreichergesch.,78,1,Anstreichergesch.,,Anstreichergeschäft
+Vollz.,78,13,Vollz. Beamt.,Ob. Ger. Vollz.,Vollzugs
+städt.,76,34,städt. Angest.,städt. Kammermusiker,städtischer
+Abt.,75,19,Abt. Vorsteh.,Abt. Leit.,Abteilungs
+Dachdeckermstr.,75,3,Dachdeckermstr.,Dachdeckermstr. a. D.,Dachdeckermeister
+Putzgesch.,72,1,Putzgesch.,,Putzgeschäft
+Bautechn.,71,3,Bautechn.,Masch. Bautechn.,Bautechniker
+Rechn.,71,18,Rechn. Beamt.,Rechn. Führ.,Rechnungs
+Gemüsehdlg.,71,2,Gemüsehdlg.,Obst- u. Gemüsehdlg.,Gemüsehandlung
+Schreibwr.,71,2,Schreibwr.,Schreibwr. Großhdlg.,Schreibwaren-Händler
+Ger.,71,27,Ger. Assess.,Ob. Ger. Vollz.,Gerichts
+Grubenbeamt.,70,7,Grubenbeamt.,kfm. Grubenbeamt.,Grubenbeamter
+Gesch.,68,21,Gesch. Führ.,Gesch. Inh.,Geschäfts
+Verw.,67,27,Verw. Sekr.,Verw. Beamt.,Verwaltungs
+Hdlgsgeh.,66,1,Hdlgsgeh.,,Handlungsgehilfe
+Elektromstr.,66,1,Elektromstr.,,Elektromeister
+Geh.,66,29,Handlgs. Geh.,Hdlgs. Geh.,Gehilfe
+Wagenmstr.,66,8,Wagenmstr.,Reichsb. Wagenmstr.,Wagenmeister
+Zechenarb.,65,1,Zechenarb.,,Zechenarbeiter
+Handelsvertret.,65,2,Handelsvertret.,"Kaufm., Handelsvertret.",Handelsvertreter
+Vorsteh.,64,16,Abt. Vorsteh.,Abtlgs. Vorsteh.,Vorsteher
+Wiegemstr.,64,2,Wiegemstr.,Wiegemstr. a. D.,Wiegemeister
+Steuersekr.,64,2,Steuersekr.,Ob. Steuersekr.,Steuersekretär
+Obsthdlg.,60,2,Obsthdlg.,"Steph., Obsthdlg.",Obsthandlung
+Holzarb.,60,1,Holzarb.,,Holzarbeiter
+Buchdruck.,58,1,Buchdruck.,,Buchdrucker
+Aufseh.,57,18,Aufseh.,Telegr. Leitgs. Aufseh.,Aufseher
+prakt.,57,8,prakt. Arzt,prakt. Ärztin,praktischer
+Rottenarb.,56,2,Rottenarb.,Reichsb. Rottenarb.,Rottenarbeiter
+Kohlenhdlg.,55,3,Kohlenhdlg.,Kohlenhdlg. Zeche Johann Deimelsberg,Kohlenhandlung
+Postinspekt.,55,6,Postinspekt.,Ob. Postinspekt.,Postinspektor
+Insp.,55,31,Just. Insp.,Reichsb. Insp.,Inspektor
+Magazinarb.,53,1,Magazinarb.,,Magazinarbeiter
+Bürodien.,53,2,Bürodien.,Bürodien. a. D.,Bürodiener
+Vertr.,53,14,Vertr.,Gen. Vertr.,Vertreter
+Posthelf.,53,1,Posthelf.,,Posthelfer
+Wagenführ.,53,6,Wagenführ.,Straßb. Wagenführ.,Wagenführer
+Technik.,52,6,Technik.,Masch. Technik.,Techniker
+Assess.,52,12,Stud. Assess.,Ger. Assess.,Assessor
+Platzarb.,52,1,Platzarb.,,Platzarbeiter
+Lebensmittelgesch.,52,1,Lebensmittelgesch.,,Lebensmittelgeschäft
+Gen.,51,13,Gen. Vertret.,Gen. Vertr.,General
+Zimmerpol.,51,1,Zimmerpol.,,Zimmerpolier
+Uhrmach.,51,1,Uhrmach.,,Uhrmacher
+Werkführ.,51,12,Werkführ.,Reichsb. Werkführ.,Werkführer
+Magazinverwalt.,50,1,Magazinverwalt.,,Magazinverwalter
+Stadt-Ob.,50,11,Stadt-Ob. Sekr.,Stadt-Ob. Inspekt.,Stadtober
+Kapellmstr.,50,3,Kapellmstr.,Städt. Kapellmstr.,Kapellmeister
+Steuerinspekt.,50,3,Steuerinspekt.,Ob. Steuerinspekt.,Steuerinspektor
+Amtsger.,50,7,Amtsger. Rat,Amtsger. Rat i. R.,Amtsgerichts
+Städt.,50,22,Städt. Angest.,Städt. Beamt.,Städtischer
+Vers.,49,15,Vers. Inspekt.,Vers. Agent,Versicherungs
+Verwaltgs.,49,17,Verwaltgs. Sekr.,Verwaltgs. Beamt.,Verwaltungs
+Amtm.,47,13,Reichsb. Amtm.,Stadt Ob. Amtm.,Amtmann
+Vorzeichn.,47,1,Vorzeichn.,,Vorzeichner
+Gruppenführ.,47,1,Gruppenführ.,,Gruppenführer
+Elektr.,46,19,Elektr.,Elektr. Monteur,Elektriker
+Obermstr.,46,7,Obermstr.,Pol. Obermstr.,Obermeister
+Syndik.,46,6,Syndik. Beamt.,Syndik. Beamt. a. D.,Syndikats
+Lagerverwalt.,45,2,Lagerverwalt.,Lagerverwalt. a. D.,Lagerverwalter
+Fabrkt.,45,2,Fabrkt.,Vw. Fabrkt.,Fabrikant
+Erdarb.,45,1,Erdarb.,,Erdarbeiter
+Bez.,44,15,Bez. Schornsteinfegermstr.,Bez. Direkt.,Bezirks
+Verwalt.,44,16,Verwalt.,Magaz. Verwalt.,Verwalter
+Rangieraufseh.,43,4,Rangieraufseh.,Rangieraufseh. a. D.,Rangieraufseher
+Kauenwärt.,43,1,Kauenwärt.,,Kauenwärter
+Anwärt.,43,17,Lok. Führ. Anwärt.,Reichsb. Anwärt.,Anwärter
+Landger.,43,7,Landger. Rat,Landger. Direkt.,Landgerichts
+Rentn.,43,2,Rentn.,Soz. Rentn.,Rentner
+Dipl.-Ing.,42,2,Dipl.-Ing.,Dipl.-Ing. Architekt,Diplom-Ingenieur
+Autoschloss.,42,1,Autoschloss.,,Autoschlosser
+Maschinenschloss.,42,1,Maschinenschloss.,,Maschinenschlosser
+Metallarb.,42,1,Metallarb.,,Metallarbeiter
+Stadtob.,41,8,Stadtob. Inspekt.,Stadtob. Sekr.,Stadtober
+Kartoffelhdlg.,40,1,Kartoffelhdlg.,,Kartoffelhandlung
+Hausbes.,40,1,Hausbes.,,Hausbesitzer
+Berginv.,40,1,Berginv.,,Berginvalide
+Maurermstr.,39,2,Maurermstr.,Maurermstr. a. D.,Maurermeister
+Bergw.,39,18,Bergw. Direkt.,Bergw. Beamt.,Bergwerks
+Bauing.,39,2,Bauing.,"Bauing., B.A.J.",Bauingenieur
+Glasmach.,39,1,Glasmach.,,Glasmacher
+Lademstr.,39,5,Lademstr.,Reichsb. Lademstr.,Lademeister
+Holzmstr.,39,2,Holzmstr.,Holzmstr. a. D.,Holzmeister
+Markenkontroll.,38,1,Markenkontroll.,,Markenkontrolleur
+Platzmstr.,38,2,Platzmstr.,Ob. Platzmstr.,Platzmeister
+Tiefbauarb.,38,1,Tiefbauarb.,,Tiefbauarbeiter
+Modellschrein.,38,1,Modellschrein.,,Modellschreiner
+Bauingen.,38,2,Bauingen.,Bauingen. a. D.,Bauingenieur
+Zahntechn.,38,3,Zahntechn.,Zahntechn. Laboratorium,Zahntechniker
+Mont.,38,6,Mont.,Ob. Mont.,Monteur
+Betriebsführ.,36,3,Betriebsführ.,Betriebsführ. a. D.,Betriebsführer
+Schrein.,36,1,Schrein.,,Schreiner
+Kernmach.,36,1,Kernmach.,,Kernmacher
+Heilgeh.,36,2,Heilgeh.,staatl. gepr. Heilgeh.,Heilgehilfe
+Bahnwärt.,36,5,Bahnwärt.,Ob. Bahnwärt.,Bahnwärter
+Rottenführ.,36,4,Rottenführ.,Rottenführ. a. D.,Rottenführer
+Gew.,35,8,Gew. Ob. Lehr.,Gew. Lehrerin,Gewerbe
+Betriebsleit.,35,3,Betriebsleit.,Betriebsleit. a. D.,Betriebsleiter
+Bergassess.,35,3,Bergassess.,Bergassess. a. D.,Bergassessor
+Installat.,35,1,Installat.,,Installateur
+Konditormstr.,35,1,Konditormstr.,,Konditormeister
+Lederhdlg.,34,1,Lederhdlg.,,Lederhandlung
+Steuerassist.,34,2,Steuerassist.,Steuerassist. a. D.,Steuerassistent
+Elektrik.,34,1,Elektrik.,,Elektriker
+Inv.,34,1,Inv.,,Invalide
+Automont.,34,1,Automont.,,Automonteur
+Stadtamtm.,33,5,Stadtamtm.,Stadtamtm. a. D.,Stadtamtmann
+Reichsinval.,33,1,Reichsinval.,,Reichsinvalide
+Stallmstr.,33,2,Stallmstr.,Ob. Stallmstr.,Stallmeister
+Vermess.,33,15,Vermess. Techn.,Vermess. Ob. Sekr.,Vermessungs
+Gelderheb.,33,2,Gelderheb.,Ob. Gelderheb.,Gelderheher
+Strafanst.,33,16,Strafanst. Ob. Wachtmstr.,Strafanst. Hauptwachtmstr.,Strafanstalt
+Hüttenarb.,33,1,Hüttenarb.,,Hüttenarbeiter
+Stellm.,33,1,Stellm.,,Stellmacher
+Lohnbuchhalt.,32,2,Lohnbuchhalt.,I. Lohnbuchhalt.,Lohnbuchhalter
+Weißwr.,32,1,Weißwr.,,Weißwaren-Händler
+Maschinensteig.,32,2,Maschinensteig.,Maschinensteig. a. D.,Maschinensteiger
+Autovermietg.,32,1,Autovermietg.,,Autovermietung
+Zimmermstr.,31,2,Zimmermstr.,Zimmermstr. a. D.,Zimmermeister
+Pens.,31,1,Pens.,,Pensionär
+Amtsgeh.,31,5,Amtsgeh.,Pol. Amtsgeh.,Amtsgehilfe
+Steig.,31,8,Masch. Steig.,Steig. a. D.,Steiger
+Kartoffelhdl.,31,1,Kartoffelhdl.,,Kartoffelhändler
+Versandleit.,30,2,Versandleit.,Versandleit. a. D.,Versandleiter
+Postbetr.,30,7,Postbetr. Assist.,Postbetr. Arb.,Postbetriebs
+Hausdien.,30,1,Hausdien.,,Hausdiener
+Waschmstr.,30,2,Waschmstr.,Waschmstr. a. D.,Waschmeister
+Sattlermstr.,30,1,Sattlermstr.,,Sattlermeister
+Gartenbaubetr.,30,1,Gartenbaubetr.,,Gartenbaubetrieb
+Hilfsbetr.,30,3,Hilfsbetr. Assist.,Rbhn. Hilfsbetr. Assist.,Hilfsbetrieb
+Schneidermstrin.,30,1,Schneidermstrin.,,Schneidermeisterin
+Blumengesch.,29,1,Blumengesch.,,Blumengeschäft
+Kriegsinval.,29,1,Kriegsinval.,,Kriegsinvalide
+Schuhwr.,29,2,Schuhwr.,Schuhwr. Agentur,Schuhwaren-Händler
+Schornsteinfegermstr.,29,2,Bez. Schornsteinfegermstr.,Schornsteinfegermstr.,Schornsteinfegermeister
+Koksmstr.,29,3,Koksmstr.,Koksmstr. a. D.,Koksmeister
+Fabrkbeamt.,29,2,Fabrkbeamt.,Fabrkbeamt. a. D.,Fabrikbeamter
+Anw.,29,13,Beamt. Anw.,Lok. Führ. Anw.,Anwärter
+Bankarb.,28,1,Bankarb.,,Bankarbeiter
+Abtlgs.,28,7,Abtlgs. Leit.,Abtlgs. Vorsteh.,Abteilungs
+Gemüsegesch.,28,1,Gemüsegesch.,,Gemüsegeschäft
+Ziegelmstr.,28,1,Ziegelmstr.,,Ziegelmeister
+Bankdirekt.,28,3,Bankdirekt.,Bankdirekt. a. D.,Bankdirektor
+Tagelöhn.,28,1,Tagelöhn.,,Tagelöhner
+Obersekr.,28,13,Obersekr.,Reichsb. Obersekr.,Obersekretär
+Beifahr.,27,1,Beifahr.,,Beifahrer
+Bademstr.,27,3,Bademstr.,Bademstr. a. D.,Bademeister
+Friseurmstr.,27,1,Friseurmstr.,,Friseurmeister
+Heiz.,27,6,Lok. Heiz.,Lok. Ob. Heiz.,Heizer
+Gutsbes.,27,1,Gutsbes.,,Gutsbesitzer
+Lampenmstr.,27,3,Lampenmstr.,Ob. Lampenmstr.,Lampenmeister
+Bankangest.,27,2,Bankangest.,Bankangest. a. D.,Bankangestellter
+Lehr.,27,12,Gew. Ob. Lehr.,Gew. Lehr.,Lehrer
+Pension.,26,1,Pension.,,Pensionär
+Kurzwr.,26,1,Kurzwr.,,Kurzwaren-Händler
+Straßenmstr.,26,4,Straßenmstr.,Straßenmstr. a. D.,Straßenmeister
+Bauhilfsarb.,26,1,Bauhilfsarb.,,Bauhilfsarbeiter
+Polstermstr.,26,1,Polstermstr.,,Polstermeister
+Fliesenleg.,26,1,Fliesenleg.,,Fliesenleger
+Malergesch.,26,1,Malergesch.,,Malergeschäft
+Uhrm.,26,1,Uhrm.,,Uhrmacher
+Abteilgs.,26,8,Abteilgs. Leit.,Abteilgs. Vorsteh.,Abteilungs
+Maschinensetz.,25,1,Maschinensetz.,,Maschinensetzer
+Hauptm.,25,6,Pol. Hauptm.,Hauptm. a. D.,Hauptmann
+Manufakturwr.,25,1,Manufakturwr.,,Manufakturwaren-Händler
+Heizungsmont.,25,1,Heizungsmont.,,Heizungsmonteur
+Versich.,24,7,Versich. Inspekt.,Versich. Vertret.,Versicherungs
+Mittelschullehr.,24,2,Mittelschullehr.,Mittelschullehr. i. R.,Mittelschullehrer
+Zigarrengesch.,24,1,Zigarrengesch.,,Zigarrengeschäft
+Krankenpfleg.,24,2,Krankenpfleg.,Krankenpfleg. a. D.,Krankenpfleger
+Kontroll.,24,6,Straßenb. Kontroll.,Kontroll.,Kontrolleur
+Installationsgesch.,24,7,Installationsgesch.,Installationsgesch. u. Bauklempnerei,Installationsgeschäft
+Möbelhdlg.,24,1,Möbelhdlg.,,Möbelhandlung
+Ass.,24,17,Rbhn. Betr. Ass.,Rbhn. Ass.,Assistent
+Werkst.,24,17,Autorep. Werkst.,Schuhrep. Werkst.,Werkstatt
+Gemeindearb.,23,1,Gemeindearb.,,Gemeindearbeiter
+Förderaufseh.,23,2,Förderaufseh.,Förderaufseh. a. D.,Förderaufseher
+Klempn.,23,2,Klempn.,Klempn. u. Install.,Klempner
+Tischlermstr.,23,2,Tischlermstr.,Tischlermstr. a. D.,Tischlermeister
+mech.,22,8,mech. Schreinerei,mech. Stickerei,mechanisch
+Zollsekr.,22,2,Zollsekr.,Ob. Zollsekr.,Zollsekretär
+Ladeschaffn.,22,4,Ladeschaffn.,Rbhn. Ladeschaffn.,Ladeschaffner
+Oberingen.,22,4,Oberingen.,Oberingen. i. R.,Oberingenieur
+Bahnbeamt.,22,2,Bahnbeamt.,Bahnbeamt. a. D.,Bahnbeamter
+Reichsbk.,22,13,Reichsbk. Beamt.,Reichsbk. Inspekt.,Reichsbank
+Prakt.,22,7,Prakt. Arzt,Prakt. Zahnarzt,Praktischer
+Revis.,22,10,Rechn. Revis.,Revis.,Revisor
+Kohlenhdl.,21,1,Kohlenhdl.,,Kohlenhändler
+Hilfsmstr.,21,2,Hilfsmstr.,Hilfsmstr. a. D.,Hilfsmeister
+Meßgeh.,21,1,Meßgeh.,,Meßgehilfe
+Stuckgesch.,21,1,Stuckgesch.,,Stuckgeschäft
+Maßgesch.,21,1,Maßgesch.,,Maßgeschäft
+Kettenanschläg.,21,1,Kettenanschläg.,,Kettenanschläger
+staatl.,21,15,staatl. gepr. Dentist,staatl. gepr. Dentistin,staatlich
+Richtmstr.,21,1,Richtmstr.,,Richtmeister
+Reviersteig.,21,2,Reviersteig.,Reviersteig. a. D.,Reviersteiger
+Stukkat.,21,1,Stukkat.,,Stuckateur
+Mechanik.,21,1,Mechanik.,,Mechaniker
+Gartenmstr.,21,4,Gartenmstr.,städt. Gartenmstr.,Gartenmeister
+Konsumvorsteh.,20,1,Konsumvorsteh.,,Konsumvorsteher
+Mechanikermstr.,20,1,Mechanikermstr.,,Mechanikermeister
+Maschin.,20,8,Maschin.,Maschin. Steiger,Maschinist
+Buchhdlg.,20,2,Buchhdlg.,Buchhdlg. Geh.,Buchhandlung
+Lagermstr.,20,1,Lagermstr.,,Lagermeister
+Handelslehr.,20,1,Dipl. Handelslehr.,,Handelslehrer
+Obsthdl.,20,1,Obsthdl.,,Obsthändler
+Bürovorst.,20,2,Bürovorst.,Bürovorst. a. D.,Bürovorsteher
+Photogr.,20,5,Photogr. Atelier,Photogr.,Photograph
+Fischhdlg.,20,1,Fischhdlg.,,Fischhandlung
+Papierwr.,19,2,Papierwr.,Papierwr. Großhdlg.,Papierwaren-Händler
+Viehhdl.,19,1,Viehhdl.,,Viehhändler
+Vollzieh.,19,4,Vollzieh. Beamt.,Ger. Vollzieh.,Vollziehungs
+Landarb.,19,1,Landarb.,,Landarbeiter
+Glasarb.,19,1,Glasarb.,,Glasarbeiter
+Laborat.,19,5,Laborat. Beamt.,Laborat. Techn.,Laboratoriums
+Transportarb.,19,1,Transportarb.,,Transportarbeiter
+Maßprüf.,19,1,Maßprüf.,,Maßprüfer
+Vermessgs.,19,12,Vermessgs. Techn.,Vermessgs. Inspekt.,Vermessungs
+Dachdeck.,18,1,Dachdeck.,,Dachdecker
+Rangier.,18,2,Rangier.,Rbhn. Rangier.,Rangierer
+Bahnmstr.,18,7,Bahnmstr.,Ob. Bahnmstr.,Bahnmeister
+Lagerhalt.,18,1,Lagerhalt.,,Lagerhalter
+Baumstr.,18,5,Reg. Baumstr.,Baumstr.,Baumeister
+Handlgs.,18,5,Handlgs. Geh.,Handlgs. Bevollmächt.,Handlungs
+Kraftfahr.,18,1,Kraftfahr.,,Kraftfahrer
+Fahrsteig.,18,3,Fahrsteig.,Fahrsteig. a. D.,Fahrsteiger
+Anzeichn.,18,1,Anzeichn.,,Anzeichner
+Trinkhallenbes.,18,1,Trinkhallenbes.,,Trinkhallen-Besitzer
+Bergbaubeamt.,18,2,Bergbaubeamt.,kfm. Bergbaubeamt.,Bergbaubeamter
+Stadtoberinspekt.,18,5,Stadtoberinspekt.,techn. Stadtoberinspekt.,Stadtoberinspektor
+Bücherrevis.,18,1,Bücherrevis.,,Bücherrevisor
+Händl.,18,1,Händl.,,Händler
+Geschäftsinhabrin.,18,1,Geschäftsinhabrin.,,Geschäftsinhaberin
+Obering.,18,4,Obering.,Obering. B. d. i.,Oberingenieur
+Maschinenwärt.,17,1,Maschinenwärt.,,Maschinenwärter
+Bahnhofsvorsteh.,17,6,Bahnhofsvorsteh.,Ob. Bahnhofsvorsteh.,Bahnhofsvorsteher
+Kesselheiz.,17,1,Kesselheiz.,,Kesselheizer
+Magaz.,17,4,Magaz. Verwalt.,Magaz. Verw.,Magazin
+Fahrradhdlg.,17,1,Fahrradhdlg.,,Fahrradhandlung
+Rohproduktenhdl.,17,1,Rohproduktenhdl.,,Rohproduktenhändler
+Oberbauarb.,17,1,Oberbauarb.,,Oberbauarbeiter
+Unternehm.,17,4,Unternehm.,"Unternehm., Mülheimer Str. 55",Unternehmer
+Tiefbauunternehm.,17,2,Tiefbauunternehm.,Tiefbauunternehm. u. Steinbruchbetrieb,Tiefbauunternehmer
+Musiklehr.,17,2,Musiklehr.,akadem. Musiklehr.,Musiklehrer
+Buchhdl.,17,1,Buchhdl.,,Buchhändler
+Eisenwr.,17,3,Eisenwr.,"Eisenwr., Haus- u. Küchengeräte, Schlosserei",Eisenwaren-Händler
+Kommiss.,16,3,Krim. Kommiss.,Pol. Kommiss.,Kommissar
+Werkzeugschloss.,16,1,Werkzeugschloss.,,Werkzeugschlosser
+Buchbindermstr.,16,2,Buchbindermstr.,Buchbindermstr. a. D.,Buchbindermeister
+Gartenarb.,16,1,Gartenarb.,,Gartenarbeiter
+Fabrarb.,16,1,Fabrarb.,,Fabrikarbeiter
+Chem.,16,10,Chem.,Chem. Techn.,Chemiker
+Stadtobersekr.,16,5,Stadtobersekr.,Stadtobersekr. a. D.,Stadtobersekretär
+Buchdruckermstr.,16,1,Buchdruckermstr.,,Buchdruckermeister
+Schichtmstr.,16,3,Schichtmstr.,Schichtmstr. a. D.,Schichtmeister
+Kanzl.,16,12,Kanzl. Sekr.,Kanzl. Sekr. a. D.,Kanzlei
+Brückenaufseh.,16,2,Brückenaufseh.,Brückenaufseh. a. D.,Brückenaufseher
+Buchdruckereibes.,16,1,Buchdruckereibes.,,Buchdruckerei-Besitzer
+Wilh.,16,15,"Wilh., Bergm.","Wilh. J., Steuerberater",(Vorname Wilhelm)
+Maschinenform.,16,1,Maschinenform.,,Maschinenformer
+Handelsvertr.,16,1,Handelsvertr.,,Handelsvertreter
+Leutn.,16,7,Pol. Ob. Leutn.,Ob. Leutn. a. D.,Leutnant
+Fabrkdirekt.,16,4,Fabrkdirekt.,Fabrkdirekt. a. D.,Fabrikdirektor
+Filialleit.,16,1,Filialleit.,,Filialleiter
+Wäschearb.,15,1,Wäschearb.,,Wäschearbeiter
+Bergtagelöhn.,15,1,Bergtagelöhn.,,Bergtagelöhner
+Gärtn.,15,3,Ob. Gärtn.,Gärtn.,Gärtner
+Nachtwächt.,15,2,Nachtwächt.,Nachtwächt. a. D.,Nachtwächter
+Schuhmachermstr.,15,1,Schuhmachermstr.,,Schuhmachermeister
+Hauptlehr.,15,4,Hauptlehr.,Hauptlehr. i. R.,Hauptlehrer
+Hilfsweichenstell.,15,2,Hilfsweichenstell.,Reichsb. Hilfsweichenstell.,Hilfsweichensteller
+Kolonnenführ.,15,1,Kolonnenführ.,,Kolonnenführer
+Güterbodenarb.,15,1,Güterbodenarb.,,Güterboden-Arbeiter
+Gußputz.,15,1,Gußputz.,,Gußputzer
+Leitgs.,15,5,Telegr. Leitgs. Aufseh.,Leitgs. Aufseh.,Leitungs
+Reisend.,15,1,Reisend.,,Reisender
+Tafelführ.,15,1,Tafelführ.,,Tafelführer
+Großhdlg.,14,13,Zuckerwr. Großhdlg.,"Tabakwr., Großhdlg.",Großhandlung
+Büroassist.,14,4,Büroassist.,Just. Büroassist.,Büroassistent
+Elektroschweiß.,14,1,Elektroschweiß.,,Elektroschweißer
+Wohnungsverwalt.,14,1,Wohnungsverwalt.,,Wohnungsverwalter
+Wollwr.,14,2,Wollwr.,Weiß- u. Wollwr.,Wollwaren-Händler
+Drehermstr.,14,1,Drehermstr.,,Drehermeister
+Montageinspekt.,14,1,Montageinspekt.,,Montageinspektor
+Apothekenbes.,14,3,Apothekenbes.,"Hermann, Apothekenbes.",Apothekenbesitzer
+Hausbesrin.,14,1,Hausbesrin.,,Hausbesitzerin
+Ziv.,14,3,Ziv. Ing.,Ziv. Ingen.,Zivil
+vereid.,14,10,vereid. Landmesser,staatl. vereid. Landmesser,vereidigter
+Hallenmstr.,14,2,Hallenmstr.,Hallenmstr. a. D.,Hallenmeister
+Abteilgsleit.,14,2,Abteilgsleit.,"Dipl. rer. Pol., Abteilgsleit.",Abteilungsleiter
+Milchhdlr.,13,1,Milchhdlr.,,Milchhändler
+Generalvertret.,13,3,Generalvertret.,"Werner, Generalvertret.",Generalvertreter
+Hotelangest.,13,1,Hotelangest.,,Hotelangestellter
+gepr.,13,9,staatl. gepr. Dentist,staatl. gepr. Dentistin,geprüfter
+Heildien.,13,2,Heildien.,Staatl. Gepr. Heildien.,Heildiener
+Materialienverwalt.,13,1,Materialienverwalt.,,Materialienverwalter
+Hausmstrin.,13,1,Hausmstrin.,,Hausmeisterin
+Packmstr.,13,2,Packmstr.,Rbhn. Packmstr. a. D.,Packmeister
+Holzhdlg.,13,2,Holzhdlg.,Sägewerk u. Holzhdlg.,Holzhandlung
+Postaushelf.,13,1,Postaushelf.,,Postaushelfer
+Rev.,13,9,Rev. Beamt.,Rev. Steiger,Revisions
+Maschinenarb.,13,1,Maschinenarb.,,Maschinenarbeiter
+Tabakwrgroßhdlg.,13,1,Tabakwrgroßhdlg.,,Tabakwaren-Großhandlung
+Tel.,13,13,Tel. Werkführ.,Reichsb. Tel. Sekr. a. D.,Telegraphen
+Rangierarb.,12,1,Rangierarb.,,Rangierarbeiter
+Chemotechn.,12,1,Chemotechn.,,Chemotechniker
+Maschinenschrein.,12,1,Maschinenschrein.,,Maschinenschreiner
+Zivilingen.,12,2,Zivilingen.,Zivilingen. a. D.,Zivilingenieur
+Volksw.,12,2,Dipl. Volksw.,Volksw.,Volkswirt
+Lebensmittelhdlg.,12,2,Lebensmittelhdlg.,"Obst, Gemüse, Lebensmittelhdlg.",Lebensmittelhandlung
+Glasbläs.,12,1,Glasbläs.,,Glasbläser
+Verlagsbeamt.,12,2,Verlagsbeamt.,Verlagsbeamt. a. D.,Verlagsbeamter
+Priv.,12,10,Priv. Sekretärin,Priv. Pension,Privat
+Leitgsaufseh.,12,2,Telegr. Leitgsaufseh.,Leitgsaufseh.,Leitungsaufseher
+Rangierführ.,12,2,Rangierführ.,Rangierführ. a. D.,Rangierführer
+Grubenschloss.,12,1,Grubenschloss.,,Grubenschlosser
+Streckenwärt.,12,2,Streckenwärt.,Streckenwärt. a. D.,Streckenwärter
+Kassenbeamt.,12,1,Kassenbeamt.,,Kassenbeamter
+Linoleumleg.,12,1,Linoleumleg.,,Linoleumleger
+Rentenempf.,12,1,Rentenempf.,,Rentenempfänger
+Kassenschaffn.,12,2,Kassenschaffn.,Straßenb. Kassenschaffn.,Kassenschaffner
+Transportunternehm.,12,1,Transportunternehm.,,Transportunternehmer
+Abtlgsleit.,12,2,Abtlgsleit.,Abtlgsleit. a. D.,Abteilungsleiter
+Maschinentechn.,12,1,Maschinentechn.,,Maschinentechniker
+Aufsichtsbeamt.,12,2,Aufsichtsbeamt.,Techn. Aufsichtsbeamt.,Aufsichtsbeamter
+Steuerberat.,12,1,Steuerberat.,,Steuerberater
+Oberinspekt.,12,10,techn. Oberinspekt.,Reichsb. Oberinspekt.,Oberinspektor
+Buchbind.,12,1,Buchbind.,,Buchbinder
+Brikettmstr.,12,2,Brikettmstr.,Brikettmstr. a. D.,Brikettmeister
+Ziegeleiarb.,12,1,Ziegeleiarb.,,Ziegeleiarbeiter
+Postamtm.,12,2,Postamtm.,Postamtm. a. D.,Postamtmann
+Backwr.,12,1,Backwr.,,Backwaren-Händler
+Mitgl.,12,11,"Architekt, Mitgl. d. Reichsk. d. bild. Künste","Architekt, Mitgl. d. Reichkammer d. bildenden Künste",Mitglied
+Justizsekr.,11,4,Justizsekr.,Justizsekr. i. R.,Justizsekretär
+Rohrleg.,11,1,Rohrleg.,,Rohrleger
+Fahrmstr.,11,2,Fahrmstr.,Fahrmstr. a. D.,Fahrmeister
+landw.,11,7,landw. Arbeiter,landw. Arb.,landwirtschaftlicher
+Archit.,11,2,Archit.,"Archit., Vors., Verein f. Feuerbestattung, e.V.",Architekt
+Terminbeamt.,11,2,Terminbeamt.,Terminbeamt. a. D.,Terminbeamter
+Stukkateurmstr.,11,1,Stukkateurmstr.,,Stukkateurmeister
+Laternenwärt.,11,1,Laternenwärt.,,Laternenwärter
+Gewerbeoberlehr.,11,1,Gewerbeoberlehr.,,Gewerbeober-Lehrer
+Hilfswachtmstr.,11,4,Just. Hilfswachtmstr.,Hilfswachtmstr.,Hilfswachtmeister
+Fa.,11,11,"Geschäftsführer für die Fa. H. Schu & Co., G.m.b.H., beeidigter Sachverständiger d. Industrie- u. Handelskammer","Ingenieur, Mitinh. d. Fa. Bonato & Rehse",Firma
+Korbmach.,11,1,Korbmach.,,Korbmacher
+Rohrmstr.,11,2,Rohrmstr.,Rohrmstr. a. D.,Rohrmeister
+Zugschaffn.,11,3,Zugschaffn.,Ob. Zugschaffn.,Zugschaffner
+Bauhandwerk.,11,2,Telegr. Bauhandwerk.,Bauhandwerk.,Bauhandwerker
+Feinkostwr.,11,1,Feinkostwr.,,Feinkostwaren-Händler
+Blumenhdlg.,11,1,Blumenhdlg.,,Blumenhandlung
+Marmorschleif.,11,1,Marmorschleif.,,Marmorschleifer
+Schriftleit.,11,1,Schriftleit.,,Schriftleiter
+Krankenwärt.,11,1,Krankenwärt.,,Krankenwärter
+Dr.-Ing.,11,2,Dr.-Ing.,Vw. Dr.-Ing.,Doktor-Ingenieur
+Zollinspekt.,11,2,Zollinspekt.,Ob. Zollinspekt.,Zollinspektor
+Synd.,11,3,Synd. Beamt.,Synd. Direkt. i. R.,Syndikats
+Geschäftsinhab.,11,1,Geschäftsinhab.,,Geschäftsinhaber
+Verwaltgsbeamt.,11,1,Verwaltgsbeamt.,,Verwaltungsbeamter
+Waldarb.,11,1,Waldarb.,,Waldarbeiter
+Abteilgsvorsteh.,11,2,Abteilgsvorsteh.,"Abteilgsvorsteh. i. R., Dipl. Ing.",Abteilungsvorsteher
+Walzmstr.,11,1,Walzmstr.,,Walzmeister
+Facharb.,10,3,Facharb.,Laborat. Facharb.,Facharbeiter
+Hilfsweichenwärt.,10,2,Hilfsweichenwärt.,Reichsb. Hilfsweichenwärt.,Hilfsweichenwärter
+Leitungsaufseh.,10,2,Leitungsaufseh.,Telegr. Leitungsaufseh.,Leitungsaufseher
+Steinsetz.,10,1,Steinsetz.,,Steinsetzer
+Revisionsbeamt.,10,1,Revisionsbeamt.,,Revisionsbeamter
+Werkhelf.,10,1,Werkhelf.,,Werkhelfer
+Wärt.,10,4,Masch. Wärt.,Reichsb. Wärt.,Wärter
+Scherenarb.,10,1,Scherenarb.,,Scherenarbeiter
+Bergingen.,10,2,Bergingen.,Dipl. Bergingen.,Bergingenieur
+Landmess.,10,6,Ob. Landmess.,vereid. Landmess.,Landmesser
+Bürgermstr.,10,4,Bürgermstr. a. D.,Bürgermstr. i. R.,Bürgermeister
+Fabrkbes.,10,1,Fabrkbes.,,Fabrikbesitzer
+Brandmstr.,10,3,Brandmstr.,Brandmstr. a. D.,Brandmeister
+Konrekt.,10,3,Konrekt.,Konrekt. i. R.,Konrektor
+Mstr.,10,7,Pol. Mstr.,Pol. Mstr. i. R.,Meister
+Schulhausmstr.,10,1,Schulhausmstr.,,Schulhausmeister
+Postmstr.,10,3,Postmstr.,Ob. Postmstr.,Postmeister
+Bauzeichn.,10,1,Bauzeichn.,,Bauzeichner
+Formermstr.,10,2,Formermstr.,Formermstr. a. D.,Formermeister
+Ofenarb.,10,1,Ofenarb.,,Ofenarbeiter
+Eierhdlg.,10,1,Eierhdlg.,,Eierhandlung
+Rechnungsbeamt.,10,2,Rechnungsbeamt.,Rechnungsbeamt. a. D.,Rechnungsbeamter
+Schirrmstr.,10,3,Schirrmstr.,Schirrmstr. a. D.,Schirrmeister
+Studiendirekt.,10,3,Ob. Studiendirekt.,Studiendirekt.,Studiendirektor
+Althdlg.,10,1,Althdlg.,,Althandlung
+Bauinspekt.,10,6,Bauinspekt.,Reichsb. Bauinspekt.,Bauinspektor
+Büroinspekt.,10,4,Büroinspekt.,Büroinspekt. a. D.,Büroinspektor
+Musikdirekt.,10,5,Musikdirekt.,städt. Musikdirekt.,Musikdirektor
+Vw.,10,9,Vw. Direktor,Vw. Apotheker,Verwaltungs
+Handlang.,10,1,Handlang.,,Handlanger
+Motorwärt.,10,1,Motorwärt.,,Motorwärter
+Staatl.,10,10,Musikschule (Staatl. Genehm.),Staatl. Lotterie-Einnahme,Staatlich
+Stationsschaffn.,10,3,Stationsschaffn.,Stationsschaffn. a. D.,Stationsschaffner
+Goldwr.,10,1,Goldwr.,,Goldwaren-Händler
+Futtermstr.,10,1,Futtermstr.,,Futtermeister
+Fischhdl.,10,1,Fischhdl.,,Fischhändler
+Montagearb.,10,1,Montagearb.,,Montagearbeiter
+Textilwr.,10,1,Textilwr.,,Textilwaren-Händler
+Obstgroßhdlg.,10,2,Obstgroßhdlg.,"Obstgroßhdlg., Großmarkt",Obst-Großhandlung
+Dr.,10,9,Dr. Ing.,Heilinstitut u. Vertr. Dr. Försters Heilapparat,Doktor

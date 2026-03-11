@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Statistiken – Adressbuch Essen 1936</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+<nav>
+  <span class="logo">Adressbuch Essen 1936</span>
+  <a href="index.html">Start</a>
+  <a href="karte.html">Karte</a>
+  <a href="statistik.html" class="active">Statistik</a>
+</nav>
+
+<div class="page-content">
+  <h1>Statistische Auswertungen</h1>
+  <p>
+    Vorberechnete Aggregationen aus den geocodierten Einträgen des Adressbuchs Essen 1936.
+  </p>
+
+  <div id="loading-stats" style="text-align:center; padding: 3rem; color: var(--text-muted);">
+    Daten werden geladen …
+  </div>
+
+  <div id="charts-container" style="display:none">
+
+    <h2>Top 20 Berufe</h2>
+    <div class="chart-container">
+      <div class="chart-wrap">
+        <canvas id="chart-berufe"></canvas>
+      </div>
+    </div>
+
+    <h2>Top 20 Nachnamen</h2>
+    <div class="chart-container">
+      <div class="chart-wrap">
+        <canvas id="chart-nachnamen"></canvas>
+      </div>
+    </div>
+
+    <h2>Einträge nach Stadtteil / Ortsname</h2>
+    <div class="chart-container">
+      <div class="chart-wrap" style="height: 500px">
+        <canvas id="chart-stadtteile"></canvas>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  Adressbuch Essen 1936 · Daten: Historische Quelle, digitale Aufbereitung 2025
+</footer>
+
+<script src="js/statistik.js"></script>
+</body>
+</html>

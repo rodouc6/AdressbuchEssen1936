@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karte – Adressbuch Essen 1936</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <style>
+    body { overflow: hidden; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <span class="logo">Adressbuch Essen 1936</span>
+  <a href="index.html">Start</a>
+  <a href="karte.html" class="active">Karte</a>
+  <a href="statistik.html">Statistik</a>
+</nav>
+
+<div id="loading">
+  <div class="spinner"></div>
+  <span>Kartendaten werden geladen …</span>
+</div>
+
+<div class="map-layout">
+  <div id="sidebar">
+
+    <!-- Suchbereich (fixiert, kein Scroll) -->
+    <div id="sidebar-search">
+      <div id="search-box-wrap">
+        <svg id="search-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="8.5" cy="8.5" r="5.5"/><line x1="13" y1="13" x2="18" y2="18"/>
+        </svg>
+        <input type="text" id="search-input"
+               placeholder="Person, Gewerbe oder Straße …"
+               autocomplete="off" spellcheck="false" aria-label="Suche">
+        <button id="search-clear" aria-label="Suche löschen" style="display:none">✕</button>
+      </div>
+      <div id="search-dropdown" role="listbox" aria-label="Suchergebnisse"></div>
+    </div>
+
+    <!-- Ergebnisliste (bei aktiver Suche) -->
+    <div id="sidebar-results">
+      <div id="results-header">
+        <button id="btn-back-filter">← Filter</button>
+        <span id="results-count"></span>
+      </div>
+      <div id="results-jumps"></div>
+      <div id="results-list"></div>
+    </div>
+
+    <!-- Filter (scrollbar) -->
+    <div id="sidebar-filters">
+      <h2>Filter</h2>
+
+      <div class="filter-section">
+        <label>Kategorie</label>
+        <div class="checkbox-row">
+          <input type="checkbox" id="kat-I" checked>
+          <label for="kat-I">Einwohner (I)</label>
+        </div>
+        <div class="checkbox-row">
+          <input type="checkbox" id="kat-III" checked>
+          <label for="kat-III">Gewerbe (III)</label>
+        </div>
+        <div class="checkbox-row">
+          <input type="checkbox" id="kat-II">
+          <label for="kat-II">Straßenverz. (II) <span class="hint">Duplikate</span></label>
+        </div>
+      </div>
+
+      <div class="filter-section">
+        <label for="filter-stadtteil">Stadtteil</label>
+        <select id="filter-stadtteil" multiple>
+          <!-- Dynamisch befüllt -->
+        </select>
+      </div>
+
+      <div class="filter-section">
+        <div class="checkbox-row">
+          <input type="checkbox" id="filter-akademiker">
+          <label for="filter-akademiker">Nur Akademiker (Dr., Prof., Dipl.)</label>
+        </div>
+      </div>
+
+      <div class="filter-section">
+        <label>Berufsgruppe <span class="hint">(mehrere wählbar)</span></label>
+        <div id="filter-berufsgruppen"></div>
+      </div>
+
+      <button id="btn-reset">Filter zurücksetzen</button>
+
+      <div class="filter-section layer-toggle-section">
+        <label>Hintergrundkarte</label>
+        <div class="checkbox-row">
+          <input type="checkbox" id="toggle-stadtplan" checked>
+          <label for="toggle-stadtplan">Stadtplan Essen 1935</label>
+        </div>
+        <div class="opacity-row" id="opacity-row">
+          <label for="opacity-stadtplan">Deckkraft</label>
+          <input type="range" id="opacity-stadtplan" min="0" max="100" value="70">
+          <span id="opacity-value">70%</span>
+        </div>
+      </div>
+
+      <div id="legend">
+        <h4>Personen je Adresse</h4>
+        <div class="legend-row"><div class="legend-dot" style="background:#1d4ed8;opacity:0.25"></div> 1</div>
+        <div class="legend-row"><div class="legend-dot" style="background:#1d4ed8;opacity:0.45"></div> 2–5</div>
+        <div class="legend-row"><div class="legend-dot" style="background:#1d4ed8;opacity:0.7"></div> 6–20</div>
+        <div class="legend-row"><div class="legend-dot" style="background:#1d4ed8;opacity:0.97"></div> &gt; 20</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="map"></div>
+</div>
+
+<script src="js/karte.js"></script>
+</body>
+</html>
