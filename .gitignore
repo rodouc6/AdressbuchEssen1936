@@ -20,6 +20,10 @@ ohdab_raw.json
 # Konkordanz / venv
 Konkordanz/venv/
 
+# Gebäude-Schichtenkarte (temporäre Dateien)
+gebaeude_schichten_raw.geojson
+gebaeude_essen_osm.json
+
 # Sonstiges
 qgis/
 vers.0/

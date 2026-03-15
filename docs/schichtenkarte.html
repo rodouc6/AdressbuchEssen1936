@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schichtenkarte – Adressbuch Essen 1936</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script src="https://unpkg.com/pmtiles@4/dist/pmtiles.js"></script>
+  <style>
+    body { overflow: hidden; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <span class="logo">Adressbuch Essen 1936</span>
+  <a href="index.html">Start</a>
+  <a href="karte.html">Karte</a>
+  <a href="schichtenkarte.html" class="active">Schichtenkarte</a>
+  <a href="statistik.html">Statistik</a>
+</nav>
+
+<div id="loading">
+  <div class="spinner"></div>
+  <span>Schichtendaten werden geladen …</span>
+</div>
+
+<div id="schichten-map"></div>
+
+<div id="schichten-legend">
+  <h4>Soziale Schichtung</h4>
+  <div class="legend-row">
+    <div class="legend-rect" style="background:#b91c1c"></div> Arm (Arbeiterklasse)
+  </div>
+  <div class="legend-row">
+    <div class="legend-rect" style="background:#d4a847"></div> Mittel (Facharbeiter, Angestellte)
+  </div>
+  <div class="legend-row">
+    <div class="legend-rect" style="background:#1e3a5f"></div> Reich (Akademiker, Selbstständige)
+  </div>
+  <div class="legend-row">
+    <div class="legend-rect" style="background:#6b7c45"></div> Gemischt
+  </div>
+  <div class="legend-row">
+    <div class="legend-rect" style="background:#cccccc"></div> Nicht zugeordnet
+  </div>
+  <div class="legend-divider"></div>
+  <div class="checkbox-row">
+    <input type="checkbox" id="toggle-stadtplan" checked>
+    <label for="toggle-stadtplan">Stadtplan 1935</label>
+  </div>
+  <div class="opacity-row" id="opacity-row">
+    <label for="opacity-stadtplan">Deckkraft</label>
+    <input type="range" id="opacity-stadtplan" min="0" max="100" value="70">
+    <span id="opacity-value">70%</span>
+  </div>
+</div>
+
+<script src="js/schichten.js"></script>
+</body>
+</html>
