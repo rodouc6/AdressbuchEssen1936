@@ -12,12 +12,76 @@ from pathlib import Path
 
 INPUT_GEOJSON = Path("essen1936.geojson")
 ABKUERZUNGEN_FILE = Path("abkuerzungen_aufloesung.csv")
-MAPPING_FILE = Path("berufe_mapping.csv")
-OUT_DIR = Path("website/data")
+MAPPING_FILE = Path("berufe_ohdab_mapping.csv")
+
+# OhdAB B-Kategorien: Volltitel → Kurzbezeichnung (als Filter-ID)
+OHDAB_B_KURZ: dict[str, str] = {
+    "B 0: Militär":                                                      "Militär",
+    "B 1: Land-, Forst- und Tierwirtschaft und Gartenbau":               "Land- & Forstwirtschaft",
+    "B 2: Rohstoffgewinnung, Produktion und Fertigung":                  "Rohstoffgewinnung",
+    "B 3: Bau, Architektur, Vermessung und Gebäudetechnik":              "Bau",
+    "B 4: Naturwissenschaft, Geografie und Informatik":                  "Naturwissenschaft",
+    "B 5: Verkehr, Logistik, Schutz und Sicherheit":                     "Verkehr",
+    "B 6: Kaufmännische Dienstleistungen, Warenhandel, Vertrieb, Hotel und Tourismus": "Kaufm. Dienstleistungen",
+    "B 7: Unternehmensorganisation, Buchhaltung, Recht und Verwaltung":  "Unternehmensorganisation",
+    "B 8: Gesundheit, Soziales, Lehre und Erziehung":                    "Gesundheit",
+    "B 9: Sprach-, Literatur-, Geistes-, Gesellschafts- und Wirtschaftswissenschaften, Medien, Kunst, Kultur und Gestaltung": "Geisteswiss. & Kunst",
+}
+OUT_DIR = Path("docs/data")
 OUT_GEOJSON = OUT_DIR / "essen1936.geojson"
 OUT_STATISTIKEN = OUT_DIR / "statistiken.json"
 
 AKADEMIKER_RE = re.compile(r'\b(Dr\.?|Prof\.?|Dipl\.?|Ing\.?|Mag\.?)\b', re.IGNORECASE)
+
+# Bergbau-Klassifikation
+# Filter A (eng): Bergmänner & Steiger
+_BERGMANN_RE = re.compile(r'\bBergm\.?\b|\bBergmann\b', re.IGNORECASE)
+_STEIGER_RE = re.compile(r'steig', re.IGNORECASE)
+_STEIGER_AUSSCHLUSS_RE = re.compile(r'Bahnsteig|Versteig|Steigert', re.IGNORECASE)
+# Filter B (breit): zusätzliche Bergbauberufe
+_BERGBAU_BREIT_RE = re.compile(
+    r'Berg(?:arb|ass|hau|ing|inv|bau|werk)|Zechen|Kokerei|Gruben|Schachtm',
+    re.IGNORECASE
+)
+
+
+def classify_bergbau(beruf: str) -> str:
+    """Klassifiziert einen Beruf nach Bergbau-Bezug.
+
+    Rückgabe: 'b' (Bergmann), 's' (Steiger), 'x' (sonstiger Bergbau), '' (kein Bergbau)
+    """
+    if not beruf:
+        return ""
+    if _BERGMANN_RE.search(beruf):
+        return "b"
+    if _STEIGER_RE.search(beruf) and not _STEIGER_AUSSCHLUSS_RE.search(beruf):
+        return "s"
+    if _BERGBAU_BREIT_RE.search(beruf):
+        return "x"
+    return ""
+
+# Gültige Essener Stadtteile – nur diese erscheinen im Stadtteil-Filter
+GUELTIGE_STADTTEILE = {
+    "Steele", "Kray", "Katernberg", "Kupferdreh", "Werden",
+    "Stoppenberg", "Schonnebeck", "Karnap", "Heisingen",
+    "Heidhausen", "Ueberruhr", "Frillendorf",
+}
+
+
+def normiere_stadtteil(wert: str) -> str:
+    """Normalisiert einen Stadtteil-Wert und prüft gegen die Whitelist.
+
+    'Essen-Steele' → 'Steele', 'karnap' → 'Karnap', ungültige → ''
+    """
+    wert = wert.strip()
+    if wert.lower().startswith("essen-"):
+        wert = wert[6:]
+    wert = wert.capitalize() if wert.islower() else wert
+    # Manuelle Normalisierung bekannter Varianten
+    varianten = {"karnap": "Karnap", "ueberruhr": "Ueberruhr",
+                 "schonnebeck": "Schonnebeck", "schönebeck": "Schonnebeck"}
+    wert = varianten.get(wert.lower(), wert)
+    return wert if wert in GUELTIGE_STADTTEILE else ""
 
 GESCHOSS_RE = re.compile(
     r'\s+(XV\.?|XIV\.?|XIII\.?|XII\.?|XI\.?|X\.?|IX\.?|VIII\.?|VII\.?|VI\.?|IV\.?|V\.?|III\.?|II\.?|I\.?'
@@ -67,10 +131,16 @@ def normiere(beruf: str, abk_mapping: dict) -> str:
 
 
 def lade_berufsgruppen(pfad: Path) -> dict:
+    """Lädt berufe_ohdab_mapping.csv: Beruf → OhdAB-Kurzbezeichnung.
+    A-Kategorien und kein-Treffer werden auf '' gesetzt (→ 'sonstige').
+    """
     mapping = {}
     with open(pfad, encoding="utf-8") as f:
         for row in csv.DictReader(f):
-            mapping[row["Beruf"]] = row["Berufsgruppe"]
+            if row["match_typ"] == "kein":
+                continue
+            kurz = OHDAB_B_KURZ.get(row["label_grob"], "")
+            mapping[row["Beruf"]] = kurz  # "" für A-Kategorien → sonstige
     return mapping
 
 
@@ -78,7 +148,8 @@ def get_berufsgruppe(beruf: str, abk_mapping: dict, bg_mapping: dict) -> str:
     if not beruf.strip():
         return "sonstige"
     norm = normiere(beruf, abk_mapping)
-    return bg_mapping.get(norm, "sonstige")
+    kurz = bg_mapping.get(norm, "")
+    return kurz if kurz else "sonstige"
 
 
 def main():
@@ -113,17 +184,23 @@ def main():
         beruf = (props.get("Beruf o. ä.") or "").strip()
         nachname = (props.get("lastname") or "").strip()
         ortsname = (props.get("Ortsname") or "").strip()
+        vorort = (props.get("Vorort") or "").strip()
+
+        # Stadtteil: Vorort bevorzugen, Ortsname als Fallback – beide gegen Whitelist prüfen
+        stadtteil = normiere_stadtteil(vorort) or normiere_stadtteil(ortsname)
 
         # Statistiken
         if beruf:
             berufe_counter[beruf] += 1
         if nachname:
             nachnamen_counter[nachname] += 1
-        if ortsname:
-            stadtteile_counter[ortsname] += 1
+        if stadtteil:
+            stadtteile_counter[stadtteil] += 1
 
         berufsgruppe = get_berufsgruppe(beruf, abk_mapping, bg_mapping)
         geschoss = extract_geschoss(props.get("Adresse") or "")
+
+        bergbau_typ = classify_bergbau(beruf)
 
         person = {
             "nachname": nachname,
@@ -133,6 +210,7 @@ def main():
             "akademiker": is_akademiker(props),
             "berufsgruppe": berufsgruppe,
             "geschoss": geschoss,
+            "bergbau_typ": bergbau_typ,
         }
 
         sektion = person["seite"].split("-")[0] if "-" in person["seite"] else ""
@@ -147,6 +225,8 @@ def main():
                 "stadtteile_set": set(),
                 "sektionen_set": set(),
                 "akademiker_count": 0,
+                "bergbau_narrow_count": 0,
+                "bergbau_broad_count": 0,
             }
 
         g = groups[geoadresse]
@@ -154,12 +234,16 @@ def main():
         if beruf:
             g["berufe_set"].add(beruf)
         g["berufsgruppen_set"].add(berufsgruppe)
-        if ortsname:
-            g["stadtteile_set"].add(ortsname)
+        if stadtteil:
+            g["stadtteile_set"].add(stadtteil)
         if sektion:
             g["sektionen_set"].add(sektion)
         if person["akademiker"]:
             g["akademiker_count"] += 1
+        if bergbau_typ in ("b", "s"):
+            g["bergbau_narrow_count"] += 1
+        if bergbau_typ:
+            g["bergbau_broad_count"] += 1
 
     print(f"  {len(groups):,} eindeutige Adressen")
 
@@ -181,6 +265,7 @@ def main():
                 "berufsgruppen": sorted(g["berufsgruppen_set"]),
                 "sektionen": sorted(g["sektionen_set"]),
                 "hat_akademiker": g["akademiker_count"] > 0,
+                "hat_bergbau": g["bergbau_broad_count"] > 0,
             },
         })
 

@@ -19,19 +19,19 @@
 
   // ── Berufsgruppen-Konfiguration ───────────────────────────────────────────
 
+  // OhdAB-Kategorien B 0–B 9 (id = Kurzbezeichnung, muss mit GeoJSON-Werten übereinstimmen)
   const BERUFSGRUPPEN = [
-    { id: "bergbau",    label: "Bergbau & Hütte",           farbe: "#78716c" },
-    { id: "industrie",  label: "Industrie & Handwerk",       farbe: "#2563eb" },
-    { id: "handel",     label: "Handel & Kaufleute",         farbe: "#d97706" },
-    { id: "verkehr",    label: "Verkehr & Transport",        farbe: "#0891b2" },
-    { id: "verwaltung", label: "Verwaltung & Beamte",        farbe: "#7c3aed" },
-    { id: "akademisch", label: "Freie Berufe & Akademiker",  farbe: "#9333ea" },
-    { id: "bildung",    label: "Bildung & Kirche",           farbe: "#ea580c" },
-    { id: "gastro",     label: "Gastgewerbe",                farbe: "#e11d48" },
-    { id: "haushalt",   label: "Haushalt & Rente",           farbe: "#16a34a" },
-    { id: "militär",    label: "Militär & Polizei",          farbe: "#4d7c0f" },
-    { id: "sozial",     label: "Soziales & Gesundheit",      farbe: "#0f766e" },
-    { id: "sonstige",   label: "Sonstiges",                  farbe: "#9ca3af" },
+    { id: "Rohstoffgewinnung",        label: "Rohstoffgewinnung",        farbe: "#78716c" },
+    { id: "Unternehmensorganisation", label: "Unternehmensorganisation", farbe: "#7c3aed" },
+    { id: "Verkehr",                  label: "Verkehr",                  farbe: "#0891b2" },
+    { id: "Kaufm. Dienstleistungen",  label: "Kaufm. Dienstleistungen",  farbe: "#d97706" },
+    { id: "Gesundheit",               label: "Gesundheit",               farbe: "#0f766e" },
+    { id: "Bau",                      label: "Bau",                      farbe: "#ea580c" },
+    { id: "Geisteswiss. & Kunst",     label: "Geisteswiss. & Kunst",     farbe: "#9333ea" },
+    { id: "Land- & Forstwirtschaft",  label: "Land- & Forstwirtschaft",  farbe: "#16a34a" },
+    { id: "Naturwissenschaft",        label: "Naturwissenschaft",        farbe: "#2563eb" },
+    { id: "Militär",                  label: "Militär",                  farbe: "#4d7c0f" },
+    { id: "sonstige",                 label: "Sonstiges",                farbe: "#9ca3af" },
   ];
 
   // ── Zustand ───────────────────────────────────────────────────────────────
@@ -47,6 +47,7 @@
     nurAkademiker: false,
     sektionen: ["I", "III"],
     berufsgruppen: [],
+    bergbauFilter: null,  // null | "narrow" | "broad"
   };
 
   let popup = null;
@@ -109,19 +110,27 @@
       source: "stadtplan-1935",
       paint: { "raster-opacity": 0.7, "raster-fade-duration": 200 },
     });
-    map.on("moveend", refreshHistoricalLayer);
+    // moveend erst nach 2s registrieren, damit das initiale Bild
+    // nicht durch sofortige ResizeObserver-Events abgebrochen wird
+    setTimeout(() => map.on("moveend", refreshHistoricalLayer), 2000);
   }
 
+  let _refreshTimer = null;
   function refreshHistoricalLayer() {
-    if (!historicalLayerVisible) return;
-    const src = map.getSource("stadtplan-1935");
-    if (!src) return;
-    const bounds = map.getBounds();
-    const canvas = map.getCanvas();
-    src.updateImage({
-      url: arcGISUrl(bounds, canvas.width, canvas.height),
-      coordinates: boundsToCoords(bounds),
-    });
+    clearTimeout(_refreshTimer);
+    _refreshTimer = setTimeout(() => {
+      if (!historicalLayerVisible) return;
+      const src = map.getSource("stadtplan-1935");
+      if (!src) return;
+      const bounds = map.getBounds();
+      const canvas = map.getCanvas();
+      try {
+        src.updateImage({
+          url: arcGISUrl(bounds, canvas.width, canvas.height),
+          coordinates: boundsToCoords(bounds),
+        });
+      } catch { /* vorheriges Bild noch am Laden – ignorieren */ }
+    }, 200);
   }
 
   // ── Daten laden ───────────────────────────────────────────────────────────
@@ -389,32 +398,57 @@
       conditions.push(orConds);
     }
 
-    if (activeFilter.nurAkademiker) {
-      conditions.push(["==", ["get", "hat_akademiker"], true]);
-    }
+    // Akademiker-Filter wird jetzt personenbezogen in applyFilters() gelöst
 
     return conditions.length > 1 ? conditions : null;
   }
 
+  function parsePersn(p) {
+    return typeof p === "string" ? JSON.parse(p) : p;
+  }
+
+  /** Prüft ob eine Person die aktiven Personenfilter erfüllt. */
+  function personMatches(p) {
+    const g = activeFilter.berufsgruppen;
+    if (g.length > 0 && !g.includes(p.berufsgruppe)) return false;
+    if (activeFilter.nurAkademiker && !p.akademiker) return false;
+    if (activeFilter.bergbauFilter === "narrow") {
+      if (p.bergbau_typ !== "b" && p.bergbau_typ !== "s") return false;
+    } else if (activeFilter.bergbauFilter === "broad") {
+      if (!p.bergbau_typ) return false;
+    }
+    return true;
+  }
+
   function applyFilters() {
     const aktiveSektionen = activeFilter.sektionen;
-    const aktiveGruppen = activeFilter.berufsgruppen;
+    const hatPersonenfilter = activeFilter.berufsgruppen.length > 0 || activeFilter.nurAkademiker || activeFilter.bergbauFilter;
 
-    currentFilteredFeatures = allFeatures.filter(f => {
+    currentFilteredFeatures = [];
+
+    for (const f of allFeatures) {
       const props = f.properties;
 
       if (aktiveSektionen.length > 0) {
         const sektionen = props.sektionen || [];
-        if (!aktiveSektionen.some(s => sektionen.includes(s))) return false;
+        if (!aktiveSektionen.some(s => sektionen.includes(s))) continue;
       }
 
-      if (aktiveGruppen.length > 0) {
-        const gruppen = props.berufsgruppen || [];
-        if (!aktiveGruppen.some(g => gruppen.includes(g))) return false;
+      if (hatPersonenfilter) {
+        const personen = parsePersn(props.personen);
+        const matchCount = personen.filter(personMatches).length;
+        if (matchCount === 0) continue;
+
+        currentFilteredFeatures.push({
+          type: f.type,
+          geometry: f.geometry,
+          properties: { ...props, anzahl: matchCount },
+        });
+        continue;
       }
 
-      return true;
-    });
+      currentFilteredFeatures.push(f);
+    }
 
     if (searchActive) {
       // Such-Modus: nur Treffer in gefilterten Features neu berechnen
@@ -438,14 +472,19 @@
 
   // ── Berufsgruppen-Checkboxes befüllen ─────────────────────────────────────
 
+  function bgSlug(id) {
+    return id.replace(/[^a-zA-Z0-9]/g, "-");
+  }
+
   function populateBerufsgruppFilter() {
     const container = document.getElementById("filter-berufsgruppen");
     for (const bg of BERUFSGRUPPEN) {
+      const slug = bgSlug(bg.id);
       const row = document.createElement("label");
       row.className = "bg-item";
-      row.htmlFor = `bg-${bg.id}`;
+      row.htmlFor = `bg-${slug}`;
       row.innerHTML = `
-        <input type="checkbox" id="bg-${bg.id}" value="${bg.id}">
+        <input type="checkbox" id="bg-${slug}" value="${bg.id}">
         <span class="bg-dot" style="background:${bg.farbe}"></span>
         <span class="bg-label">${bg.label}</span>`;
       container.appendChild(row);
@@ -560,9 +599,15 @@
       : props.personen;
 
     const dimSektionI = activeFilter.sektionen.length > 0 && !activeFilter.sektionen.includes("I");
+    const hatPersonenfilter = activeFilter.berufsgruppen.length > 0 || activeFilter.nurAkademiker || activeFilter.bergbauFilter;
 
-    // Sortierung: Sektion I zuerst, dann II, III … ; innerhalb nach Seitenzahl
+    // Sortierung: matchende Personen zuerst, dann nach Sektion/Seite
     const sorted = [...personen].sort((a, b) => {
+      if (hatPersonenfilter) {
+        const aMatch = personMatches(a) ? 0 : 1;
+        const bMatch = personMatches(b) ? 0 : 1;
+        if (aMatch !== bMatch) return aMatch - bMatch;
+      }
       const sA = (a.seite || "Z").split("-")[0];
       const sB = (b.seite || "Z").split("-")[0];
       if (sA !== sB) return sA < sB ? -1 : 1;
@@ -570,9 +615,15 @@
            - (parseInt((b.seite || "").split("-")[1]) || 0);
     });
 
+    const matchCount = hatPersonenfilter
+      ? personen.filter(personMatches).length
+      : personen.length;
+
     const cards = sorted.map(p => {
       const sektion = p.seite ? p.seite.split("-")[0] : "";
-      const dim = dimSektionI && sektion === "I";
+      const dimSektion = dimSektionI && sektion === "I";
+      const dimPerson = hatPersonenfilter && !personMatches(p);
+      const dim = dimSektion || dimPerson;
       return `
         <div class="person-card${dim ? " person-card--dim" : ""}">
           <div class="person-name">${escHtml(p.nachname)}${p.vorname ? ", " + escHtml(p.vorname) : ""}</div>
@@ -580,12 +631,16 @@
         </div>`;
     }).join("");
 
+    const countLabel = hatPersonenfilter
+      ? `${matchCount} von ${personen.length} Person${personen.length !== 1 ? "en" : ""}`
+      : `${personen.length} Person${personen.length !== 1 ? "en" : ""}`;
+
     popup = new maplibregl.Popup({ maxWidth: "340px", closeButton: true })
       .setLngLat(lngLat)
       .setHTML(`
         <div class="popup-header">
           <div class="popup-adresse">${escHtml(props.adresse)}</div>
-          <div class="popup-count">${props.anzahl} Person${props.anzahl !== 1 ? "en" : ""}</div>
+          <div class="popup-count">${countLabel}</div>
         </div>
         <div class="popup-personen">${cards}</div>`)
       .addTo(map);
@@ -610,6 +665,68 @@
       padding:4px 8px; border-radius:4px; font-size:12px;
       white-space:nowrap; display:none;`;
     document.getElementById("map").appendChild(tooltip);
+  }
+
+  // ── Zechen-Layer ─────────────────────────────────────────────────────────
+
+  let zechenLoaded = false;
+
+  async function loadZechenLayer() {
+    try {
+      const resp = await fetch("data/zechen.geojson");
+      if (!resp.ok) return;
+      const geojson = await resp.json();
+
+      map.addSource("zechen", { type: "geojson", data: geojson });
+
+      // Schlägel-und-Eisen-Icon laden
+      const img = await map.loadImage("img/schlaegel-eisen.png");
+      map.addImage("schlaegel-eisen", img.data);
+
+      map.addLayer({
+        id: "zechen-symbol",
+        type: "symbol",
+        source: "zechen",
+        layout: {
+          "icon-image": "schlaegel-eisen",
+          "icon-size": 0.5,
+          "icon-allow-overlap": true,
+          visibility: "none",
+        },
+      });
+
+      // Klick → Popup
+      map.on("click", "zechen-symbol", e => {
+        const props = e.features[0].properties;
+        new maplibregl.Popup({ maxWidth: "260px" })
+          .setLngLat(e.lngLat)
+          .setHTML(`
+            <div class="popup-header">
+              <div class="popup-adresse">${escHtml(props.name)}</div>
+              <div class="popup-count">${escHtml(props.betriebszeit)}</div>
+            </div>`)
+          .addTo(map);
+      });
+
+      map.on("mouseenter", "zechen-symbol", () => {
+        map.getCanvas().style.cursor = "pointer";
+      });
+      map.on("mouseleave", "zechen-symbol", () => {
+        map.getCanvas().style.cursor = "";
+      });
+
+      zechenLoaded = true;
+    } catch (err) {
+      console.warn("Zechen-Layer konnte nicht geladen werden:", err);
+    }
+  }
+
+  function toggleZechenLayer() {
+    if (!zechenLoaded) return;
+    const vis = activeFilter.bergbauFilter ? "visible" : "none";
+    map.setLayoutProperty("zechen-symbol", "visibility", vis);
+    const legendEl = document.getElementById("legend-zeche");
+    if (legendEl) legendEl.style.display = activeFilter.bergbauFilter ? "" : "none";
   }
 
   // ── Events ────────────────────────────────────────────────────────────────
@@ -717,20 +834,46 @@
     // Berufsgruppen-Checkboxes
     document.getElementById("filter-berufsgruppen").addEventListener("change", () => {
       activeFilter.berufsgruppen = BERUFSGRUPPEN
-        .filter(bg => document.getElementById(`bg-${bg.id}`).checked)
+        .filter(bg => document.getElementById(`bg-${bgSlug(bg.id)}`).checked)
         .map(bg => bg.id);
       applyFilters();
     });
 
+    // Bergbau-Filter (gegenseitig exklusiv)
+    document.getElementById("filter-bergbau-narrow").addEventListener("change", e => {
+      if (e.target.checked) {
+        document.getElementById("filter-bergbau-broad").checked = false;
+        activeFilter.bergbauFilter = "narrow";
+      } else {
+        activeFilter.bergbauFilter = null;
+      }
+      toggleZechenLayer();
+      applyFilters();
+    });
+
+    document.getElementById("filter-bergbau-broad").addEventListener("change", e => {
+      if (e.target.checked) {
+        document.getElementById("filter-bergbau-narrow").checked = false;
+        activeFilter.bergbauFilter = "broad";
+      } else {
+        activeFilter.bergbauFilter = null;
+      }
+      toggleZechenLayer();
+      applyFilters();
+    });
+
     document.getElementById("btn-reset").addEventListener("click", () => {
-      activeFilter = { stadtteile: [], nurAkademiker: false, sektionen: ["I", "III"], berufsgruppen: [] };
+      activeFilter = { stadtteile: [], nurAkademiker: false, sektionen: ["I", "III"], berufsgruppen: [], bergbauFilter: null };
       document.getElementById("filter-stadtteil").selectedIndex = -1;
       document.getElementById("filter-akademiker").checked = false;
+      document.getElementById("filter-bergbau-narrow").checked = false;
+      document.getElementById("filter-bergbau-broad").checked = false;
+      toggleZechenLayer();
       document.getElementById("kat-I").checked = true;
       document.getElementById("kat-II").checked = false;
       document.getElementById("kat-III").checked = true;
       BERUFSGRUPPEN.forEach(bg => {
-        document.getElementById(`bg-${bg.id}`).checked = false;
+        document.getElementById(`bg-${bgSlug(bg.id)}`).checked = false;
       });
       searchInput.value = "";
       searchClear.style.display = "none";
@@ -738,6 +881,24 @@
       clearSearchDim();
       applyFilters();
     });
+
+    // ── Info-Tooltip positionieren (fixed, schwebt über Karte) ──────────
+
+    const infoBtn = document.querySelector(".info-btn");
+    const infoTip = document.querySelector(".info-tooltip");
+    if (infoBtn && infoTip) {
+      const show = () => {
+        const r = infoBtn.getBoundingClientRect();
+        infoTip.style.left = (r.right + 8) + "px";
+        infoTip.style.top = r.top + "px";
+        infoTip.style.display = "block";
+      };
+      const hide = () => { infoTip.style.display = "none"; };
+      infoBtn.addEventListener("mouseenter", show);
+      infoBtn.addEventListener("mouseleave", hide);
+      infoBtn.addEventListener("focus", show);
+      infoBtn.addEventListener("blur", hide);
+    }
 
     // ── Stadtplan 1935 ────────────────────────────────────────────────────
 
@@ -769,6 +930,7 @@
 
       addHistoricalLayer();
       addLayers();
+      loadZechenLayer();
       populateStadtteilFilter(allFeatures);
       populateBerufsgruppFilter();
       setupEvents();

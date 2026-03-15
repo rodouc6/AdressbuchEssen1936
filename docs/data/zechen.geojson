@@ -1,0 +1,440 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0844444444444,
+          51.473611111111
+        ]
+      },
+      "properties": {
+        "name": "Bonifacius",
+        "betriebszeit": "1851–1967",
+        "stadtteil": "Kray"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0119444444444,
+          51.495277777778
+        ]
+      },
+      "properties": {
+        "name": "Carl",
+        "betriebszeit": "1855–1973",
+        "stadtteil": "Altenessen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0497222222222,
+          51.403888888889
+        ]
+      },
+      "properties": {
+        "name": "Carl Funke",
+        "betriebszeit": "1850–1967",
+        "stadtteil": "Heisingen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.96969,
+          51.48333
+        ]
+      },
+      "properties": {
+        "name": "Carolus Magnus",
+        "betriebszeit": "–1954",
+        "stadtteil": "Bergeborbeck"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.94321,
+          51.49599
+        ]
+      },
+      "properties": {
+        "name": "Christian Levin",
+        "betriebszeit": "–1960",
+        "stadtteil": "Dellwig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9685277777778,
+          51.38225
+        ]
+      },
+      "properties": {
+        "name": "Dohm’s Erbstollen",
+        "betriebszeit": "1839–1961",
+        "stadtteil": "Schuir"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.11053,
+          51.438909
+        ]
+      },
+      "properties": {
+        "name": "Fridolin",
+        "betriebszeit": "1836–1960",
+        "stadtteil": "Steele"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.01119,
+          51.50961
+        ]
+      },
+      "properties": {
+        "name": "Fritz-Heinrich",
+        "betriebszeit": "1855–1967",
+        "stadtteil": "Altenessen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.07681,
+          51.436098
+        ]
+      },
+      "properties": {
+        "name": "Vereinigte Gewalt und Gottvertraut",
+        "betriebszeit": "1924–1957",
+        "stadtteil": "Überruhr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.02298,
+          51.45992
+        ]
+      },
+      "properties": {
+        "name": "Graf Beust",
+        "betriebszeit": "1840–1974",
+        "stadtteil": "Altenessen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0747222222222,
+          51.418333333333
+        ]
+      },
+      "properties": {
+        "name": "Heinrich",
+        "betriebszeit": "1809–1968",
+        "stadtteil": "Überruhr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0191666666667,
+          51.482222222222
+        ]
+      },
+      "properties": {
+        "name": "Helene",
+        "betriebszeit": "1927–1963",
+        "stadtteil": "Altenessen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0233333333333,
+          51.456666666667
+        ]
+      },
+      "properties": {
+        "name": "Hercules",
+        "betriebszeit": "1850–1965",
+        "stadtteil": "Ostviertel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0577777777778,
+          51.4575
+        ]
+      },
+      "properties": {
+        "name": "Katharina",
+        "betriebszeit": "1901–1972",
+        "stadtteil": "Frillendorf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.94321,
+          51.49599
+        ]
+      },
+      "properties": {
+        "name": "König Wilhelm",
+        "betriebszeit": "1870–",
+        "stadtteil": "Dellwig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.03589,
+          51.46326
+        ]
+      },
+      "properties": {
+        "name": "Königin Elisabeth",
+        "betriebszeit": "1845–1955",
+        "stadtteil": "Frillendorf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9258333333333,
+          51.459166666667
+        ]
+      },
+      "properties": {
+        "name": "Kronprinz",
+        "betriebszeit": "1830–",
+        "stadtteil": "Frohnhausen, Schönebeck"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0055555555556,
+          51.421666666667
+        ]
+      },
+      "properties": {
+        "name": "Langenbrahm",
+        "betriebszeit": "1800–1983",
+        "stadtteil": "Rüttenscheid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.03483,
+          51.43274
+        ]
+      },
+      "properties": {
+        "name": "Ludwig",
+        "betriebszeit": "1830–1947",
+        "stadtteil": "Bergerhausen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.00707,
+          51.52605
+        ]
+      },
+      "properties": {
+        "name": "Mathias Stinnes",
+        "betriebszeit": "1854–1969",
+        "stadtteil": "Karnap"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.067631,
+          51.415677
+        ]
+      },
+      "properties": {
+        "name": "Plaetzgesbank",
+        "betriebszeit": "1830–1959",
+        "stadtteil": "Heisingen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.07866,
+          51.3905
+        ]
+      },
+      "properties": {
+        "name": "Prinz Friedrich",
+        "betriebszeit": "1920–1973",
+        "stadtteil": "Kupferdreh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.97915,
+          51.36462
+        ]
+      },
+      "properties": {
+        "name": "Rudolph",
+        "betriebszeit": "1866–1966",
+        "stadtteil": "Kettwig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0983333333333,
+          51.423055555556
+        ]
+      },
+      "properties": {
+        "name": "Theodor",
+        "betriebszeit": "1830–1968",
+        "stadtteil": "Burgaltendorf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0130555555556,
+          51.4675
+        ]
+      },
+      "properties": {
+        "name": "Victoria Mathias",
+        "betriebszeit": "1845–1967",
+        "stadtteil": "Nordviertel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.063211,
+          51.393569
+        ]
+      },
+      "properties": {
+        "name": "Voßhege",
+        "betriebszeit": "1800–1952",
+        "stadtteil": "Heisingen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1075,
+          51.429722222222
+        ]
+      },
+      "properties": {
+        "name": "Wohlverwahrt (2)",
+        "betriebszeit": "1918–1962",
+        "stadtteil": "Horst"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9597222222222,
+          51.4725
+        ]
+      },
+      "properties": {
+        "name": "Wolfsbank",
+        "betriebszeit": "1750–1966",
+        "stadtteil": "Borbeck-Schönebeck-Bochold"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0440833333333,
+          51.486527777778
+        ]
+      },
+      "properties": {
+        "name": "Zollverein",
+        "betriebszeit": "1847–1986",
+        "stadtteil": "Katernberg"
+      }
+    }
+  ]
+}

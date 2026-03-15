@@ -1,275 +1,219 @@
 {
-  "gesamt_eintraege": 207398,
-  "geocodierte_eintraege": 207398,
-  "eindeutige_adressen": 66345,
+  "gesamt_eintraege": 216729,
+  "geocodierte_eintraege": 216729,
+  "eindeutige_adressen": 64973,
   "top_berufe": [
     [
       "Bergm.",
-      23639
+      24662
     ],
     [
       "Arbeiter",
-      6969
+      7228
     ],
     [
       "Inval.",
-      6965
+      7178
     ],
     [
       "Schlosser",
-      6146
+      6359
     ],
     [
       "Kaufm.",
-      4585
+      4819
     ],
     [
       "Invalide",
-      3259
+      3383
     ],
     [
       "Pensionär",
-      3129
+      3265
     ],
     [
       "Dreher",
-      2028
+      2142
     ],
     [
       "Maurer",
-      2022
+      2121
     ],
     [
       "Kfm.",
-      1621
+      1704
     ],
     [
       "Fabrkarb.",
-      1525
+      1593
     ],
     [
       "Maschinist",
-      1490
+      1552
     ],
     [
       "Kraftw. Führ.",
-      1446
+      1474
     ],
     [
       "Schreiner",
-      1375
+      1432
     ],
     [
       "Anstreicher",
-      1277
+      1315
     ],
     [
       "Schmied",
-      1104
+      1157
     ],
     [
       "Rentner",
-      1073
+      1126
     ],
     [
       "Schankw.",
-      1070
+      1100
     ],
     [
       "Bürobeamt.",
-      1016
+      1049
     ],
     [
       "Monteur",
-      941
+      973
     ]
   ],
   "top_nachnamen": [
     [
       "Müller",
-      1726
+      1784
     ],
     [
       "Schmidt",
-      1383
+      1427
     ],
     [
       "Becker",
-      986
+      1007
     ],
     [
       "Schmitz",
-      935
+      972
     ],
     [
       "Schneider",
-      752
+      787
     ],
     [
       "Schäfer",
-      712
+      740
     ],
     [
       "Klein",
-      636
+      661
     ],
     [
       "Meyer",
-      626
+      651
     ],
     [
       "Weber",
-      584
+      613
     ],
     [
       "Fischer",
+      571
+    ],
+    [
+      "Koch",
       560
     ],
     [
       "Schulz",
-      534
-    ],
-    [
-      "Koch",
-      531
+      544
     ],
     [
       "Schulte",
-      480
+      500
     ],
     [
       "Neumann",
-      469
-    ],
-    [
-      "Möller",
-      391
+      494
     ],
     [
       "Schröder",
-      384
+      399
+    ],
+    [
+      "Möller",
+      399
     ],
     [
       "Lange",
-      378
+      392
     ],
     [
       "Peters",
-      358
-    ],
-    [
-      "Schwarz",
-      333
+      378
     ],
     [
       "Wagner",
-      328
+      348
+    ],
+    [
+      "Schwarz",
+      347
     ]
   ],
   "stadtteile": [
     [
-      "Essen",
-      207308
+      "Steele",
+      11107
     ],
     [
-      "Essen-Altendorf",
-      10
+      "Kray",
+      6092
     ],
     [
-      "Essen-Steele",
-      10
+      "Katernberg",
+      5390
     ],
     [
-      "Essen-Kray",
-      6
+      "Werden",
+      4012
     ],
     [
-      "Essen-Altenessen",
-      6
+      "Kupferdreh",
+      3998
     ],
     [
-      "Essen-Katernberg",
-      4
+      "Stoppenberg",
+      3770
     ],
     [
-      "Essen-Frillendorf",
-      4
+      "Karnap",
+      3072
     ],
     [
-      "Essen-Holsterhausen",
-      4
+      "Schonnebeck",
+      2973
     ],
     [
-      "Essen-Frohnhausen",
-      4
+      "Heisingen",
+      1948
     ],
     [
-      "Essen-Stoppenberg",
-      4
+      "Ueberruhr",
+      1686
     ],
     [
-      "Essen-Borbeck",
-      4
+      "Heidhausen",
+      1422
     ],
     [
-      "Essen-Rüttenscheid",
-      4
-    ],
-    [
-      "Essen-Karnap",
-      3
-    ],
-    [
-      "Essen-Werden",
-      3
-    ],
-    [
-      "Essen-Heisingen",
-      3
-    ],
-    [
-      "Essen-Frintrop",
-      3
-    ],
-    [
-      "Essen-Ueberruhr",
-      3
-    ],
-    [
-      "Essen-Schönebeck",
-      2
-    ],
-    [
-      "Essen-Dellwig",
-      2
-    ],
-    [
-      "Essen-Bergeborbeck",
-      2
-    ],
-    [
-      "Essen-Huttrop",
-      2
-    ],
-    [
-      "Essen-Bredeney",
-      2
-    ],
-    [
-      "Essen-Kupferdreh",
-      2
-    ],
-    [
-      "Essen-Altenessen (kath.)",
-      1
-    ],
-    [
-      "Essen-Dilldorf",
-      1
-    ],
-    [
-      "Essen-Schonnebeck",
-      1
+      "Frillendorf",
+      1201
     ]
   ]
 }

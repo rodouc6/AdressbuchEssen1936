@@ -80,6 +80,18 @@
       </div>
 
       <div class="filter-section">
+        <label>Bergbau</label>
+        <div class="checkbox-row">
+          <input type="checkbox" id="filter-bergbau-narrow">
+          <label for="filter-bergbau-narrow">Bergmänner & Steiger</label>
+        </div>
+        <div class="checkbox-row">
+          <input type="checkbox" id="filter-bergbau-broad">
+          <label for="filter-bergbau-broad">Alle Bergbauberufe</label>
+        </div>
+      </div>
+
+      <div class="filter-section">
         <div class="checkbox-row">
           <input type="checkbox" id="filter-akademiker">
           <label for="filter-akademiker">Nur Akademiker (Dr., Prof., Dipl.)</label>
@@ -87,7 +99,23 @@
       </div>
 
       <div class="filter-section">
-        <label>Berufsgruppe <span class="hint">(mehrere wählbar)</span></label>
+        <label>Berufsgruppe <span class="hint">(mehrere wählbar)</span>
+          <span class="info-btn" tabindex="0">ⓘ
+            <span class="info-tooltip">
+              Kategorien der <strong>OhdAB-Ontologie</strong> historischer Berufsbezeichnungen:<br><br>
+              B 0: Militär<br>
+              B 1: Land-, Forst- und Tierwirtschaft und Gartenbau<br>
+              B 2: Rohstoffgewinnung, Produktion und Fertigung<br>
+              B 3: Bau, Architektur, Vermessung und Gebäudetechnik<br>
+              B 4: Naturwissenschaft, Geografie und Informatik<br>
+              B 5: Verkehr, Logistik, Schutz und Sicherheit<br>
+              B 6: Kaufmännische Dienstleistungen, Warenhandel, Vertrieb, Hotel und Tourismus<br>
+              B 7: Unternehmensorganisation, Buchhaltung, Recht und Verwaltung<br>
+              B 8: Gesundheit, Soziales, Lehre und Erziehung<br>
+              B 9: Sprach-, Literatur-, Geistes-, Gesellschafts- und Wirtschaftswissenschaften, Medien, Kunst, Kultur und Gestaltung
+            </span>
+          </span>
+        </label>
         <div id="filter-berufsgruppen"></div>
       </div>
 
@@ -106,18 +134,22 @@
         </div>
       </div>
 
-      <div id="legend">
-        <h4>Personen je Adresse</h4>
-        <div class="legend-row"><div class="legend-dot" style="background:#1d4ed8;opacity:0.25"></div> 1</div>
-        <div class="legend-row"><div class="legend-dot" style="background:#1d4ed8;opacity:0.45"></div> 2–5</div>
-        <div class="legend-row"><div class="legend-dot" style="background:#1d4ed8;opacity:0.7"></div> 6–20</div>
-        <div class="legend-row"><div class="legend-dot" style="background:#1d4ed8;opacity:0.97"></div> &gt; 20</div>
-      </div>
     </div>
 
   </div>
 
   <div id="map"></div>
+
+  <div id="legend">
+    <h4>Personen je Adresse</h4>
+    <div class="legend-row"><div class="legend-dot" style="background:#1d4ed8;opacity:0.25"></div> 1</div>
+    <div class="legend-row"><div class="legend-dot" style="background:#1d4ed8;opacity:0.45"></div> 2–5</div>
+    <div class="legend-row"><div class="legend-dot" style="background:#1d4ed8;opacity:0.7"></div> 6–20</div>
+    <div class="legend-row"><div class="legend-dot" style="background:#1d4ed8;opacity:0.97"></div> &gt; 20</div>
+    <div class="legend-row" id="legend-zeche" style="display:none">
+      <img src="img/schlaegel-eisen.png" alt="Zeche" style="width:16px;height:16px;flex-shrink:0"> Zeche (aktiv 1936)
+    </div>
+  </div>
 </div>
 
 <script src="js/karte.js"></script>
