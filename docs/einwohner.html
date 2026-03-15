@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Einwohnerverzeichnis – Adressbuch Essen 1936</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <span class="logo">Adressbuch Essen 1936</span>
+  <a href="index.html">Start</a>
+  <a href="karte.html">Karte</a>
+  <a href="schichtenkarte.html">Schichtenkarte</a>
+  <a href="statistik.html">Statistik</a>
+  <a href="firmen.html">Firmen</a>
+  <a href="einwohner.html" class="active">Einwohner</a>
+</nav>
+
+<div class="db-layout">
+  <h1>Einwohnerverzeichnis</h1>
+  <p class="subtitle">Einwohnerverzeichnis (Sektion I) des Adressbuchs Essen 1936</p>
+
+  <div id="db-loading" class="db-loading">
+    <div class="spinner"></div>
+    <div>Einwohnerdaten werden geladen …</div>
+  </div>
+
+  <div id="db-content" style="display:none">
+    <div class="db-search-bar">
+      <input type="text" id="db-search" placeholder="Name, Beruf oder Adresse suchen …"
+             autocomplete="off" spellcheck="false">
+      <span class="db-result-count" id="db-count"></span>
+    </div>
+
+    <div class="db-table-wrap">
+      <table class="db-table">
+        <thead>
+          <tr>
+            <th data-col="nachname">Nachname <span class="sort-arrow"></span></th>
+            <th data-col="vorname">Vorname <span class="sort-arrow"></span></th>
+            <th data-col="beruf">Beruf <span class="sort-arrow"></span></th>
+            <th data-col="adresse">Adresse <span class="sort-arrow"></span></th>
+            <th data-col="seite">Seite <span class="sort-arrow"></span></th>
+          </tr>
+        </thead>
+        <tbody id="db-tbody"></tbody>
+      </table>
+    </div>
+
+    <div class="db-pagination" id="db-pagination"></div>
+  </div>
+</div>
+
+<footer>
+  Adressbuch Essen 1936 · Daten: Historische Quelle, digitale Aufbereitung 2025
+</footer>
+
+<script src="js/einwohner.js"></script>
+</body>
+</html>

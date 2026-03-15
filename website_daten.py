@@ -152,6 +152,61 @@ def get_berufsgruppe(beruf: str, abk_mapping: dict, bg_mapping: dict) -> str:
     return kurz if kurz else "sonstige"
 
 
+OUT_FIRMEN = OUT_DIR / "firmen.json"
+OUT_EINWOHNER = OUT_DIR / "einwohner.json"
+
+
+def export_firmen(features):
+    """Exportiert alle Sektion-III-Einträge als flaches Array nach firmen.json."""
+    eintraege = []
+    for feat in features:
+        props = feat["properties"]
+        seite = (props.get("page") or "").strip()
+        sektion = seite.split("-")[0] if "-" in seite else ""
+        if sektion != "III":
+            continue
+        eintraege.append({
+            "firmenname": (props.get("Firmenname") or "").strip(),
+            "branche": (props.get("Familienstand") or "").strip(),
+            "nachname": (props.get("lastname") or "").strip(),
+            "vorname": (props.get("firstname") or "").strip(),
+            "adresse": (props.get("Adresse") or "").strip(),
+            "seite": seite,
+            "id": (props.get("id") or "").strip(),
+        })
+
+    with open(OUT_FIRMEN, "w", encoding="utf-8") as f:
+        json.dump(eintraege, f, ensure_ascii=False, separators=(",", ":"))
+
+    size_mb = OUT_FIRMEN.stat().st_size / 1_000_000
+    print(f"  → {OUT_FIRMEN} geschrieben ({size_mb:.1f} MB, {len(eintraege):,} Einträge)")
+
+
+def export_einwohner(features):
+    """Exportiert alle Sektion-I-Einträge als flaches Array nach einwohner.json."""
+    eintraege = []
+    for feat in features:
+        props = feat["properties"]
+        seite = (props.get("page") or "").strip()
+        sektion = seite.split("-")[0] if "-" in seite else ""
+        if sektion != "I":
+            continue
+        eintraege.append({
+            "nachname": (props.get("lastname") or "").strip(),
+            "vorname": (props.get("firstname") or "").strip(),
+            "beruf": (props.get("Beruf o. ä.") or "").strip(),
+            "adresse": (props.get("Adresse") or "").strip(),
+            "seite": seite,
+            "id": (props.get("id") or "").strip(),
+        })
+
+    with open(OUT_EINWOHNER, "w", encoding="utf-8") as f:
+        json.dump(eintraege, f, ensure_ascii=False, separators=(",", ":"))
+
+    size_mb = OUT_EINWOHNER.stat().st_size / 1_000_000
+    print(f"  → {OUT_EINWOHNER} geschrieben ({size_mb:.1f} MB, {len(eintraege):,} Einträge)")
+
+
 def main():
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -202,6 +257,9 @@ def main():
 
         bergbau_typ = classify_bergbau(beruf)
 
+        firmenname = (props.get("Firmenname") or "").strip()
+        branche = (props.get("Familienstand") or "").strip()
+
         person = {
             "nachname": nachname,
             "vorname": (props.get("firstname") or "").strip(),
@@ -211,6 +269,8 @@ def main():
             "berufsgruppe": berufsgruppe,
             "geschoss": geschoss,
             "bergbau_typ": bergbau_typ,
+            "firmenname": firmenname,
+            "branche": branche,
         }
 
         sektion = person["seite"].split("-")[0] if "-" in person["seite"] else ""
@@ -227,6 +287,7 @@ def main():
                 "akademiker_count": 0,
                 "bergbau_narrow_count": 0,
                 "bergbau_broad_count": 0,
+                "hat_firma": False,
             }
 
         g = groups[geoadresse]
@@ -244,6 +305,8 @@ def main():
             g["bergbau_narrow_count"] += 1
         if bergbau_typ:
             g["bergbau_broad_count"] += 1
+        if sektion == "III":
+            g["hat_firma"] = True
 
     print(f"  {len(groups):,} eindeutige Adressen")
 
@@ -266,6 +329,7 @@ def main():
                 "sektionen": sorted(g["sektionen_set"]),
                 "hat_akademiker": g["akademiker_count"] > 0,
                 "hat_bergbau": g["bergbau_broad_count"] > 0,
+                "hat_firma": g["hat_firma"],
             },
         })
 
@@ -296,6 +360,11 @@ def main():
     print(f"\nTop 5 Nachnamen:")
     for name, n in statistiken["top_nachnamen"][:5]:
         print(f"  {name}: {n:,}")
+
+    # Datenbank-JSONs exportieren (aus Roh-Features)
+    print(f"\n=== Datenbank-Export ===")
+    export_firmen(features)
+    export_einwohner(features)
 
 
 if __name__ == "__main__":

@@ -56,6 +56,7 @@
   // ── Paint-Expressions ─────────────────────────────────────────────────────
 
   const CIRCLE_COLOR = "#1d4ed8";
+  const CIRCLE_COLOR_FIRMA = "#d97706";
 
   const circleRadius = [
     "interpolate", ["linear"], ["get", "anzahl"],
@@ -167,11 +168,15 @@
       for (const p of personen) {
         const name = [p.nachname, p.vorname].filter(Boolean).join(" ");
         if (!name) continue;
+        const searchParts = [name];
+        if (p.firmenname) searchParts.push(p.firmenname);
         idx.push({
           type: "person",
-          searchText: name.toLowerCase(),
-          label: p.nachname + (p.vorname ? ", " + p.vorname : ""),
-          detail: [p.beruf, adresse].filter(Boolean).join(" · "),
+          searchText: searchParts.join(" ").toLowerCase(),
+          label: p.firmenname
+            ? p.firmenname + " (" + p.nachname + (p.vorname ? ", " + p.vorname : "") + ")"
+            : p.nachname + (p.vorname ? ", " + p.vorname : ""),
+          detail: [p.branche, p.beruf, adresse].filter(Boolean).join(" · "),
           feature: feat,
         });
       }
@@ -548,7 +553,7 @@
       minzoom: 11,
       layout: { visibility: "none" },
       paint: {
-        "circle-color": CIRCLE_COLOR,
+        "circle-color": ["case", ["get", "hat_firma"], CIRCLE_COLOR_FIRMA, CIRCLE_COLOR],
         "circle-radius": circleRadius,
         "circle-opacity": 0.08,
         "circle-stroke-width": 0,
@@ -566,7 +571,7 @@
       type: "circle",
       source: "adressen-highlight",
       paint: {
-        "circle-color": CIRCLE_COLOR,
+        "circle-color": ["case", ["get", "hat_firma"], CIRCLE_COLOR_FIRMA, CIRCLE_COLOR],
         "circle-radius": ["interpolate", ["linear"], ["get", "anzahl"], 1, 7, 50, 13],
         "circle-opacity": 0.9,
         "circle-stroke-width": 2,
@@ -581,7 +586,7 @@
       source: "adressen",
       minzoom: 11,
       paint: {
-        "circle-color": CIRCLE_COLOR,
+        "circle-color": ["case", ["get", "hat_firma"], CIRCLE_COLOR_FIRMA, CIRCLE_COLOR],
         "circle-radius": circleRadius,
         "circle-stroke-width": 0,
         "circle-opacity": circleOpacity,
@@ -624,9 +629,17 @@
       const dimSektion = dimSektionI && sektion === "I";
       const dimPerson = hatPersonenfilter && !personMatches(p);
       const dim = dimSektion || dimPerson;
+      const isFirma = sektion === "III";
+      const firmaClass = isFirma ? " person-card--firma" : "";
+      const firmaHtml = isFirma && p.firmenname
+        ? `<div class="person-firma">${escHtml(p.firmenname)}</div>` : "";
+      const brancheHtml = isFirma && p.branche
+        ? `<div class="person-branche">${escHtml(p.branche)}</div>` : "";
       return `
-        <div class="person-card${dim ? " person-card--dim" : ""}">
+        <div class="person-card${dim ? " person-card--dim" : ""}${firmaClass}">
+          ${firmaHtml}
           <div class="person-name">${escHtml(p.nachname)}${p.vorname ? ", " + escHtml(p.vorname) : ""}</div>
+          ${brancheHtml}
           <div class="person-detail">${p.beruf ? escHtml(p.beruf) + " · " : ""}Seite ${escHtml(p.seite)}</div>
         </div>`;
     }).join("");

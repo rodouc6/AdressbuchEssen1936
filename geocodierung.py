@@ -24,11 +24,13 @@ UNIQUE_FILE    = Path("unique_geoadresses.csv")
 CACHE_FILE     = Path("geocoding_cache.csv")
 INPUT_FILE     = Path("essen1936_geovorbereitung.csv")
 GEOJSON_FILE   = Path("essen1936.geojson")
+FEHLSCHLAEGE_FILE = Path("geocoding_fehlschlaege.csv")
 
 # Felder die ins GeoJSON übernommen werden
 GEOJSON_FELDER = [
     "page", "lastname", "firstname", "Beruf o. ä.",
-    "Adresse", "Ortsname", "geoadresse", "id"
+    "Adresse", "Ortsname", "Vorort", "geoadresse", "id",
+    "Firmenname", "Familienstand"
 ]
 
 
@@ -134,8 +136,53 @@ def run_geocodierung() -> dict[str, tuple[float, float] | None]:
 
 
 # ---------------------------------------------------------------------------
-# Schritt 2: GeoJSON exportieren
+# Schritt 2: Fehlschläge exportieren
 # ---------------------------------------------------------------------------
+
+def export_fehlschlaege(cache: dict[str, tuple[float, float] | None]) -> None:
+    """Schreibt alle nicht geocodierten Adressen mit Kontext in eine CSV."""
+
+    fehlschlaege = []
+
+    with open(INPUT_FILE, newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            geoadresse = row.get("geoadresse", "").strip()
+            if not geoadresse or geoadresse not in cache or cache[geoadresse] is None:
+                fehlschlaege.append({
+                    "geoadresse": geoadresse,
+                    "Adresse":    row.get("Adresse", ""),
+                    "Ortsname":   row.get("Ortsname", ""),
+                    "page":       row.get("page", ""),
+                    "id":         row.get("id", ""),
+                })
+
+    with open(FEHLSCHLAEGE_FILE, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=["geoadresse", "Adresse", "Ortsname", "page", "id"])
+        writer.writeheader()
+        writer.writerows(fehlschlaege)
+
+    print(f"\nFehlschläge exportiert:")
+    print(f"  Anzahl             : {len(fehlschlaege):>7}")
+    print(f"  Ausgabe            : {FEHLSCHLAEGE_FILE}")
+
+
+# ---------------------------------------------------------------------------
+# Schritt 3: GeoJSON exportieren
+# ---------------------------------------------------------------------------
+
+def fallback_geoadresse(geoadresse: str) -> str | None:
+    """Gibt Basisadresse ohne Stadtteil zurück, falls Vorort enthalten.
+
+    "Baumstr. 10, Steele, Essen" → "Baumstr. 10, Essen"
+    "Baumstr. 10, Essen"         → None (kein Fallback nötig)
+    """
+    import re
+    m = re.match(r"^(.+),\s+\S.+,\s+Essen\s*$", geoadresse)
+    if m:
+        return m.group(1) + ", Essen"
+    return None
+
 
 def export_geojson(cache: dict[str, tuple[float, float] | None]) -> None:
     """Liest essen1936_geovorbereitung.csv und exportiert geocodierte Zeilen als GeoJSON."""
@@ -143,6 +190,7 @@ def export_geojson(cache: dict[str, tuple[float, float] | None]) -> None:
     features = []
     gesamt = 0
     mit_koordinaten = 0
+    mit_fallback = 0
     ohne_koordinaten = 0
 
     with open(INPUT_FILE, newline="", encoding="utf-8") as f:
@@ -151,11 +199,21 @@ def export_geojson(cache: dict[str, tuple[float, float] | None]) -> None:
             gesamt += 1
             geoadresse = row.get("geoadresse", "").strip()
 
-            if not geoadresse or geoadresse not in cache or cache[geoadresse] is None:
+            # Primär: Vorort-erweiterte Adresse
+            coords = cache.get(geoadresse) if geoadresse else None
+
+            # Fallback: Basisadresse ohne Vorort
+            if not coords:
+                fb = fallback_geoadresse(geoadresse)
+                if fb and cache.get(fb):
+                    coords = cache[fb]
+                    mit_fallback += 1
+
+            if not coords:
                 ohne_koordinaten += 1
                 continue
 
-            lat, lon = cache[geoadresse]
+            lat, lon = coords
             mit_koordinaten += 1
 
             properties = {feld: row.get(feld, "") for feld in GEOJSON_FELDER}
@@ -180,6 +238,7 @@ def export_geojson(cache: dict[str, tuple[float, float] | None]) -> None:
     print(f"\nGeoJSON-Export:")
     print(f"  Gesamt Zeilen      : {gesamt:>7}")
     print(f"  Mit Koordinaten    : {mit_koordinaten:>7}")
+    print(f"    davon via Fallback: {mit_fallback:>6}")
     print(f"  Ohne Koordinaten   : {ohne_koordinaten:>7}")
     print(f"  Ausgabe            : {GEOJSON_FILE}  "
           f"({GEOJSON_FILE.stat().st_size / 1_000_000:.1f} MB)")
@@ -193,7 +252,10 @@ def main() -> None:
     print("=== Schritt 1: Geocodierung ===\n")
     cache = run_geocodierung()
 
-    print("\n=== Schritt 2: GeoJSON-Export ===\n")
+    print("\n=== Schritt 2: Fehlschläge exportieren ===\n")
+    export_fehlschlaege(cache)
+
+    print("\n=== Schritt 3: GeoJSON-Export ===\n")
     export_geojson(cache)
 
     print("\nFertig.")
