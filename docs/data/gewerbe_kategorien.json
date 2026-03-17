@@ -1,0 +1,5486 @@
+{
+  "kategorien": [
+    {
+      "id": "sonstiges",
+      "label": "Sonstiges",
+      "icon": "📋",
+      "farbe": "#9ca3af",
+      "branchen": [
+        {
+          "name": "Verschiedene",
+          "anzahl": 1123
+        },
+        {
+          "name": "Uhrmacher und Uhrenhandlung",
+          "anzahl": 116
+        },
+        {
+          "name": "Viehhandlung",
+          "anzahl": 39
+        },
+        {
+          "name": "Automobilkutscherei",
+          "anzahl": 39
+        },
+        {
+          "name": "Wasch- und Plättanstalt",
+          "anzahl": 35
+        },
+        {
+          "name": "Farben",
+          "anzahl": 35
+        },
+        {
+          "name": "Futtermittel",
+          "anzahl": 35
+        },
+        {
+          "name": "Industriebedarf",
+          "anzahl": 33
+        },
+        {
+          "name": "",
+          "anzahl": 32
+        },
+        {
+          "name": "Gaststätte",
+          "anzahl": 29
+        },
+        {
+          "name": "Beerdigungsanstalt und Sargmagazin",
+          "anzahl": 27
+        },
+        {
+          "name": "Treuhänder",
+          "anzahl": 27
+        },
+        {
+          "name": "Mineralwasser",
+          "anzahl": 26
+        },
+        {
+          "name": "Herrenausstattung",
+          "anzahl": 25
+        },
+        {
+          "name": "Schilder- und Schriftenmaler",
+          "anzahl": 23
+        },
+        {
+          "name": "Stellmacher",
+          "anzahl": 23
+        },
+        {
+          "name": "Automobil-Bestand- und Zubehörteile-Handlung",
+          "anzahl": 22
+        },
+        {
+          "name": "Automobile",
+          "anzahl": 20
+        },
+        {
+          "name": "Wagen und Wagenbau",
+          "anzahl": 19
+        },
+        {
+          "name": "Baugenossenschaft",
+          "anzahl": 19
+        },
+        {
+          "name": "Großhandlung Wein",
+          "anzahl": 18
+        },
+        {
+          "name": "Furage",
+          "anzahl": 18
+        },
+        {
+          "name": "Wollwaren",
+          "anzahl": 15
+        },
+        {
+          "name": "Zoologische Handlung",
+          "anzahl": 15
+        },
+        {
+          "name": "Speiseanstalt",
+          "anzahl": 15
+        },
+        {
+          "name": "Leihbibliothek",
+          "anzahl": 15
+        },
+        {
+          "name": "Hüte",
+          "anzahl": 15
+        },
+        {
+          "name": "Althandlung",
+          "anzahl": 15
+        },
+        {
+          "name": "Auto- u. Wagenlackierer",
+          "anzahl": 14
+        },
+        {
+          "name": "Auskunftsbüro (Auskunftei)",
+          "anzahl": 14
+        },
+        {
+          "name": "Großhdlg. u. Versandgesch.",
+          "anzahl": 14
+        },
+        {
+          "name": "Grabdenkmäler",
+          "anzahl": 14
+        },
+        {
+          "name": "Rechtsberater",
+          "anzahl": 13
+        },
+        {
+          "name": "Feinmechanik",
+          "anzahl": 13
+        },
+        {
+          "name": "Leichenbestatter u. -bestatterinnen",
+          "anzahl": 13
+        },
+        {
+          "name": "Wettannahmen",
+          "anzahl": 13
+        },
+        {
+          "name": "Kapellmeister",
+          "anzahl": 13
+        },
+        {
+          "name": "Handarbeiten",
+          "anzahl": 13
+        },
+        {
+          "name": "Apparatebau",
+          "anzahl": 12
+        },
+        {
+          "name": "Sprachlehrer",
+          "anzahl": 12
+        },
+        {
+          "name": "Kammerjäger",
+          "anzahl": 12
+        },
+        {
+          "name": "Wohnungs-Einrichtungen",
+          "anzahl": 12
+        },
+        {
+          "name": "Dem RB angehörende Gymnastiklehranstalt (Private)",
+          "anzahl": 12
+        },
+        {
+          "name": "Kaffeerösterei",
+          "anzahl": 12
+        },
+        {
+          "name": "Schreibbüro",
+          "anzahl": 11
+        },
+        {
+          "name": "Musikdirektor",
+          "anzahl": 11
+        },
+        {
+          "name": "Nachf.",
+          "anzahl": 11
+        },
+        {
+          "name": "Gesanglehrer",
+          "anzahl": 11
+        },
+        {
+          "name": "Plattierungsgeschäft",
+          "anzahl": 10
+        },
+        {
+          "name": "Technische Gegenstände",
+          "anzahl": 10
+        },
+        {
+          "name": "Drechsler (Holz- u. Horn-)",
+          "anzahl": 10
+        },
+        {
+          "name": "Lagerhaltende Firma",
+          "anzahl": 10
+        },
+        {
+          "name": "Straßenbau",
+          "anzahl": 10
+        },
+        {
+          "name": "Abbruchunternehmer",
+          "anzahl": 10
+        },
+        {
+          "name": "Ww.",
+          "anzahl": 9
+        },
+        {
+          "name": "Beiz- und Polierwerkstätten",
+          "anzahl": 9
+        },
+        {
+          "name": "Automobilfahrschule",
+          "anzahl": 9
+        },
+        {
+          "name": "Küfer",
+          "anzahl": 9
+        },
+        {
+          "name": "Vulkanisieranstalt",
+          "anzahl": 9
+        },
+        {
+          "name": "Büroeinrichtungen",
+          "anzahl": 9
+        },
+        {
+          "name": "Juwelier",
+          "anzahl": 9
+        },
+        {
+          "name": "Aufbügelanstalt",
+          "anzahl": 8
+        },
+        {
+          "name": "Polstermaterialien",
+          "anzahl": 8
+        },
+        {
+          "name": "Aufzüge und Fahrstühle",
+          "anzahl": 8
+        },
+        {
+          "name": "Sanitäre Anlagen",
+          "anzahl": 8
+        },
+        {
+          "name": "Korbwaren",
+          "anzahl": 8
+        },
+        {
+          "name": "Büro- u. Ladenvermietung",
+          "anzahl": 8
+        },
+        {
+          "name": "Sämerei",
+          "anzahl": 8
+        },
+        {
+          "name": "Vertretung",
+          "anzahl": 7
+        },
+        {
+          "name": "Holzbearbeitungswerke",
+          "anzahl": 7
+        },
+        {
+          "name": "Blech- und Lackierwaren",
+          "anzahl": 7
+        },
+        {
+          "name": "Sonstige Gymnastiklehranstalt (Private)",
+          "anzahl": 7
+        },
+        {
+          "name": "Versand",
+          "anzahl": 7
+        },
+        {
+          "name": "Lack und Firnis",
+          "anzahl": 7
+        },
+        {
+          "name": "Korsetts",
+          "anzahl": 7
+        },
+        {
+          "name": "Öle",
+          "anzahl": 7
+        },
+        {
+          "name": "Kühl- und Gefrieranlagen",
+          "anzahl": 7
+        },
+        {
+          "name": "Baumeister",
+          "anzahl": 7
+        },
+        {
+          "name": "Chem. Produkte",
+          "anzahl": 7
+        },
+        {
+          "name": "Tierarzt",
+          "anzahl": 6
+        },
+        {
+          "name": "Matratzen",
+          "anzahl": 6
+        },
+        {
+          "name": "Sargmagazine",
+          "anzahl": 6
+        },
+        {
+          "name": "Gewürze",
+          "anzahl": 6
+        },
+        {
+          "name": "Autobusbetrieb",
+          "anzahl": 6
+        },
+        {
+          "name": "Ladeneinrichtungen",
+          "anzahl": 6
+        },
+        {
+          "name": "Automobilbereifung",
+          "anzahl": 6
+        },
+        {
+          "name": "Ausflugslokal",
+          "anzahl": 6
+        },
+        {
+          "name": "Sportartikel",
+          "anzahl": 6
+        },
+        {
+          "name": "Ankerwickelei",
+          "anzahl": 6
+        },
+        {
+          "name": "Gegr. 1905",
+          "anzahl": 6
+        },
+        {
+          "name": "Markisen",
+          "anzahl": 6
+        },
+        {
+          "name": "Technische Gummiwaren",
+          "anzahl": 6
+        },
+        {
+          "name": "Motorräder",
+          "anzahl": 6
+        },
+        {
+          "name": "Hoch-",
+          "anzahl": 6
+        },
+        {
+          "name": "Strumpfwaren und Trikotagen",
+          "anzahl": 6
+        },
+        {
+          "name": "Pianoforte",
+          "anzahl": 6
+        },
+        {
+          "name": "Automobil-Bestand- und Zubehörteile-Großhandlung",
+          "anzahl": 5
+        },
+        {
+          "name": "Schleiferei",
+          "anzahl": 5
+        },
+        {
+          "name": "G. m. b. H.",
+          "anzahl": 5
+        },
+        {
+          "name": "Spezialgeschäft",
+          "anzahl": 5
+        },
+        {
+          "name": "Pharmazeutische Bedarfsartikel",
+          "anzahl": 5
+        },
+        {
+          "name": "Gegr. 1897",
+          "anzahl": 5
+        },
+        {
+          "name": "Vergnügungsstätte",
+          "anzahl": 5
+        },
+        {
+          "name": "Bestecke",
+          "anzahl": 5
+        },
+        {
+          "name": "Molkerei",
+          "anzahl": 5
+        },
+        {
+          "name": "Gegr. 1889",
+          "anzahl": 5
+        },
+        {
+          "name": "Reklameatelier",
+          "anzahl": 5
+        },
+        {
+          "name": "Teer und Teerprodukte",
+          "anzahl": 5
+        },
+        {
+          "name": "Marinieranstalt",
+          "anzahl": 5
+        },
+        {
+          "name": "Versteigerer",
+          "anzahl": 5
+        },
+        {
+          "name": "Gegr. 1908",
+          "anzahl": 5
+        },
+        {
+          "name": "Alkoholfreie Getränke",
+          "anzahl": 5
+        },
+        {
+          "name": "Musiklehranstalt (Private)",
+          "anzahl": 5
+        },
+        {
+          "name": "Gummiwaren",
+          "anzahl": 5
+        },
+        {
+          "name": "Glasbläserei",
+          "anzahl": 5
+        },
+        {
+          "name": "Zahnärztliche Bedarfsartikel",
+          "anzahl": 4
+        },
+        {
+          "name": "Dachdeckermaterialien",
+          "anzahl": 4
+        },
+        {
+          "name": "Büro-Bedarf",
+          "anzahl": 4
+        },
+        {
+          "name": "Vernickelungen",
+          "anzahl": 4
+        },
+        {
+          "name": "Gegr. 1864",
+          "anzahl": 4
+        },
+        {
+          "name": "Gegr. 1911",
+          "anzahl": 4
+        },
+        {
+          "name": "Grundstücksverwaltung",
+          "anzahl": 4
+        },
+        {
+          "name": "Pferdehandlung",
+          "anzahl": 4
+        },
+        {
+          "name": "Kom.-Ges.",
+          "anzahl": 4
+        },
+        {
+          "name": "Kachelöfen",
+          "anzahl": 4
+        },
+        {
+          "name": "Sprechapparate",
+          "anzahl": 4
+        },
+        {
+          "name": "Schornsteinbau",
+          "anzahl": 4
+        },
+        {
+          "name": "Marmorschleiferei",
+          "anzahl": 4
+        },
+        {
+          "name": "Feuerbestattung",
+          "anzahl": 4
+        },
+        {
+          "name": "Paramenten",
+          "anzahl": 4
+        },
+        {
+          "name": "Graphiker",
+          "anzahl": 4
+        },
+        {
+          "name": "Weberei",
+          "anzahl": 4
+        },
+        {
+          "name": "Einkaufsgenossenschaft",
+          "anzahl": 4
+        },
+        {
+          "name": "Erze",
+          "anzahl": 4
+        },
+        {
+          "name": "Sägewerk",
+          "anzahl": 4
+        },
+        {
+          "name": "Aktienges.",
+          "anzahl": 4
+        },
+        {
+          "name": "Großhandlung und Handlungen",
+          "anzahl": 4
+        },
+        {
+          "name": "Brauerei",
+          "anzahl": 4
+        },
+        {
+          "name": "Brennerei",
+          "anzahl": 4
+        },
+        {
+          "name": "Kornbranntweinbrennerei",
+          "anzahl": 4
+        },
+        {
+          "name": "Galanterie-",
+          "anzahl": 4
+        },
+        {
+          "name": "Chemische pharmazeutische Präparate",
+          "anzahl": 4
+        },
+        {
+          "name": "Kinderwagen",
+          "anzahl": 3
+        },
+        {
+          "name": "Autoöle",
+          "anzahl": 3
+        },
+        {
+          "name": "G. m. b. H. \"Egro\"",
+          "anzahl": 3
+        },
+        {
+          "name": "Kosmetische Mittel",
+          "anzahl": 3
+        },
+        {
+          "name": "Feuerfeste Produkte",
+          "anzahl": 3
+        },
+        {
+          "name": "Vereinsartikel",
+          "anzahl": 3
+        },
+        {
+          "name": "Gegr. 1896",
+          "anzahl": 3
+        },
+        {
+          "name": "Säcke u. Planen",
+          "anzahl": 3
+        },
+        {
+          "name": "Zweigbüro Essen",
+          "anzahl": 3
+        },
+        {
+          "name": "Kaminbau",
+          "anzahl": 3
+        },
+        {
+          "name": "Plissier- und Dekatieranstalt",
+          "anzahl": 3
+        },
+        {
+          "name": "Reklamebüro",
+          "anzahl": 3
+        },
+        {
+          "name": "J. Mantel",
+          "anzahl": 3
+        },
+        {
+          "name": "Großhandl. u. Handl.",
+          "anzahl": 3
+        },
+        {
+          "name": "Graphischer Bedarf",
+          "anzahl": 3
+        },
+        {
+          "name": "G.m.b.H.",
+          "anzahl": 3
+        },
+        {
+          "name": "Wekube",
+          "anzahl": 3
+        },
+        {
+          "name": "Glas (Tafel- und Spiegel-)",
+          "anzahl": 3
+        },
+        {
+          "name": "Kegelbahnbau",
+          "anzahl": 3
+        },
+        {
+          "name": "Berlin",
+          "anzahl": 3
+        },
+        {
+          "name": "Komm. Ges.",
+          "anzahl": 3
+        },
+        {
+          "name": "Reklamemaler",
+          "anzahl": 3
+        },
+        {
+          "name": "Chemisches Labor",
+          "anzahl": 3
+        },
+        {
+          "name": "Gegr. 1907",
+          "anzahl": 3
+        },
+        {
+          "name": "Automobilkühler",
+          "anzahl": 3
+        },
+        {
+          "name": "Ing.",
+          "anzahl": 3
+        },
+        {
+          "name": "Theatermaler",
+          "anzahl": 3
+        },
+        {
+          "name": "Niederlassung Essen",
+          "anzahl": 3
+        },
+        {
+          "name": "Technische Großhandlung",
+          "anzahl": 3
+        },
+        {
+          "name": "Zuschneidekunst",
+          "anzahl": 3
+        },
+        {
+          "name": "Feuerlöschapparate",
+          "anzahl": 3
+        },
+        {
+          "name": "Gegr. 1904",
+          "anzahl": 3
+        },
+        {
+          "name": "Feuerungsanlagen",
+          "anzahl": 3
+        },
+        {
+          "name": "Gegr. 1890",
+          "anzahl": 3
+        },
+        {
+          "name": "Bezirksdirektion",
+          "anzahl": 3
+        },
+        {
+          "name": "Karosseriebau",
+          "anzahl": 3
+        },
+        {
+          "name": "Sperrholz",
+          "anzahl": 3
+        },
+        {
+          "name": "Gegr. 1885",
+          "anzahl": 3
+        },
+        {
+          "name": "Ketten",
+          "anzahl": 3
+        },
+        {
+          "name": "Gegr. 1866",
+          "anzahl": 3
+        },
+        {
+          "name": "Öfen u. Kamine",
+          "anzahl": 3
+        },
+        {
+          "name": "Manometer",
+          "anzahl": 2
+        },
+        {
+          "name": "Glasmaler",
+          "anzahl": 2
+        },
+        {
+          "name": "Kunstanstalt",
+          "anzahl": 2
+        },
+        {
+          "name": "Stühle",
+          "anzahl": 2
+        },
+        {
+          "name": "Waffeln",
+          "anzahl": 2
+        },
+        {
+          "name": "e.G.m.b.H.",
+          "anzahl": 2
+        },
+        {
+          "name": "Glasschleiferei",
+          "anzahl": 2
+        },
+        {
+          "name": "Pollerbeck Nachf.",
+          "anzahl": 2
+        },
+        {
+          "name": "Kohlenhandel",
+          "anzahl": 2
+        },
+        {
+          "name": "Kisten",
+          "anzahl": 2
+        },
+        {
+          "name": "Wilhelm Schluck G.m.b.H.",
+          "anzahl": 2
+        },
+        {
+          "name": "Amtl. Organ d. NSBO. u. d. Deutschen Arbeitsfront",
+          "anzahl": 2
+        },
+        {
+          "name": "Gegr. 1902",
+          "anzahl": 2
+        },
+        {
+          "name": "Gegr. 1883",
+          "anzahl": 2
+        },
+        {
+          "name": "Deckenbau",
+          "anzahl": 2
+        },
+        {
+          "name": "Automobilreifenreparaturen",
+          "anzahl": 2
+        },
+        {
+          "name": "Rohrleitungsbau",
+          "anzahl": 2
+        },
+        {
+          "name": "Kerzen",
+          "anzahl": 2
+        },
+        {
+          "name": "Polstergestelle",
+          "anzahl": 2
+        },
+        {
+          "name": "Zweigniederlassung Essen",
+          "anzahl": 2
+        },
+        {
+          "name": "Patentbüro",
+          "anzahl": 2
+        },
+        {
+          "name": "Dahtseile",
+          "anzahl": 2
+        },
+        {
+          "name": "Rolladen",
+          "anzahl": 2
+        },
+        {
+          "name": "Büro für Landesvermess.",
+          "anzahl": 2
+        },
+        {
+          "name": "Technische Oele und Fette",
+          "anzahl": 2
+        },
+        {
+          "name": "Backöfen",
+          "anzahl": 2
+        },
+        {
+          "name": "Häute und Felle",
+          "anzahl": 2
+        },
+        {
+          "name": "Kohlensäure (flüssige)",
+          "anzahl": 2
+        },
+        {
+          "name": "Offenbach a. M.",
+          "anzahl": 2
+        },
+        {
+          "name": "Techn. Büro",
+          "anzahl": 2
+        },
+        {
+          "name": "Größtes Spezialgeschäft Essens",
+          "anzahl": 2
+        },
+        {
+          "name": "Stopfbuchsenpackungen",
+          "anzahl": 2
+        },
+        {
+          "name": "vorm. Heinr. Kleyer A.-G.",
+          "anzahl": 2
+        },
+        {
+          "name": "Pfandvermittler",
+          "anzahl": 2
+        },
+        {
+          "name": "Malerbedarf",
+          "anzahl": 2
+        },
+        {
+          "name": "Sanitäre Einrichtungsgegenstände",
+          "anzahl": 2
+        },
+        {
+          "name": "Gegr. 1887",
+          "anzahl": 2
+        },
+        {
+          "name": "Verpackungs-Material",
+          "anzahl": 2
+        },
+        {
+          "name": "Jalousien",
+          "anzahl": 2
+        },
+        {
+          "name": "Hammerwerk",
+          "anzahl": 2
+        },
+        {
+          "name": "Asphaltgeschäft",
+          "anzahl": 2
+        },
+        {
+          "name": "Rollgitter",
+          "anzahl": 2
+        },
+        {
+          "name": "Mitglied der Reichsberufsgruppe",
+          "anzahl": 2
+        },
+        {
+          "name": "Umpreßanstalt",
+          "anzahl": 2
+        },
+        {
+          "name": "Filiale Essen",
+          "anzahl": 2
+        },
+        {
+          "name": "Lacke f. Industrie und Gewerbe",
+          "anzahl": 2
+        },
+        {
+          "name": "Feuerungstechnische Anlagen",
+          "anzahl": 2
+        },
+        {
+          "name": "Schalttafeln",
+          "anzahl": 2
+        },
+        {
+          "name": "Organisationen",
+          "anzahl": 2
+        },
+        {
+          "name": "Faltboote",
+          "anzahl": 2
+        },
+        {
+          "name": "Entwürfe u. Ausführungen",
+          "anzahl": 2
+        },
+        {
+          "name": "Automaten",
+          "anzahl": 2
+        },
+        {
+          "name": "Kanalisationsartikel",
+          "anzahl": 2
+        },
+        {
+          "name": "Pfandleihanstalt",
+          "anzahl": 2
+        },
+        {
+          "name": "Nationalsozialistische Bedarfsgegenstände",
+          "anzahl": 2
+        },
+        {
+          "name": "e. G. m. b. H.",
+          "anzahl": 2
+        },
+        {
+          "name": "Kom. Ges.",
+          "anzahl": 2
+        },
+        {
+          "name": "Gegr. 1906",
+          "anzahl": 2
+        },
+        {
+          "name": "Edelhoff & Griebner",
+          "anzahl": 2
+        },
+        {
+          "name": "Inh.: Booth & Tegeler",
+          "anzahl": 2
+        },
+        {
+          "name": "Feldbahn",
+          "anzahl": 2
+        },
+        {
+          "name": "Türen",
+          "anzahl": 2
+        },
+        {
+          "name": "Lichtpausanstalt u. -apparate",
+          "anzahl": 2
+        },
+        {
+          "name": "Aluminiumwaren",
+          "anzahl": 2
+        },
+        {
+          "name": "Färbermeister",
+          "anzahl": 2
+        },
+        {
+          "name": "Reformwaren-Fachgesch.",
+          "anzahl": 2
+        },
+        {
+          "name": "Registrierkassen",
+          "anzahl": 2
+        },
+        {
+          "name": "Seiden- und Samtwaren",
+          "anzahl": 2
+        },
+        {
+          "name": "Hospiz",
+          "anzahl": 2
+        },
+        {
+          "name": "B.D.K.",
+          "anzahl": 2
+        },
+        {
+          "name": "Kurz-",
+          "anzahl": 2
+        },
+        {
+          "name": "Bergtechnische Einrichtungen",
+          "anzahl": 2
+        },
+        {
+          "name": "Schleifscheiben u. Polierartikel",
+          "anzahl": 2
+        },
+        {
+          "name": "Glas (Fenster-)",
+          "anzahl": 2
+        },
+        {
+          "name": "Gegr. 1863",
+          "anzahl": 2
+        },
+        {
+          "name": "Registraturen",
+          "anzahl": 2
+        },
+        {
+          "name": "Basaltwerke",
+          "anzahl": 2
+        },
+        {
+          "name": "Filiale",
+          "anzahl": 2
+        },
+        {
+          "name": "Flaschen",
+          "anzahl": 2
+        },
+        {
+          "name": "Hausschuhe",
+          "anzahl": 2
+        },
+        {
+          "name": "Aktiengesellschaft",
+          "anzahl": 2
+        },
+        {
+          "name": "Gefäßförderanlagen",
+          "anzahl": 2
+        },
+        {
+          "name": "Klischeeanstalt",
+          "anzahl": 2
+        },
+        {
+          "name": "Mitglied der Gutachterkammer",
+          "anzahl": 2
+        },
+        {
+          "name": "Calcium-Karbid",
+          "anzahl": 2
+        },
+        {
+          "name": "M.d.R.d.b.K.",
+          "anzahl": 2
+        },
+        {
+          "name": "Gewürzgroßhandlung",
+          "anzahl": 2
+        },
+        {
+          "name": "staatl. vereid. Landmesser",
+          "anzahl": 2
+        },
+        {
+          "name": "Draht",
+          "anzahl": 2
+        },
+        {
+          "name": "Häckselwerk",
+          "anzahl": 2
+        },
+        {
+          "name": "Lampenschirme",
+          "anzahl": 2
+        },
+        {
+          "name": "Übernahme des ganzen Beerdigungswesens",
+          "anzahl": 2
+        },
+        {
+          "name": "Gegr. 1891",
+          "anzahl": 2
+        },
+        {
+          "name": "Gegr. 1888",
+          "anzahl": 2
+        },
+        {
+          "name": "Gegründet 1750/1802",
+          "anzahl": 2
+        },
+        {
+          "name": "Kapok",
+          "anzahl": 2
+        },
+        {
+          "name": "Schnittmuster",
+          "anzahl": 2
+        },
+        {
+          "name": "Gegr. 1846",
+          "anzahl": 2
+        },
+        {
+          "name": "Kaufm. Priv.-Schule",
+          "anzahl": 2
+        },
+        {
+          "name": "Tachometer",
+          "anzahl": 1
+        },
+        {
+          "name": "Spez.: Dielen-Garnituren",
+          "anzahl": 1
+        },
+        {
+          "name": "Verglasungsgeschäft",
+          "anzahl": 1
+        },
+        {
+          "name": "Aachener u. Münchener Lebensvers.-Aktiengesellschaft",
+          "anzahl": 1
+        },
+        {
+          "name": "Fahrtreppen",
+          "anzahl": 1
+        },
+        {
+          "name": "Instrumente (ärztl.)",
+          "anzahl": 1
+        },
+        {
+          "name": "Kolonialw.-Großhandelsvertr.",
+          "anzahl": 1
+        },
+        {
+          "name": "Seilerwar.",
+          "anzahl": 1
+        },
+        {
+          "name": "Rosenkranz & Droop A.-G.",
+          "anzahl": 1
+        },
+        {
+          "name": "Auto-Verkauf",
+          "anzahl": 1
+        },
+        {
+          "name": "Neue Zeit",
+          "anzahl": 1
+        },
+        {
+          "name": "Hauptvertr. d. Thuringia",
+          "anzahl": 1
+        },
+        {
+          "name": "Gegr. 1880",
+          "anzahl": 1
+        },
+        {
+          "name": "Essener Karosseriewerkstätten",
+          "anzahl": 1
+        },
+        {
+          "name": "Gust. Kellner Söhne GmbH",
+          "anzahl": 1
+        },
+        {
+          "name": "Erst u. einzige Geldschrankfabr. am Platze",
+          "anzahl": 1
+        },
+        {
+          "name": "Druckfarben (für die graph. Industrie)",
+          "anzahl": 1
+        },
+        {
+          "name": "Steinputz",
+          "anzahl": 1
+        },
+        {
+          "name": "früher Philipp Knodt",
+          "anzahl": 1
+        },
+        {
+          "name": "Bauaustrocknung",
+          "anzahl": 1
+        },
+        {
+          "name": "vorm. Michel Nachf.",
+          "anzahl": 1
+        },
+        {
+          "name": "Bau- u. Sparverein",
+          "anzahl": 1
+        },
+        {
+          "name": "Gem. Siedlungsgen. e.GmbH.",
+          "anzahl": 1
+        },
+        {
+          "name": "Einheitspreis-A.-G.",
+          "anzahl": 1
+        },
+        {
+          "name": "Pianohandlung",
+          "anzahl": 1
+        },
+        {
+          "name": "Industrie- u. Baubedarf G.m.b.H.",
+          "anzahl": 1
+        },
+        {
+          "name": "Besohlanstalt",
+          "anzahl": 1
+        },
+        {
+          "name": "Getränke-Industrie",
+          "anzahl": 1
+        },
+        {
+          "name": "Glasmalerei u. Bleiverglasung",
+          "anzahl": 1
+        },
+        {
+          "name": "Kaufmännische Privatschule",
+          "anzahl": 1
+        },
+        {
+          "name": "Kunststeine",
+          "anzahl": 1
+        },
+        {
+          "name": "Essener Stadtbrunnen",
+          "anzahl": 1
+        },
+        {
+          "name": "Vertr. Wilh. Marx & Co.",
+          "anzahl": 1
+        },
+        {
+          "name": "Pfandvermittl.",
+          "anzahl": 1
+        },
+        {
+          "name": "Wohnungsnachweis",
+          "anzahl": 1
+        },
+        {
+          "name": "Karnevalsartikel",
+          "anzahl": 1
+        },
+        {
+          "name": "Autogene Schweiß- und Schneidapparate",
+          "anzahl": 1
+        },
+        {
+          "name": "Schweiß- und Schneideapparate",
+          "anzahl": 1
+        },
+        {
+          "name": "Gaststätte \"Zum Dortmunder\"",
+          "anzahl": 1
+        },
+        {
+          "name": "Schuhhandelvertretungen",
+          "anzahl": 1
+        },
+        {
+          "name": "Maico Ventilatoren",
+          "anzahl": 1
+        },
+        {
+          "name": "Kohlensäuredüngeanlagen",
+          "anzahl": 1
+        },
+        {
+          "name": "Gas- u. Wärmetechnik",
+          "anzahl": 1
+        },
+        {
+          "name": "Glasdächer",
+          "anzahl": 1
+        },
+        {
+          "name": "Verkaufsbüro Essen G.m.b.H.",
+          "anzahl": 1
+        },
+        {
+          "name": "Bearbeitung v. Unfall u. Haftpflichtschäden",
+          "anzahl": 1
+        },
+        {
+          "name": "Leuchtspiegel",
+          "anzahl": 1
+        },
+        {
+          "name": "Gemeinnützige Akt. Ges. f. Angest.-Heimstätten",
+          "anzahl": 1
+        },
+        {
+          "name": "Kontrollkassen",
+          "anzahl": 1
+        },
+        {
+          "name": "Registrier-Kassen",
+          "anzahl": 1
+        },
+        {
+          "name": "A. & K. Rosenthal Nachf.",
+          "anzahl": 1
+        },
+        {
+          "name": "Näh- u. Wollseide",
+          "anzahl": 1
+        },
+        {
+          "name": "Gegr. 1857",
+          "anzahl": 1
+        },
+        {
+          "name": "Direktor des Drägerwerks Lübeck",
+          "anzahl": 1
+        },
+        {
+          "name": "Schwellen",
+          "anzahl": 1
+        },
+        {
+          "name": "G. Hausherr",
+          "anzahl": 1
+        },
+        {
+          "name": "Heimarbeiten",
+          "anzahl": 1
+        },
+        {
+          "name": "Hamburg",
+          "anzahl": 1
+        },
+        {
+          "name": "Spez.: Drei-Türken-Kaffee",
+          "anzahl": 1
+        },
+        {
+          "name": "\"Hammer\"-Faltboote u. Zelte",
+          "anzahl": 1
+        },
+        {
+          "name": "Ausrüstungen",
+          "anzahl": 1
+        },
+        {
+          "name": "Holz (Grubenholz)",
+          "anzahl": 1
+        },
+        {
+          "name": "Holzhandelsges. Gottf. Marx & Co.",
+          "anzahl": 1
+        },
+        {
+          "name": "Imm.- u. Geschäftsverk.",
+          "anzahl": 1
+        },
+        {
+          "name": "Feinwerk",
+          "anzahl": 1
+        },
+        {
+          "name": "Wälzlager jeder Art u. Größe",
+          "anzahl": 1
+        },
+        {
+          "name": "Gegr. 1934",
+          "anzahl": 1
+        },
+        {
+          "name": "städt. Veterinärrat",
+          "anzahl": 1
+        },
+        {
+          "name": "Wasserd.",
+          "anzahl": 1
+        },
+        {
+          "name": "Feinmechan. Werkstatt für Laborgeräte",
+          "anzahl": 1
+        },
+        {
+          "name": "Lautenlehrer",
+          "anzahl": 1
+        },
+        {
+          "name": "Das reelle Fachgeschäft",
+          "anzahl": 1
+        },
+        {
+          "name": "Gegr. 1871",
+          "anzahl": 1
+        },
+        {
+          "name": "Ges. m. b. H.",
+          "anzahl": 1
+        },
+        {
+          "name": "Essener Paramentenhaus",
+          "anzahl": 1
+        },
+        {
+          "name": "Levys Schuhbazar",
+          "anzahl": 1
+        },
+        {
+          "name": "(Stadt.organisation der)",
+          "anzahl": 1
+        },
+        {
+          "name": "Sauerkraut",
+          "anzahl": 1
+        },
+        {
+          "name": "Zweck-Spar-Unternehmung",
+          "anzahl": 1
+        },
+        {
+          "name": "Schachtabteufen",
+          "anzahl": 1
+        },
+        {
+          "name": "\"Tenax\"-Vertrieb",
+          "anzahl": 1
+        },
+        {
+          "name": "Wihl. Zur Nieden",
+          "anzahl": 1
+        },
+        {
+          "name": "Langenberg (Rhld.)",
+          "anzahl": 1
+        },
+        {
+          "name": "Messing",
+          "anzahl": 1
+        },
+        {
+          "name": "Abt. Gaswerke",
+          "anzahl": 1
+        },
+        {
+          "name": "Vertrieb",
+          "anzahl": 1
+        },
+        {
+          "name": "gepr. Marken u. Abzeichen",
+          "anzahl": 1
+        },
+        {
+          "name": "Schaufenstergestalter",
+          "anzahl": 1
+        },
+        {
+          "name": "gegr. 1892",
+          "anzahl": 1
+        },
+        {
+          "name": "Zylinderschleiferei",
+          "anzahl": 1
+        },
+        {
+          "name": "i. L.",
+          "anzahl": 1
+        },
+        {
+          "name": "vorm. J. Pollerberg",
+          "anzahl": 1
+        },
+        {
+          "name": "Schaufensterbüsten",
+          "anzahl": 1
+        },
+        {
+          "name": "Wanderer u. D.K.W.",
+          "anzahl": 1
+        },
+        {
+          "name": "Handarbeitsgarne",
+          "anzahl": 1
+        },
+        {
+          "name": "Städtischer Saalbau",
+          "anzahl": 1
+        },
+        {
+          "name": "Laboratoriumsartikel",
+          "anzahl": 1
+        },
+        {
+          "name": "Markisen- u. Scherengitter-Ubehörteile",
+          "anzahl": 1
+        },
+        {
+          "name": "Billardartikel",
+          "anzahl": 1
+        },
+        {
+          "name": "Privatlehrer",
+          "anzahl": 1
+        },
+        {
+          "name": "Treibriemen-Konservierungsmittel",
+          "anzahl": 1
+        },
+        {
+          "name": "Lehrmittel",
+          "anzahl": 1
+        },
+        {
+          "name": "F. Massenberg & Co.",
+          "anzahl": 1
+        },
+        {
+          "name": "Ph. vorm Walde",
+          "anzahl": 1
+        },
+        {
+          "name": "Hoffmann & Co.",
+          "anzahl": 1
+        },
+        {
+          "name": "D. W. B.",
+          "anzahl": 1
+        },
+        {
+          "name": "Chirurg. Gummiwr.",
+          "anzahl": 1
+        },
+        {
+          "name": "Autogene Schweißanlagen",
+          "anzahl": 1
+        },
+        {
+          "name": "Medizinische Apparate",
+          "anzahl": 1
+        },
+        {
+          "name": "vorm. Gulmler & Hirsch",
+          "anzahl": 1
+        },
+        {
+          "name": "Spez. Wachsaltarkerzen",
+          "anzahl": 1
+        },
+        {
+          "name": "Schallplatten",
+          "anzahl": 1
+        },
+        {
+          "name": "Salz",
+          "anzahl": 1
+        },
+        {
+          "name": "Abt. Vorwerk-Kobold",
+          "anzahl": 1
+        },
+        {
+          "name": "von der Industrie und Handelskammer öffentl. angest. f. Grundstücksbewertung u. Landeskultursach.",
+          "anzahl": 1
+        },
+        {
+          "name": "Chem. Anlagen",
+          "anzahl": 1
+        },
+        {
+          "name": "Pharmazeutisches Laboratorium",
+          "anzahl": 1
+        },
+        {
+          "name": "Oeffentl. Laboratorium",
+          "anzahl": 1
+        },
+        {
+          "name": "vorm. Puls & Co.",
+          "anzahl": 1
+        },
+        {
+          "name": "Industrie-Bedarf",
+          "anzahl": 1
+        },
+        {
+          "name": "Franz Heinr. Müller & Co.",
+          "anzahl": 1
+        },
+        {
+          "name": "Nickel",
+          "anzahl": 1
+        },
+        {
+          "name": "Ansichtspostkarten",
+          "anzahl": 1
+        },
+        {
+          "name": "Einheitliche Volks-  u. höhere Schule",
+          "anzahl": 1
+        },
+        {
+          "name": "Optikgroßhdlg.",
+          "anzahl": 1
+        },
+        {
+          "name": "Homöopathie",
+          "anzahl": 1
+        },
+        {
+          "name": "Eigenheim-Schau",
+          "anzahl": 1
+        },
+        {
+          "name": "Spielwaren",
+          "anzahl": 1
+        },
+        {
+          "name": "Militäreffekten",
+          "anzahl": 1
+        },
+        {
+          "name": "Auto-Verwertung",
+          "anzahl": 1
+        },
+        {
+          "name": "Bezirksverwaltung der Union- u. Rhein. Vers. A.-G.",
+          "anzahl": 1
+        },
+        {
+          "name": "Hennes",
+          "anzahl": 1
+        },
+        {
+          "name": "Krane und Hebezeuge",
+          "anzahl": 1
+        },
+        {
+          "name": "Einkaufsver. d. Kolonialwhdlr.",
+          "anzahl": 1
+        },
+        {
+          "name": "Mehrfach prämiiert. Eleg. Maßarbeit.",
+          "anzahl": 1
+        },
+        {
+          "name": "Klischee-Anfertigung",
+          "anzahl": 1
+        },
+        {
+          "name": "Ehevermittlung",
+          "anzahl": 1
+        },
+        {
+          "name": "Erze u. Abbrände",
+          "anzahl": 1
+        },
+        {
+          "name": "Türschließer",
+          "anzahl": 1
+        },
+        {
+          "name": "Spezial-Laboratorium für Urin-Untersuchung",
+          "anzahl": 1
+        },
+        {
+          "name": "Handels-Auskunftei",
+          "anzahl": 1
+        },
+        {
+          "name": "Lichthaus Süd",
+          "anzahl": 1
+        },
+        {
+          "name": "Direktor der Schulzahnklinik",
+          "anzahl": 1
+        },
+        {
+          "name": "Vertr. d. Aug. Blase A.-G.",
+          "anzahl": 1
+        },
+        {
+          "name": "Giebel- u. Großflächen-Rekl. Schildermalerei",
+          "anzahl": 1
+        },
+        {
+          "name": "Laden-  und Innenausbau",
+          "anzahl": 1
+        },
+        {
+          "name": "Kaufm. Privatschule",
+          "anzahl": 1
+        },
+        {
+          "name": "Apothke",
+          "anzahl": 1
+        },
+        {
+          "name": "Breslau",
+          "anzahl": 1
+        },
+        {
+          "name": "Almin-Faltbootwerft",
+          "anzahl": 1
+        },
+        {
+          "name": "Turn- und Sportgeräte",
+          "anzahl": 1
+        },
+        {
+          "name": "Galerieleisten",
+          "anzahl": 1
+        },
+        {
+          "name": "Vertreter der Dortmunder Union-Brauerei",
+          "anzahl": 1
+        },
+        {
+          "name": "Bier- und Mineralwasser-Großhdlg.",
+          "anzahl": 1
+        },
+        {
+          "name": "Zylinder- und Kurbelwellenschleiferei",
+          "anzahl": 1
+        },
+        {
+          "name": "Künstlerfarben",
+          "anzahl": 1
+        },
+        {
+          "name": "Joh. Rommel Nachf.",
+          "anzahl": 1
+        },
+        {
+          "name": "Wilh. Löber Nachf.",
+          "anzahl": 1
+        },
+        {
+          "name": "Leiterverkauf",
+          "anzahl": 1
+        },
+        {
+          "name": "Spez. Erstlingshemdchen",
+          "anzahl": 1
+        },
+        {
+          "name": "Rahmen und Leisten",
+          "anzahl": 1
+        },
+        {
+          "name": "Herm. Nix",
+          "anzahl": 1
+        },
+        {
+          "name": "Gegr. 1892",
+          "anzahl": 1
+        },
+        {
+          "name": "Staatl. genehm. Lehranstalt",
+          "anzahl": 1
+        },
+        {
+          "name": "Prismenoberlichte",
+          "anzahl": 1
+        },
+        {
+          "name": "Glasbeton",
+          "anzahl": 1
+        },
+        {
+          "name": "Kellereibedarf",
+          "anzahl": 1
+        },
+        {
+          "name": "Graphische Reparatur-Werkstätte",
+          "anzahl": 1
+        },
+        {
+          "name": "Manufaktur-",
+          "anzahl": 1
+        },
+        {
+          "name": "Bier- u. Mineralw.-Großhdlg.",
+          "anzahl": 1
+        },
+        {
+          "name": "Düngemittel",
+          "anzahl": 1
+        },
+        {
+          "name": "Holzbearbeitungswerkstatt",
+          "anzahl": 1
+        },
+        {
+          "name": "techn. Handelsges. m.b.H.",
+          "anzahl": 1
+        },
+        {
+          "name": "Uniformen für Behörden",
+          "anzahl": 1
+        },
+        {
+          "name": "Marmor",
+          "anzahl": 1
+        },
+        {
+          "name": "Special-Bettenhaus",
+          "anzahl": 1
+        },
+        {
+          "name": "Gerling-Konzern",
+          "anzahl": 1
+        },
+        {
+          "name": "Spezialfabrk. f. Gesch. Einricht.",
+          "anzahl": 1
+        },
+        {
+          "name": "(vorm. Gebrüder Paßmann A.G.)",
+          "anzahl": 1
+        },
+        {
+          "name": "Chemische Waschanstalt",
+          "anzahl": 1
+        },
+        {
+          "name": "Fabr. f. chem. Farb.",
+          "anzahl": 1
+        },
+        {
+          "name": "Grabmalkunst",
+          "anzahl": 1
+        },
+        {
+          "name": "eingetr. Siedlungsgen. m.b.H.",
+          "anzahl": 1
+        },
+        {
+          "name": "gemeinnützige Ges. m.b.H.",
+          "anzahl": 1
+        },
+        {
+          "name": "Schwanenspotheke",
+          "anzahl": 1
+        },
+        {
+          "name": "A.-G.",
+          "anzahl": 1
+        },
+        {
+          "name": "Groß-Eheanbahnungs-Institut",
+          "anzahl": 1
+        },
+        {
+          "name": "Putzlappen",
+          "anzahl": 1
+        },
+        {
+          "name": "Kom. Ges. \"Hanomag\" Gen.-Vertretung",
+          "anzahl": 1
+        },
+        {
+          "name": "Essener Dental-Depot",
+          "anzahl": 1
+        },
+        {
+          "name": "K. G.",
+          "anzahl": 1
+        },
+        {
+          "name": "Torpedo-Schreib-  u. Buchungsmasch.",
+          "anzahl": 1
+        },
+        {
+          "name": "Sachverst. f. d. engl. Sprache",
+          "anzahl": 1
+        },
+        {
+          "name": "Muller & Co.",
+          "anzahl": 1
+        },
+        {
+          "name": "Anf. von Bett-",
+          "anzahl": 1
+        },
+        {
+          "name": "Denneborg Nachf.",
+          "anzahl": 1
+        },
+        {
+          "name": "Vertretung in stationären",
+          "anzahl": 1
+        },
+        {
+          "name": "Wilh. Droste",
+          "anzahl": 1
+        },
+        {
+          "name": "Maschfbrk.",
+          "anzahl": 1
+        },
+        {
+          "name": "Zahn & Cie.",
+          "anzahl": 1
+        },
+        {
+          "name": "Gem.G.m.b.H.",
+          "anzahl": 1
+        },
+        {
+          "name": "Ausbildungsstätte für deutsche Gymnastik",
+          "anzahl": 1
+        },
+        {
+          "name": "Putz-Großhandlung",
+          "anzahl": 1
+        },
+        {
+          "name": "Telephonanlagen",
+          "anzahl": 1
+        },
+        {
+          "name": "Niederdräing Nachf.",
+          "anzahl": 1
+        },
+        {
+          "name": "Essener Puppen-Klinik",
+          "anzahl": 1
+        },
+        {
+          "name": "Die Wohnung",
+          "anzahl": 1
+        },
+        {
+          "name": "Schmilo Keilriementriebe",
+          "anzahl": 1
+        },
+        {
+          "name": "Heiz.",
+          "anzahl": 1
+        },
+        {
+          "name": "Graphologie",
+          "anzahl": 1
+        },
+        {
+          "name": "Wing-Oel",
+          "anzahl": 1
+        },
+        {
+          "name": "Orthop. Schuhe u. Einlagen n. patent. Verfahren",
+          "anzahl": 1
+        },
+        {
+          "name": "Höhere Privatschule",
+          "anzahl": 1
+        },
+        {
+          "name": "Buchhdlg.",
+          "anzahl": 1
+        },
+        {
+          "name": "Konzert und Tanz",
+          "anzahl": 1
+        },
+        {
+          "name": "Brennholz",
+          "anzahl": 1
+        },
+        {
+          "name": "PARIX",
+          "anzahl": 1
+        },
+        {
+          "name": "Telephonzellen",
+          "anzahl": 1
+        },
+        {
+          "name": "Detektivinstitute",
+          "anzahl": 1
+        },
+        {
+          "name": "Zwiegniederl. Essen",
+          "anzahl": 1
+        },
+        {
+          "name": "Holzindustrie",
+          "anzahl": 1
+        },
+        {
+          "name": "Frölich & Klüpfel",
+          "anzahl": 1
+        },
+        {
+          "name": "Neuanlagen u. sämtl. Reparaturen",
+          "anzahl": 1
+        },
+        {
+          "name": "Grob- u. Mittelstückbleche",
+          "anzahl": 1
+        },
+        {
+          "name": "Alben",
+          "anzahl": 1
+        },
+        {
+          "name": "Anzeigenvermittler",
+          "anzahl": 1
+        },
+        {
+          "name": "Dewag",
+          "anzahl": 1
+        },
+        {
+          "name": "Sandstrahlgebläse",
+          "anzahl": 1
+        },
+        {
+          "name": "Werkstatt",
+          "anzahl": 1
+        },
+        {
+          "name": "Büro-",
+          "anzahl": 1
+        },
+        {
+          "name": "Schaufenstereinrichtungen",
+          "anzahl": 1
+        },
+        {
+          "name": "Gerber",
+          "anzahl": 1
+        },
+        {
+          "name": "i. Liqui. K. G.",
+          "anzahl": 1
+        },
+        {
+          "name": "Früchte-Großhandlung",
+          "anzahl": 1
+        },
+        {
+          "name": "Westdeutsche Lehrmittel-Anstalt",
+          "anzahl": 1
+        },
+        {
+          "name": "Warenvertriebsges. m.b.H.",
+          "anzahl": 1
+        },
+        {
+          "name": "Gruben- u. Schnittholz",
+          "anzahl": 1
+        },
+        {
+          "name": "Anfertigen u. Rep. v. Lederwr.",
+          "anzahl": 1
+        },
+        {
+          "name": "Bielefelder Dampf-Waschanstalt",
+          "anzahl": 1
+        },
+        {
+          "name": "Vertr. d. Bonner Fahnenfabrk.",
+          "anzahl": 1
+        },
+        {
+          "name": "Teerstraßenbau",
+          "anzahl": 1
+        },
+        {
+          "name": "Büro",
+          "anzahl": 1
+        },
+        {
+          "name": "Organisationsleitung",
+          "anzahl": 1
+        },
+        {
+          "name": "Buch- u. Kunsthdlg.",
+          "anzahl": 1
+        },
+        {
+          "name": "Beerdigungs-Anstalt \"Palme\"",
+          "anzahl": 1
+        },
+        {
+          "name": "Klischees u. Entwürfe",
+          "anzahl": 1
+        },
+        {
+          "name": "Auslieferungsl. Essen",
+          "anzahl": 1
+        },
+        {
+          "name": "Ing. Büro",
+          "anzahl": 1
+        },
+        {
+          "name": "Benzol",
+          "anzahl": 1
+        },
+        {
+          "name": "kohlensäurewerke",
+          "anzahl": 1
+        },
+        {
+          "name": "Gegr. 1910",
+          "anzahl": 1
+        },
+        {
+          "name": "vereid. Landmesser und Kulturing.",
+          "anzahl": 1
+        },
+        {
+          "name": "Baumschule",
+          "anzahl": 1
+        },
+        {
+          "name": "Buch-",
+          "anzahl": 1
+        },
+        {
+          "name": "Definitiv-Kontroll-Buchhaltung",
+          "anzahl": 1
+        },
+        {
+          "name": "Gegr. 1876",
+          "anzahl": 1
+        },
+        {
+          "name": "gegr. 1910",
+          "anzahl": 1
+        },
+        {
+          "name": "schnell",
+          "anzahl": 1
+        },
+        {
+          "name": "Keramik",
+          "anzahl": 1
+        },
+        {
+          "name": "Malerei",
+          "anzahl": 1
+        },
+        {
+          "name": "Reinaluminium u. Legierungen",
+          "anzahl": 1
+        },
+        {
+          "name": "Zentrale",
+          "anzahl": 1
+        },
+        {
+          "name": "Indutr. Ab.",
+          "anzahl": 1
+        },
+        {
+          "name": "Bahnhofswirt",
+          "anzahl": 1
+        },
+        {
+          "name": "Privat-Frauen-Gewerbeschule",
+          "anzahl": 1
+        },
+        {
+          "name": "Menschenaugen",
+          "anzahl": 1
+        },
+        {
+          "name": "Bootswerften",
+          "anzahl": 1
+        },
+        {
+          "name": "Vertr. u. Lag. d. Cirine-Werke",
+          "anzahl": 1
+        },
+        {
+          "name": "bemusterte Off. oder Vertreterbesuch.",
+          "anzahl": 1
+        },
+        {
+          "name": "Eigene Werkstatt",
+          "anzahl": 1
+        },
+        {
+          "name": "Gegr. 1875",
+          "anzahl": 1
+        },
+        {
+          "name": "Joliherba Laboratorium für Arzneipflanzen-Verwertung",
+          "anzahl": 1
+        },
+        {
+          "name": "Rüther & Schuster G.m.b.H.",
+          "anzahl": 1
+        },
+        {
+          "name": "Flughafen-Gaststätte",
+          "anzahl": 1
+        },
+        {
+          "name": "Körperübungen im Säuglings- und Kindesalter nach Neumann-Neurode",
+          "anzahl": 1
+        },
+        {
+          "name": "Abiturienten-Examen",
+          "anzahl": 1
+        },
+        {
+          "name": "Früchte-Vertrieb",
+          "anzahl": 1
+        },
+        {
+          "name": "gegründet 1872",
+          "anzahl": 1
+        },
+        {
+          "name": "Spez. Werkstätten für neuzeitl. Büroeinrichtungen",
+          "anzahl": 1
+        },
+        {
+          "name": "B. D. K.",
+          "anzahl": 1
+        },
+        {
+          "name": "Kibu",
+          "anzahl": 1
+        },
+        {
+          "name": "Vorwerk",
+          "anzahl": 1
+        },
+        {
+          "name": "Bergadko",
+          "anzahl": 1
+        },
+        {
+          "name": "Spezialit.: Kräuter in Tabl.-Form u. flüssig",
+          "anzahl": 1
+        },
+        {
+          "name": "Industriebau",
+          "anzahl": 1
+        },
+        {
+          "name": "H. Fenners GmbH",
+          "anzahl": 1
+        },
+        {
+          "name": "Schlackenverwertung",
+          "anzahl": 1
+        },
+        {
+          "name": "seit 1910",
+          "anzahl": 1
+        },
+        {
+          "name": "Hauptgeschäftsst.",
+          "anzahl": 1
+        },
+        {
+          "name": "geprüftes Mitglied des Reichsverbandes",
+          "anzahl": 1
+        },
+        {
+          "name": "Essener Fahrzeug- u. Apparatebau",
+          "anzahl": 1
+        },
+        {
+          "name": "P. Lang & Co.",
+          "anzahl": 1
+        },
+        {
+          "name": "Glasätzerei",
+          "anzahl": 1
+        },
+        {
+          "name": "Bau u. Reparatur v. Heizwiderständen",
+          "anzahl": 1
+        },
+        {
+          "name": "Öffentliches Handels-Laboratorium",
+          "anzahl": 1
+        },
+        {
+          "name": "Beizen",
+          "anzahl": 1
+        },
+        {
+          "name": "Sandstrahlentrostung",
+          "anzahl": 1
+        },
+        {
+          "name": "A. G.",
+          "anzahl": 1
+        },
+        {
+          "name": "Akt.-Ges.",
+          "anzahl": 1
+        },
+        {
+          "name": "vorm. Rudolf Schütz m.b.H.",
+          "anzahl": 1
+        },
+        {
+          "name": "Schleifmittelwerke",
+          "anzahl": 1
+        },
+        {
+          "name": "Gegr. 1898",
+          "anzahl": 1
+        },
+        {
+          "name": "Ver. Ess. Lichtpause-Anstalten G.m.b.H.",
+          "anzahl": 1
+        },
+        {
+          "name": "Theater- und Konzertunternehmung",
+          "anzahl": 1
+        },
+        {
+          "name": "Leichenfuhrwesen",
+          "anzahl": 1
+        },
+        {
+          "name": "Dürkopp-Spez. Nähmasch.",
+          "anzahl": 1
+        },
+        {
+          "name": "Union-Heißwasserapparate",
+          "anzahl": 1
+        },
+        {
+          "name": "Tief- und Straßenbau",
+          "anzahl": 1
+        },
+        {
+          "name": "en gros",
+          "anzahl": 1
+        },
+        {
+          "name": "Detektei und Auskunftei",
+          "anzahl": 1
+        },
+        {
+          "name": "Wein- u. Pilsstube",
+          "anzahl": 1
+        },
+        {
+          "name": "Bau-  u. Reparatur",
+          "anzahl": 1
+        },
+        {
+          "name": "sonstige Gymnastiklehranstalt (Private)",
+          "anzahl": 1
+        },
+        {
+          "name": "Fußpflegeartikel",
+          "anzahl": 1
+        },
+        {
+          "name": "Schlackenbrecherei",
+          "anzahl": 1
+        },
+        {
+          "name": "Repratur-Werkstätte",
+          "anzahl": 1
+        },
+        {
+          "name": "Carl AntonApparatebau",
+          "anzahl": 1
+        },
+        {
+          "name": "Westdeutsche Industriewärme",
+          "anzahl": 1
+        },
+        {
+          "name": "Sackgroßhdlg.",
+          "anzahl": 1
+        },
+        {
+          "name": "Füllhalter",
+          "anzahl": 1
+        },
+        {
+          "name": "Kameramann",
+          "anzahl": 1
+        },
+        {
+          "name": "Korken",
+          "anzahl": 1
+        },
+        {
+          "name": "Brauerei- und Brennereibedarf",
+          "anzahl": 1
+        },
+        {
+          "name": "Stuckgesch.",
+          "anzahl": 1
+        },
+        {
+          "name": "Schüler & Vershoven",
+          "anzahl": 1
+        },
+        {
+          "name": "Lager in Leder- u. Knochenleim",
+          "anzahl": 1
+        },
+        {
+          "name": "Leim",
+          "anzahl": 1
+        },
+        {
+          "name": "Schuhhaus",
+          "anzahl": 1
+        },
+        {
+          "name": "Ovzareck & Co.",
+          "anzahl": 1
+        },
+        {
+          "name": "Westdeutsche Oelhandelsgesellschaft",
+          "anzahl": 1
+        },
+        {
+          "name": "Glas-",
+          "anzahl": 1
+        },
+        {
+          "name": "Provinzial-Feuer- u. Lebensvers.-Anstalt d. Rheinprovinz",
+          "anzahl": 1
+        },
+        {
+          "name": "Verkaufsbüro Essen",
+          "anzahl": 1
+        },
+        {
+          "name": "Bürohaus",
+          "anzahl": 1
+        },
+        {
+          "name": "Luftfilter",
+          "anzahl": 1
+        },
+        {
+          "name": "Zweigniederlassung der EOS u. EXCELSIOR",
+          "anzahl": 1
+        },
+        {
+          "name": "Baumaterialien",
+          "anzahl": 1
+        },
+        {
+          "name": "Zweigst. Essen",
+          "anzahl": 1
+        },
+        {
+          "name": "Steuerberater",
+          "anzahl": 1
+        },
+        {
+          "name": "Brunnen-Großhandlung",
+          "anzahl": 1
+        },
+        {
+          "name": "Großeinkaufsverb.",
+          "anzahl": 1
+        },
+        {
+          "name": "Rhein. Edelbowle G.m.b.H.",
+          "anzahl": 1
+        },
+        {
+          "name": "Husmann & Co.",
+          "anzahl": 1
+        },
+        {
+          "name": "Bühnenbau",
+          "anzahl": 1
+        },
+        {
+          "name": "Ruhrtaler Bauindustrie",
+          "anzahl": 1
+        },
+        {
+          "name": "Pharmazeutisches General-Depot",
+          "anzahl": 1
+        },
+        {
+          "name": "Schaufeln",
+          "anzahl": 1
+        },
+        {
+          "name": "Kupferrohre",
+          "anzahl": 1
+        },
+        {
+          "name": "Lager in Strumpfwaren",
+          "anzahl": 1
+        },
+        {
+          "name": "Lager",
+          "anzahl": 1
+        },
+        {
+          "name": "Zahnräder aller Art",
+          "anzahl": 1
+        },
+        {
+          "name": "Deutsche Vertriebsstelle Rhein und Ruhr",
+          "anzahl": 1
+        },
+        {
+          "name": "Fahnenstangen",
+          "anzahl": 1
+        },
+        {
+          "name": "beeid. v. d. Reg. best. Sachverständ. Unt. staatl. Aufsicht gepr.",
+          "anzahl": 1
+        },
+        {
+          "name": "beeidigt. Sachv. f. Kaross.- u. Wagenbau",
+          "anzahl": 1
+        },
+        {
+          "name": "Weine",
+          "anzahl": 1
+        },
+        {
+          "name": "Celle",
+          "anzahl": 1
+        },
+        {
+          "name": "Braun & Co.",
+          "anzahl": 1
+        },
+        {
+          "name": "Andernach",
+          "anzahl": 1
+        },
+        {
+          "name": "Mitglied der Reichskammer der bildenden Künste-B. d. B.",
+          "anzahl": 1
+        },
+        {
+          "name": "Gegr. 1872",
+          "anzahl": 1
+        },
+        {
+          "name": "Sprengarbeiten",
+          "anzahl": 1
+        },
+        {
+          "name": "Dampf-Straßenwalzenbetrieb",
+          "anzahl": 1
+        },
+        {
+          "name": "Feuerwerkskörper",
+          "anzahl": 1
+        },
+        {
+          "name": "Werkstatt f. dekor. Malerei u. Anstrich",
+          "anzahl": 1
+        },
+        {
+          "name": "Gegr. 1874",
+          "anzahl": 1
+        },
+        {
+          "name": "Gegr. 1909",
+          "anzahl": 1
+        },
+        {
+          "name": "Gegr. 1900",
+          "anzahl": 1
+        },
+        {
+          "name": "Werkst.",
+          "anzahl": 1
+        },
+        {
+          "name": "Musikseminar",
+          "anzahl": 1
+        },
+        {
+          "name": "Inh. Booth & Tegeler",
+          "anzahl": 1
+        },
+        {
+          "name": "Vertretung: Dortmunder Union-Bier",
+          "anzahl": 1
+        },
+        {
+          "name": "vorm. Herm. Möllhoff",
+          "anzahl": 1
+        },
+        {
+          "name": "Werkst. f. künstl. Bildnisse",
+          "anzahl": 1
+        },
+        {
+          "name": "Handelsgesellschaft m.b.H.",
+          "anzahl": 1
+        },
+        {
+          "name": "Erstes Detektiv-Institut des Ruhrgebietes",
+          "anzahl": 1
+        },
+        {
+          "name": "Luftfilterbau",
+          "anzahl": 1
+        },
+        {
+          "name": "Höhere Privatschule u. Vorschule",
+          "anzahl": 1
+        },
+        {
+          "name": "Joghurterzeugnisse",
+          "anzahl": 1
+        },
+        {
+          "name": "Gegr. 1865",
+          "anzahl": 1
+        },
+        {
+          "name": "Import-Haus",
+          "anzahl": 1
+        },
+        {
+          "name": "Spezialh. f. mod. Wohnräume",
+          "anzahl": 1
+        },
+        {
+          "name": "Weingutsbes.",
+          "anzahl": 1
+        },
+        {
+          "name": "Biergroßhandlung",
+          "anzahl": 1
+        },
+        {
+          "name": "Bootswerft",
+          "anzahl": 1
+        },
+        {
+          "name": "Ob. Ingen.",
+          "anzahl": 1
+        },
+        {
+          "name": "Gemeinn. Wohnungsbaugen. d. Kinderr. u. Wohnungsbauförderer e.G.m.b.H.",
+          "anzahl": 1
+        },
+        {
+          "name": "Groß-Zylinder-  und Kurbelwellenschleiferei",
+          "anzahl": 1
+        },
+        {
+          "name": "Dichtungs- und Packungsmaterial",
+          "anzahl": 1
+        },
+        {
+          "name": "vorm. Sägewerk \"Graf Beust\"",
+          "anzahl": 1
+        },
+        {
+          "name": "Scheuerpulver \"K 12\"",
+          "anzahl": 1
+        },
+        {
+          "name": "Deutsche Handelsges.",
+          "anzahl": 1
+        },
+        {
+          "name": "Baukeramik",
+          "anzahl": 1
+        },
+        {
+          "name": "Sämtl. Markenschokolad.",
+          "anzahl": 1
+        },
+        {
+          "name": "Gegr. 1914",
+          "anzahl": 1
+        },
+        {
+          "name": "Verkehrsunternehmung",
+          "anzahl": 1
+        },
+        {
+          "name": "Förderanlagen",
+          "anzahl": 1
+        },
+        {
+          "name": "Essener Privatgewerbeschule",
+          "anzahl": 1
+        },
+        {
+          "name": "chem. Laboratorium",
+          "anzahl": 1
+        },
+        {
+          "name": "Gummispezialhaus",
+          "anzahl": 1
+        },
+        {
+          "name": "Hollmann & Co.",
+          "anzahl": 1
+        },
+        {
+          "name": "vormals Ludw. van der Grinten",
+          "anzahl": 1
+        },
+        {
+          "name": "Anfertigung nach eigenen und gegebenen Entwürfen",
+          "anzahl": 1
+        },
+        {
+          "name": "Preßluftwerkz.",
+          "anzahl": 1
+        },
+        {
+          "name": "Neuanfertigung",
+          "anzahl": 1
+        },
+        {
+          "name": "M.E.R.",
+          "anzahl": 1
+        },
+        {
+          "name": "vorm. W. Hollstein",
+          "anzahl": 1
+        },
+        {
+          "name": "Torfit",
+          "anzahl": 1
+        },
+        {
+          "name": "in Liqu.",
+          "anzahl": 1
+        },
+        {
+          "name": "Cherusker",
+          "anzahl": 1
+        },
+        {
+          "name": "Steinholzwerke",
+          "anzahl": 1
+        },
+        {
+          "name": "Leitern",
+          "anzahl": 1
+        },
+        {
+          "name": "Zweiggesch.",
+          "anzahl": 1
+        },
+        {
+          "name": "orthop. Turnen",
+          "anzahl": 1
+        },
+        {
+          "name": "amtlich zugelassen",
+          "anzahl": 1
+        },
+        {
+          "name": "Gegr. 1919",
+          "anzahl": 1
+        },
+        {
+          "name": "Autozylinder- u. Kurbelwellen-Schleiferei",
+          "anzahl": 1
+        },
+        {
+          "name": "Christl. Hospiz",
+          "anzahl": 1
+        },
+        {
+          "name": "Rhenus",
+          "anzahl": 1
+        },
+        {
+          "name": "Rhein",
+          "anzahl": 1
+        },
+        {
+          "name": "beeidigt. Bausachverst.",
+          "anzahl": 1
+        }
+      ],
+      "gesamt": 3426
+    },
+    {
+      "id": "handel",
+      "label": "Handel & Kaufhaus",
+      "icon": "🏪",
+      "farbe": "#0891b2",
+      "branchen": [
+        {
+          "name": "Handlung",
+          "anzahl": 2070
+        },
+        {
+          "name": "Großhandlung",
+          "anzahl": 389
+        },
+        {
+          "name": "Zigarren-",
+          "anzahl": 308
+        },
+        {
+          "name": "Vertreter",
+          "anzahl": 193
+        },
+        {
+          "name": "Vermittlungsgeschäft",
+          "anzahl": 76
+        },
+        {
+          "name": "Viehagentur",
+          "anzahl": 19
+        },
+        {
+          "name": "Handelsvertreter",
+          "anzahl": 12
+        },
+        {
+          "name": "Großvermittlungsgeschäft",
+          "anzahl": 12
+        },
+        {
+          "name": "Versandgeschäft",
+          "anzahl": 11
+        },
+        {
+          "name": "Lotterieeinehmer",
+          "anzahl": 9
+        },
+        {
+          "name": "Groß-Handelsvertreter",
+          "anzahl": 7
+        },
+        {
+          "name": "Warenhaus",
+          "anzahl": 4
+        },
+        {
+          "name": "Reisebüro",
+          "anzahl": 2
+        },
+        {
+          "name": "Tabakwarengroßhandlung",
+          "anzahl": 2
+        },
+        {
+          "name": "Deutsches Familien-Kaufhaus GmbH",
+          "anzahl": 1
+        },
+        {
+          "name": "Essener Tabakwaren-Großvertr.",
+          "anzahl": 1
+        },
+        {
+          "name": "Agrippinia-Generalagentur",
+          "anzahl": 1
+        },
+        {
+          "name": "staatl. Lotterie-Einnahme",
+          "anzahl": 1
+        },
+        {
+          "name": "Framo-General-Vertreter",
+          "anzahl": 1
+        },
+        {
+          "name": "Abzahlungsgeschäft",
+          "anzahl": 1
+        },
+        {
+          "name": "Generalvertreter der Triumph-Schreibmaschine",
+          "anzahl": 1
+        },
+        {
+          "name": "Generalagentur der Centralboden",
+          "anzahl": 1
+        },
+        {
+          "name": "Tabakwaren-Großhandlung",
+          "anzahl": 1
+        },
+        {
+          "name": "Holzagentur- u. Kommissionsgeschäft",
+          "anzahl": 1
+        },
+        {
+          "name": "Zigarettenpapier",
+          "anzahl": 1
+        }
+      ],
+      "gesamt": 3125
+    },
+    {
+      "id": "textil",
+      "label": "Textil & Mode",
+      "icon": "✂️",
+      "farbe": "#7c3aed",
+      "branchen": [
+        {
+          "name": "Schneider für Herren",
+          "anzahl": 846
+        },
+        {
+          "name": "Schneiderin",
+          "anzahl": 161
+        },
+        {
+          "name": "Putzgeschäft",
+          "anzahl": 95
+        },
+        {
+          "name": "Schneider für Damen",
+          "anzahl": 91
+        },
+        {
+          "name": "Heißmangel",
+          "anzahl": 51
+        },
+        {
+          "name": "Baustoffe",
+          "anzahl": 49
+        },
+        {
+          "name": "Manufakturwaren",
+          "anzahl": 42
+        },
+        {
+          "name": "Weißwaren",
+          "anzahl": 42
+        },
+        {
+          "name": "Eisen- und Stahlkurzwaren",
+          "anzahl": 39
+        },
+        {
+          "name": "Herren- u. Knaben-Kleidung",
+          "anzahl": 27
+        },
+        {
+          "name": "Damenkleidung",
+          "anzahl": 22
+        },
+        {
+          "name": "Glas- und Gebäudereinigung",
+          "anzahl": 17
+        },
+        {
+          "name": "Kürschner",
+          "anzahl": 16
+        },
+        {
+          "name": "Schneiderbedarf",
+          "anzahl": 13
+        },
+        {
+          "name": "Stickerei",
+          "anzahl": 12
+        },
+        {
+          "name": "Pelze",
+          "anzahl": 11
+        },
+        {
+          "name": "Modewaren",
+          "anzahl": 10
+        },
+        {
+          "name": "Kunststopferei",
+          "anzahl": 10
+        },
+        {
+          "name": "Berufskleidung",
+          "anzahl": 7
+        },
+        {
+          "name": "Strickwaren",
+          "anzahl": 6
+        },
+        {
+          "name": "Futterstoffe",
+          "anzahl": 5
+        },
+        {
+          "name": "Sprengstoffe",
+          "anzahl": 5
+        },
+        {
+          "name": "Färberei",
+          "anzahl": 5
+        },
+        {
+          "name": "Handschuhe",
+          "anzahl": 4
+        },
+        {
+          "name": "Blitzableiter und Blitzschutzanlagen",
+          "anzahl": 4
+        },
+        {
+          "name": "Modelle",
+          "anzahl": 4
+        },
+        {
+          "name": "Straßenbaustoffe",
+          "anzahl": 4
+        },
+        {
+          "name": "Tuchgroßhandlung u. Versand",
+          "anzahl": 3
+        },
+        {
+          "name": "Möbel- und Dekorationsstoffe",
+          "anzahl": 3
+        },
+        {
+          "name": "Dampfkesselreinigung",
+          "anzahl": 3
+        },
+        {
+          "name": "Hutfabrik",
+          "anzahl": 3
+        },
+        {
+          "name": "Tuchhaus",
+          "anzahl": 2
+        },
+        {
+          "name": "Schule für vornehme u. moderne Tanzkunst",
+          "anzahl": 2
+        },
+        {
+          "name": "Gasreinigungsanlagen",
+          "anzahl": 2
+        },
+        {
+          "name": "Verbandstoffe",
+          "anzahl": 2
+        },
+        {
+          "name": "Steinbruchbetrieb u. Baustoffe",
+          "anzahl": 2
+        },
+        {
+          "name": "Gas- und Luftschutzgeräte",
+          "anzahl": 2
+        },
+        {
+          "name": "Bierdruckanlag. und Reinigung",
+          "anzahl": 2
+        },
+        {
+          "name": "Putzwolle",
+          "anzahl": 2
+        },
+        {
+          "name": "Spezialg.: Blitzschutzanlagen und Schornsteinbau",
+          "anzahl": 2
+        },
+        {
+          "name": "Parkettfußbodenreinigung",
+          "anzahl": 2
+        },
+        {
+          "name": "Wolle",
+          "anzahl": 2
+        },
+        {
+          "name": "Schneiderei",
+          "anzahl": 1
+        },
+        {
+          "name": "Kürschnermstr.",
+          "anzahl": 1
+        },
+        {
+          "name": "Staubschutzgeräte",
+          "anzahl": 1
+        },
+        {
+          "name": "Anfertigung v. Schutzkleidung",
+          "anzahl": 1
+        },
+        {
+          "name": "Patent- u. Gießereimodelle",
+          "anzahl": 1
+        },
+        {
+          "name": "Schaufensterdekorationsstoffe",
+          "anzahl": 1
+        },
+        {
+          "name": "auch Baustoffe",
+          "anzahl": 1
+        },
+        {
+          "name": "Tuchgroßhdlg.",
+          "anzahl": 1
+        },
+        {
+          "name": "Modellbau- und feinmechan. Werkstätte",
+          "anzahl": 1
+        },
+        {
+          "name": "Patent- u. Miniaturmodelle",
+          "anzahl": 1
+        },
+        {
+          "name": "Schneider für Herren u. Damen",
+          "anzahl": 1
+        },
+        {
+          "name": "Berufshandschuhe u. Putzlappen",
+          "anzahl": 1
+        },
+        {
+          "name": "Textilvertretg.",
+          "anzahl": 1
+        },
+        {
+          "name": "Glas- u. Gebäude-Reinigung",
+          "anzahl": 1
+        },
+        {
+          "name": "Glas- u. Baureinigungs-Institut",
+          "anzahl": 1
+        },
+        {
+          "name": "Mode-Korsetthaus",
+          "anzahl": 1
+        },
+        {
+          "name": "Spezial Umbauten und Modernisieren von Althäusern",
+          "anzahl": 1
+        },
+        {
+          "name": "Damen- und Herrenschneiderei",
+          "anzahl": 1
+        },
+        {
+          "name": "Großwäscherei für Hauswäsche nach Gewicht",
+          "anzahl": 1
+        },
+        {
+          "name": "Schlackenwolle",
+          "anzahl": 1
+        },
+        {
+          "name": "Tuchgroßhandlung",
+          "anzahl": 1
+        },
+        {
+          "name": "Aeltestes Spezialhaus moderner Fußböden",
+          "anzahl": 1
+        },
+        {
+          "name": "Teppichreinigung",
+          "anzahl": 1
+        },
+        {
+          "name": "Wasserdichte Berufskleidung",
+          "anzahl": 1
+        },
+        {
+          "name": "Damenmoden feinster Richtung",
+          "anzahl": 1
+        },
+        {
+          "name": "Auto-Treibstoffe",
+          "anzahl": 1
+        },
+        {
+          "name": "Wasserreinigung",
+          "anzahl": 1
+        },
+        {
+          "name": "Sauerstoff-Rettungs- u. Behandlungsgeräte",
+          "anzahl": 1
+        },
+        {
+          "name": "Vertrieb sämtl. Elektrogeräte Reparaturen an Staubsaugern aller Modelle",
+          "anzahl": 1
+        },
+        {
+          "name": "Modellbau u. Holzbearbeitung",
+          "anzahl": 1
+        },
+        {
+          "name": "Haus- und Stärkewäsche",
+          "anzahl": 1
+        },
+        {
+          "name": "Schnittmuster u. Modezeitschr.",
+          "anzahl": 1
+        },
+        {
+          "name": "Modernealhambra",
+          "anzahl": 1
+        },
+        {
+          "name": "Vereid. Sachverständ. f. Bekleidung u. Stoffe",
+          "anzahl": 1
+        },
+        {
+          "name": "elegante Damenmoden",
+          "anzahl": 1
+        },
+        {
+          "name": "aus Persien (Reparaturen und Reinigung)",
+          "anzahl": 1
+        },
+        {
+          "name": "Werkst. f. mod. u. orth. Fußbekleidung",
+          "anzahl": 1
+        },
+        {
+          "name": "Strickwaren f. Kinder u. Damen",
+          "anzahl": 1
+        },
+        {
+          "name": "Gegr. 1908. Glas- und Gebäudereinigung",
+          "anzahl": 1
+        },
+        {
+          "name": "Schneidermstr.",
+          "anzahl": 1
+        },
+        {
+          "name": "Kunstharzpreßstoffe",
+          "anzahl": 1
+        },
+        {
+          "name": "Stickereien",
+          "anzahl": 1
+        },
+        {
+          "name": "Herren- und Knabenkleidung",
+          "anzahl": 1
+        },
+        {
+          "name": "Schneider",
+          "anzahl": 1
+        }
+      ],
+      "gesamt": 1676
+    },
+    {
+      "id": "nahrung",
+      "label": "Nahrung & Genuss",
+      "icon": "🍞",
+      "farbe": "#d97706",
+      "branchen": [
+        {
+          "name": "Bäcker",
+          "anzahl": 501
+        },
+        {
+          "name": "Metzger",
+          "anzahl": 451
+        },
+        {
+          "name": "Konditorei",
+          "anzahl": 149
+        },
+        {
+          "name": "Gemüsehandlung",
+          "anzahl": 113
+        },
+        {
+          "name": "Molkereierzeugnisse",
+          "anzahl": 24
+        },
+        {
+          "name": "Bäckerei- u. Konditoreibedarf",
+          "anzahl": 21
+        },
+        {
+          "name": "Mühlenbetrieb",
+          "anzahl": 15
+        },
+        {
+          "name": "Geflügelhandlung und Mästerei",
+          "anzahl": 14
+        },
+        {
+          "name": "Speiseeis",
+          "anzahl": 13
+        },
+        {
+          "name": "Mehl- u. Mühlenfabrikate",
+          "anzahl": 5
+        },
+        {
+          "name": "Metzgereibedarf",
+          "anzahl": 5
+        },
+        {
+          "name": "Metzger (Groß-)",
+          "anzahl": 4
+        },
+        {
+          "name": "Pferdemetzger",
+          "anzahl": 3
+        },
+        {
+          "name": "Margarine",
+          "anzahl": 3
+        },
+        {
+          "name": "Essigsprit",
+          "anzahl": 3
+        },
+        {
+          "name": "Senf",
+          "anzahl": 3
+        },
+        {
+          "name": "Fischbackstube",
+          "anzahl": 2
+        },
+        {
+          "name": "Milchwirtschaftliche Artikel",
+          "anzahl": 2
+        },
+        {
+          "name": "Honigkuchen",
+          "anzahl": 2
+        },
+        {
+          "name": "Mayonnaise- und Feinkostfabr.",
+          "anzahl": 2
+        },
+        {
+          "name": "Lebensmittelvertretungen",
+          "anzahl": 1
+        },
+        {
+          "name": "Delikatessenhaus Pütz",
+          "anzahl": 1
+        },
+        {
+          "name": "vormals Butterhandels-Ges. m.b.H.",
+          "anzahl": 1
+        },
+        {
+          "name": "Sämtliche Markenschokoladen",
+          "anzahl": 1
+        },
+        {
+          "name": "Warburger Brotfabrik",
+          "anzahl": 1
+        },
+        {
+          "name": "Einkaufsverein der Kolonialwarenhändler e.G.m.b.H.",
+          "anzahl": 1
+        },
+        {
+          "name": "Fleischerei-Maschinen",
+          "anzahl": 1
+        },
+        {
+          "name": "Geflügelhof \"Jägerhof\"",
+          "anzahl": 1
+        },
+        {
+          "name": "Spezialvermittlung in Bäckereien",
+          "anzahl": 1
+        },
+        {
+          "name": "Fisch- u. Hering-Großhdlg.",
+          "anzahl": 1
+        },
+        {
+          "name": "Fabrik-Vertreter d. Süßwarenbranche",
+          "anzahl": 1
+        },
+        {
+          "name": "Brotfabrik",
+          "anzahl": 1
+        },
+        {
+          "name": "Rhein. Kauth. f. Lebensmittel",
+          "anzahl": 1
+        },
+        {
+          "name": "Kolonialwaren-Großhandelsvertreter",
+          "anzahl": 1
+        },
+        {
+          "name": "Bäckereimaschinen und -geräte",
+          "anzahl": 1
+        },
+        {
+          "name": "Feinkost",
+          "anzahl": 1
+        },
+        {
+          "name": "Alenessener Brotfabrik",
+          "anzahl": 1
+        },
+        {
+          "name": "Fleischwarenfabrik",
+          "anzahl": 1
+        },
+        {
+          "name": "Konserven",
+          "anzahl": 1
+        },
+        {
+          "name": "Brotfabrik und Konditorei",
+          "anzahl": 1
+        },
+        {
+          "name": "Rolladen- u. Markisenfabrik",
+          "anzahl": 1
+        },
+        {
+          "name": "Lebensmittel",
+          "anzahl": 1
+        },
+        {
+          "name": "Hoffmann's Lebensmittel-Spezialhaus",
+          "anzahl": 1
+        }
+      ],
+      "gesamt": 1358
+    },
+    {
+      "id": "gastronomie",
+      "label": "Gastronomie",
+      "icon": "🍺",
+      "farbe": "#b45309",
+      "branchen": [
+        {
+          "name": "Schankwirt",
+          "anzahl": 816
+        },
+        {
+          "name": "Gastwirt",
+          "anzahl": 248
+        },
+        {
+          "name": "Kaffeehaus",
+          "anzahl": 54
+        },
+        {
+          "name": "Trinkhallenbetrieb",
+          "anzahl": 41
+        },
+        {
+          "name": "Hotel und verwandter Großbetrieb",
+          "anzahl": 22
+        },
+        {
+          "name": "Weinstube",
+          "anzahl": 8
+        },
+        {
+          "name": "Pension",
+          "anzahl": 6
+        },
+        {
+          "name": "Wirtschaftsprüfer",
+          "anzahl": 4
+        },
+        {
+          "name": "Landwirtschaftl. Maschinen",
+          "anzahl": 2
+        },
+        {
+          "name": "Ingenieurbüro für Wärmewirtschaft",
+          "anzahl": 1
+        },
+        {
+          "name": "rituelle Pension",
+          "anzahl": 1
+        },
+        {
+          "name": "Hotelwäsche",
+          "anzahl": 1
+        },
+        {
+          "name": "Wirtschaftsprüfungs-Akt.-Ges.",
+          "anzahl": 1
+        },
+        {
+          "name": "Bahnhofswirtschaft",
+          "anzahl": 1
+        }
+      ],
+      "gesamt": 1206
+    },
+    {
+      "id": "koerperpflege",
+      "label": "Körperpflege & Gesundheit",
+      "icon": "💈",
+      "farbe": "#0f766e",
+      "branchen": [
+        {
+          "name": "Friseur",
+          "anzahl": 503
+        },
+        {
+          "name": "Hebamme",
+          "anzahl": 155
+        },
+        {
+          "name": "Friseur für Damen",
+          "anzahl": 93
+        },
+        {
+          "name": "Heilpraktiker",
+          "anzahl": 49
+        },
+        {
+          "name": "Masseur und Masseuse",
+          "anzahl": 23
+        },
+        {
+          "name": "Optiker und optische Waren",
+          "anzahl": 11
+        },
+        {
+          "name": "Parfümerie",
+          "anzahl": 10
+        },
+        {
+          "name": "Zahntechnisches Laboratorium",
+          "anzahl": 9
+        },
+        {
+          "name": "Friseurbedarf",
+          "anzahl": 7
+        },
+        {
+          "name": "Reformhaus",
+          "anzahl": 6
+        },
+        {
+          "name": "Adler-Apotheke",
+          "anzahl": 6
+        },
+        {
+          "name": "Apotheke",
+          "anzahl": 5
+        },
+        {
+          "name": "Badeanstalt",
+          "anzahl": 4
+        },
+        {
+          "name": "Löwen-Apotheke",
+          "anzahl": 3
+        },
+        {
+          "name": "Engel-Apotheke",
+          "anzahl": 2
+        },
+        {
+          "name": "Bandagist",
+          "anzahl": 2
+        },
+        {
+          "name": "Central-Drogerie",
+          "anzahl": 2
+        },
+        {
+          "name": "Stern-Apotheke",
+          "anzahl": 2
+        },
+        {
+          "name": "Krankenpflegeartikel",
+          "anzahl": 2
+        },
+        {
+          "name": "Germania-Apotheke",
+          "anzahl": 2
+        },
+        {
+          "name": "Damen- u. Herren-Friseur",
+          "anzahl": 1
+        },
+        {
+          "name": "Falken-Apotheke",
+          "anzahl": 1
+        },
+        {
+          "name": "Kapuziner-Apotheke",
+          "anzahl": 1
+        },
+        {
+          "name": "Alfredshof-Apotheke",
+          "anzahl": 1
+        },
+        {
+          "name": "Medizinal-Drogerie",
+          "anzahl": 1
+        },
+        {
+          "name": "Hirsch-Apotheke",
+          "anzahl": 1
+        },
+        {
+          "name": "Irmgard-Drogerie",
+          "anzahl": 1
+        },
+        {
+          "name": "Knappen-Drogerie",
+          "anzahl": 1
+        },
+        {
+          "name": "Süd-Apotheke",
+          "anzahl": 1
+        },
+        {
+          "name": "Marien-Apotheke",
+          "anzahl": 1
+        },
+        {
+          "name": "Berg-Apotheke",
+          "anzahl": 1
+        },
+        {
+          "name": "Schiller-Apotheke",
+          "anzahl": 1
+        },
+        {
+          "name": "Westd. Park.-  u. Seifen-Ind. A.-G.",
+          "anzahl": 1
+        },
+        {
+          "name": "Stadtwald-Apotheke",
+          "anzahl": 1
+        },
+        {
+          "name": "Reichsadler-Apotheke",
+          "anzahl": 1
+        },
+        {
+          "name": "Flora-Apotheke",
+          "anzahl": 1
+        },
+        {
+          "name": "Schwanen-Apotheke",
+          "anzahl": 1
+        },
+        {
+          "name": "Herkules-Apotheke",
+          "anzahl": 1
+        },
+        {
+          "name": "Medizinal-Helenen-Drogerie",
+          "anzahl": 1
+        },
+        {
+          "name": "Einhorn-Apotheke",
+          "anzahl": 1
+        },
+        {
+          "name": "Bandagisten",
+          "anzahl": 1
+        },
+        {
+          "name": "Elisabeth-Drogerie",
+          "anzahl": 1
+        },
+        {
+          "name": "Glückauf-Drogerie",
+          "anzahl": 1
+        },
+        {
+          "name": "Sonnen-Apotheke",
+          "anzahl": 1
+        },
+        {
+          "name": "Adler-Drogerie am Steinplatz",
+          "anzahl": 1
+        },
+        {
+          "name": "Friseurfachschule",
+          "anzahl": 1
+        },
+        {
+          "name": "Bürsten und Seifen",
+          "anzahl": 1
+        },
+        {
+          "name": "Glückauf-Apotheke",
+          "anzahl": 1
+        },
+        {
+          "name": "Eichen-Apotheke",
+          "anzahl": 1
+        },
+        {
+          "name": "Hasen-Apotheke",
+          "anzahl": 1
+        },
+        {
+          "name": "Bahnhof-Apotheke",
+          "anzahl": 1
+        },
+        {
+          "name": "Apotheke z. schwarzen Adler",
+          "anzahl": 1
+        },
+        {
+          "name": "Kronen-Apotheke",
+          "anzahl": 1
+        },
+        {
+          "name": "staatl. gepr. Optiker",
+          "anzahl": 1
+        },
+        {
+          "name": "Kreuzapotheke",
+          "anzahl": 1
+        },
+        {
+          "name": "Hohenzollern-Apotheke",
+          "anzahl": 1
+        },
+        {
+          "name": "Friseureinrichtungen u. -apparate",
+          "anzahl": 1
+        },
+        {
+          "name": "Drogerie z. Weißen Kreuz",
+          "anzahl": 1
+        },
+        {
+          "name": "Kreuz-Drogerie",
+          "anzahl": 1
+        },
+        {
+          "name": "Bahnhof-West-Drogerie u. Kräuterhaus",
+          "anzahl": 1
+        },
+        {
+          "name": "Hansa-Apotheke",
+          "anzahl": 1
+        },
+        {
+          "name": "Frohnhauser Apotheke",
+          "anzahl": 1
+        },
+        {
+          "name": "Margareten-Apotheke",
+          "anzahl": 1
+        },
+        {
+          "name": "Luisen-Apotheke",
+          "anzahl": 1
+        },
+        {
+          "name": "Apotheke Horst-Ruhr",
+          "anzahl": 1
+        }
+      ],
+      "gesamt": 941
+    },
+    {
+      "id": "metall",
+      "label": "Metall & Technik",
+      "icon": "⚙️",
+      "farbe": "#78716c",
+      "branchen": [
+        {
+          "name": "Klempner",
+          "anzahl": 183
+        },
+        {
+          "name": "Schmied",
+          "anzahl": 107
+        },
+        {
+          "name": "Fabrik",
+          "anzahl": 66
+        },
+        {
+          "name": "Installationsgeschäft",
+          "anzahl": 58
+        },
+        {
+          "name": "Installateur",
+          "anzahl": 51
+        },
+        {
+          "name": "Bergwerks- und Hüttenbedarf",
+          "anzahl": 32
+        },
+        {
+          "name": "Fabrik und Handlung",
+          "anzahl": 27
+        },
+        {
+          "name": "Mechaniker und mech. Werkstätte",
+          "anzahl": 26
+        },
+        {
+          "name": "Gold- und Silberschmied",
+          "anzahl": 15
+        },
+        {
+          "name": "Bau- u. Kunstschlosser",
+          "anzahl": 15
+        },
+        {
+          "name": "Eisenkonstruktionen",
+          "anzahl": 13
+        },
+        {
+          "name": "Büromaschinen",
+          "anzahl": 13
+        },
+        {
+          "name": "Bauklempnerei",
+          "anzahl": 12
+        },
+        {
+          "name": "Maschinenstrickerei",
+          "anzahl": 11
+        },
+        {
+          "name": "Werkzeuge",
+          "anzahl": 11
+        },
+        {
+          "name": "Armaturen",
+          "anzahl": 10
+        },
+        {
+          "name": "Metallwaren",
+          "anzahl": 9
+        },
+        {
+          "name": "Kleiderfabrik",
+          "anzahl": 9
+        },
+        {
+          "name": "Schilderfabrik",
+          "anzahl": 8
+        },
+        {
+          "name": "Eisenbeton",
+          "anzahl": 8
+        },
+        {
+          "name": "Stahlwaren",
+          "anzahl": 7
+        },
+        {
+          "name": "Chem. Fabrik",
+          "anzahl": 7
+        },
+        {
+          "name": "Nähmaschinen",
+          "anzahl": 6
+        },
+        {
+          "name": "Autogene Schweißerei",
+          "anzahl": 6
+        },
+        {
+          "name": "Schreibmaschinenreparaturen",
+          "anzahl": 5
+        },
+        {
+          "name": "Bergwerksmaschinen",
+          "anzahl": 5
+        },
+        {
+          "name": "Klempnerei- u. Installationsbedarf",
+          "anzahl": 5
+        },
+        {
+          "name": "Röhren",
+          "anzahl": 5
+        },
+        {
+          "name": "Metallgießerei",
+          "anzahl": 5
+        },
+        {
+          "name": "Elektrotechn. Fabrik",
+          "anzahl": 4
+        },
+        {
+          "name": "Wasch- u. Wringmaschinen",
+          "anzahl": 4
+        },
+        {
+          "name": "Dreherei",
+          "anzahl": 4
+        },
+        {
+          "name": "Bergwerksmaschinenfabrik",
+          "anzahl": 4
+        },
+        {
+          "name": "Fabrikation",
+          "anzahl": 3
+        },
+        {
+          "name": "Fahnenfabrik",
+          "anzahl": 3
+        },
+        {
+          "name": "Rechenmaschinen",
+          "anzahl": 3
+        },
+        {
+          "name": "Maschinen-Reparaturen",
+          "anzahl": 3
+        },
+        {
+          "name": "Sargfabrik",
+          "anzahl": 3
+        },
+        {
+          "name": "Maschinenfabrik",
+          "anzahl": 3
+        },
+        {
+          "name": "Eisenbahnbedarf",
+          "anzahl": 3
+        },
+        {
+          "name": "Fabrik f. Galvanotechnik",
+          "anzahl": 3
+        },
+        {
+          "name": "Eisen-",
+          "anzahl": 3
+        },
+        {
+          "name": "Schreibmaschinen",
+          "anzahl": 2
+        },
+        {
+          "name": "Buchungsmaschinen",
+          "anzahl": 2
+        },
+        {
+          "name": "Addiermaschinen",
+          "anzahl": 2
+        },
+        {
+          "name": "Baugeräte und -maschinen",
+          "anzahl": 2
+        },
+        {
+          "name": "Kesseleinmauerung",
+          "anzahl": 2
+        },
+        {
+          "name": "Rolladenfabrik",
+          "anzahl": 2
+        },
+        {
+          "name": "Stahl",
+          "anzahl": 2
+        },
+        {
+          "name": "Büromöbelfabrik",
+          "anzahl": 2
+        },
+        {
+          "name": "Bergwerks- und Hüttenprodukte",
+          "anzahl": 2
+        },
+        {
+          "name": "Westdeutscher Metall-Handel",
+          "anzahl": 2
+        },
+        {
+          "name": "Asbestfabrikate",
+          "anzahl": 2
+        },
+        {
+          "name": "Eisen und Stahl",
+          "anzahl": 2
+        },
+        {
+          "name": "Stahlbauten",
+          "anzahl": 2
+        },
+        {
+          "name": "Mechanikermstr.",
+          "anzahl": 2
+        },
+        {
+          "name": "Pumpen",
+          "anzahl": 2
+        },
+        {
+          "name": "Hütten- u. Walzwerkserzeugnisse",
+          "anzahl": 2
+        },
+        {
+          "name": "Werkzeugmaschinen",
+          "anzahl": 2
+        },
+        {
+          "name": "chem. Fabrik",
+          "anzahl": 2
+        },
+        {
+          "name": "Eisengießerei",
+          "anzahl": 2
+        },
+        {
+          "name": "Bergb. u. Hüttenbed. Ges.",
+          "anzahl": 1
+        },
+        {
+          "name": "Essener Metallwerkstätten L. Leiner G.m.b.H.",
+          "anzahl": 1
+        },
+        {
+          "name": "Essener Kartonnagenfabrik",
+          "anzahl": 1
+        },
+        {
+          "name": "Kupferschmiede u. Apparatebau",
+          "anzahl": 1
+        },
+        {
+          "name": "Fachmännische Reparaturwerkstatt für Schreib- und Rechenmaschinen",
+          "anzahl": 1
+        },
+        {
+          "name": "Adrema-Adressiermaschinen",
+          "anzahl": 1
+        },
+        {
+          "name": "Uhrenfabrik und -anlagen",
+          "anzahl": 1
+        },
+        {
+          "name": "Fabrik für Zentralheizung",
+          "anzahl": 1
+        },
+        {
+          "name": "Blechwarenfabrik und Verzinnerei",
+          "anzahl": 1
+        },
+        {
+          "name": "Bergwerks-  u. Hüttenbedarf",
+          "anzahl": 1
+        },
+        {
+          "name": "Fabrikation von Nirosta-Beschlägen",
+          "anzahl": 1
+        },
+        {
+          "name": "Buch- und Steindruckereimaschinen-Reparaturen",
+          "anzahl": 1
+        },
+        {
+          "name": "Adler-Schreibmaschinen",
+          "anzahl": 1
+        },
+        {
+          "name": "Alleinvertrieb der Mercedes-Büromaschinen",
+          "anzahl": 1
+        },
+        {
+          "name": "Herstellung sämtlicher Metallbuchstaben",
+          "anzahl": 1
+        },
+        {
+          "name": "Sachverst. f. Nähmaschinen",
+          "anzahl": 1
+        },
+        {
+          "name": "Maschinen- u. Motorenreparat. jeder Art",
+          "anzahl": 1
+        },
+        {
+          "name": "Gußstahl",
+          "anzahl": 1
+        },
+        {
+          "name": "Spez. Lötkolben und Schmelztiegel",
+          "anzahl": 1
+        },
+        {
+          "name": "Erstklassige Reparatur-Werkstatt für Schreib- und Rechenmaschinen aller Systeme",
+          "anzahl": 1
+        },
+        {
+          "name": "Aluminiumgießerei",
+          "anzahl": 1
+        },
+        {
+          "name": "Rheinische Stahlbüromöbelfabrik",
+          "anzahl": 1
+        },
+        {
+          "name": "Metallwerkstätte",
+          "anzahl": 1
+        },
+        {
+          "name": "Waschkesselöfen",
+          "anzahl": 1
+        },
+        {
+          "name": "Gesenkschmiede",
+          "anzahl": 1
+        },
+        {
+          "name": "Fabrik f. chem. Farben",
+          "anzahl": 1
+        },
+        {
+          "name": "FAbrik f. chem. FArb.",
+          "anzahl": 1
+        },
+        {
+          "name": "Installationsmaterialien",
+          "anzahl": 1
+        },
+        {
+          "name": "Keksfabrik",
+          "anzahl": 1
+        },
+        {
+          "name": "Kesseleinbau",
+          "anzahl": 1
+        },
+        {
+          "name": "Wagen- und Karosseriefabrik",
+          "anzahl": 1
+        },
+        {
+          "name": "Sperrholzfabrik",
+          "anzahl": 1
+        },
+        {
+          "name": "Sachverständiger für das Klempner- u. Installations-Gewerbe",
+          "anzahl": 1
+        },
+        {
+          "name": "Tief-  und Eisenbahnbau",
+          "anzahl": 1
+        },
+        {
+          "name": "Metallhalbfabrikate",
+          "anzahl": 1
+        },
+        {
+          "name": "Kupferschmiede",
+          "anzahl": 1
+        },
+        {
+          "name": "Fabrik von Seilscheibenfutter",
+          "anzahl": 1
+        },
+        {
+          "name": "Stahlbau",
+          "anzahl": 1
+        },
+        {
+          "name": "spezialfabrik für Schiebefenster u. -türen in allen Größen nach eigenen patentamtlich geschützten Konstruktionen",
+          "anzahl": 1
+        },
+        {
+          "name": "Rolladen in Holz und Stahlwellblech",
+          "anzahl": 1
+        },
+        {
+          "name": "Tief- und Eisenbahnbau",
+          "anzahl": 1
+        },
+        {
+          "name": "A.-G. f. Bergbau u. Hüttenbetr.",
+          "anzahl": 1
+        },
+        {
+          "name": "Feilenfabrik",
+          "anzahl": 1
+        },
+        {
+          "name": "Pumpen- und Gebläse-Werk Leipzig-Plagwitz",
+          "anzahl": 1
+        },
+        {
+          "name": "Fabrikwerkst. führender Radiofabr.",
+          "anzahl": 1
+        },
+        {
+          "name": "Essener Kistenfabrik",
+          "anzahl": 1
+        },
+        {
+          "name": "Fabriklag. d. \"Efka-Werke\" Fritz Kiehn",
+          "anzahl": 1
+        },
+        {
+          "name": "Langenhorster Dampfkornbranntweinbrennerei u. Preßhefefabrik",
+          "anzahl": 1
+        },
+        {
+          "name": "Mützenfabrik",
+          "anzahl": 1
+        },
+        {
+          "name": "Fabriklager v. Gütermann & Co.",
+          "anzahl": 1
+        },
+        {
+          "name": "Schulwandtafel-Fabrik",
+          "anzahl": 1
+        },
+        {
+          "name": "Stahlbüromöbel",
+          "anzahl": 1
+        },
+        {
+          "name": "Drahtgeflechte- u. -gewebefabrik",
+          "anzahl": 1
+        },
+        {
+          "name": "Zahnfabrik",
+          "anzahl": 1
+        },
+        {
+          "name": "Tischfabrik",
+          "anzahl": 1
+        },
+        {
+          "name": "Schläuche für Pumpen",
+          "anzahl": 1
+        },
+        {
+          "name": "Essener Waagen- und Maschinenfabrik",
+          "anzahl": 1
+        },
+        {
+          "name": "Abt. Kleinkältemaschinen",
+          "anzahl": 1
+        },
+        {
+          "name": "Gießereibedarf u. -einrichtung",
+          "anzahl": 1
+        },
+        {
+          "name": "Schreibfedern Aus Kruppstahl V 2 A",
+          "anzahl": 1
+        },
+        {
+          "name": "Goldschmiedemeisterin",
+          "anzahl": 1
+        },
+        {
+          "name": "Chemische Fabrik",
+          "anzahl": 1
+        },
+        {
+          "name": "Schrauben und Muttern (Metall)",
+          "anzahl": 1
+        },
+        {
+          "name": "Röhrenwerk",
+          "anzahl": 1
+        },
+        {
+          "name": "Pappenfabrik",
+          "anzahl": 1
+        },
+        {
+          "name": "Fabrik U Musterlager",
+          "anzahl": 1
+        },
+        {
+          "name": "Pfaff-Nähmaschinen-Haus",
+          "anzahl": 1
+        },
+        {
+          "name": "Elektro-Schweißerei",
+          "anzahl": 1
+        },
+        {
+          "name": "Tütenfabrikniederlage",
+          "anzahl": 1
+        },
+        {
+          "name": "Maschinenvertrieb",
+          "anzahl": 1
+        },
+        {
+          "name": "Gips u. Gipsfabrikate",
+          "anzahl": 1
+        },
+        {
+          "name": "Werkzeug-Betrieb",
+          "anzahl": 1
+        },
+        {
+          "name": "Kupferwalzwerk",
+          "anzahl": 1
+        }
+      ],
+      "gesamt": 889
+    },
+    {
+      "id": "leder",
+      "label": "Leder & Schuhe",
+      "icon": "👞",
+      "farbe": "#92400e",
+      "branchen": [
+        {
+          "name": "Schuhmacher",
+          "anzahl": 639
+        },
+        {
+          "name": "Polsterer",
+          "anzahl": 125
+        },
+        {
+          "name": "Sattler",
+          "anzahl": 62
+        },
+        {
+          "name": "Auto-Sattlerei",
+          "anzahl": 6
+        },
+        {
+          "name": "Orthopädie-Schuhmachermeister",
+          "anzahl": 2
+        },
+        {
+          "name": "Orthopäd. Schuhmacherei",
+          "anzahl": 2
+        },
+        {
+          "name": "Schuhreparatur G.m.b.H.",
+          "anzahl": 1
+        },
+        {
+          "name": "Polsterer u. Dekorateur",
+          "anzahl": 1
+        },
+        {
+          "name": "Fachgesch. f. Orthopädie",
+          "anzahl": 1
+        },
+        {
+          "name": "Sattlerwaren",
+          "anzahl": 1
+        }
+      ],
+      "gesamt": 840
+    },
+    {
+      "id": "bau",
+      "label": "Bau & Handwerk",
+      "icon": "🔨",
+      "farbe": "#ea580c",
+      "branchen": [
+        {
+          "name": "Baugeschäft",
+          "anzahl": 157
+        },
+        {
+          "name": "Bauunternehmer",
+          "anzahl": 126
+        },
+        {
+          "name": "Dachdeckermeister",
+          "anzahl": 77
+        },
+        {
+          "name": "Dachdeckungsgeschäft",
+          "anzahl": 63
+        },
+        {
+          "name": "Tiefbauunternehmer",
+          "anzahl": 57
+        },
+        {
+          "name": "Bautischler",
+          "anzahl": 41
+        },
+        {
+          "name": "Stukkateur",
+          "anzahl": 39
+        },
+        {
+          "name": "Zimmermeister",
+          "anzahl": 39
+        },
+        {
+          "name": "Pflastergeschäft",
+          "anzahl": 16
+        },
+        {
+          "name": "Maurermeister",
+          "anzahl": 15
+        },
+        {
+          "name": "Bauunternehmung",
+          "anzahl": 6
+        },
+        {
+          "name": "Parkettfußböden",
+          "anzahl": 6
+        },
+        {
+          "name": "Isolierungen",
+          "anzahl": 4
+        },
+        {
+          "name": "Steinmetzgeschäft",
+          "anzahl": 4
+        },
+        {
+          "name": "Leiter- u. Leitergerüstbau und Verleih",
+          "anzahl": 3
+        },
+        {
+          "name": "Brunnenbau",
+          "anzahl": 2
+        },
+        {
+          "name": "Mech. Tischlerei-Werkstätte",
+          "anzahl": 1
+        },
+        {
+          "name": "Ingenieurbüro und Bauunternehmung",
+          "anzahl": 1
+        },
+        {
+          "name": "Mech. Bau- u. Möbelschreinerei",
+          "anzahl": 1
+        },
+        {
+          "name": "Schreinerei-Innenausbau",
+          "anzahl": 1
+        },
+        {
+          "name": "Bauglaserei",
+          "anzahl": 1
+        },
+        {
+          "name": "Bau- u. Möbelschreinerei",
+          "anzahl": 1
+        },
+        {
+          "name": "Malermeister",
+          "anzahl": 1
+        },
+        {
+          "name": "vereid. Sachverst. f. Brunnenbau",
+          "anzahl": 1
+        },
+        {
+          "name": "Steinbruch- u. Steinmetzbetrieb",
+          "anzahl": 1
+        },
+        {
+          "name": "Isolierungen gegen Schall und Erschütterung",
+          "anzahl": 1
+        },
+        {
+          "name": "Mech. Zimmerei u. Bauschreinerei",
+          "anzahl": 1
+        },
+        {
+          "name": "Eisenbeton und Tiefbauunternehmung",
+          "anzahl": 1
+        },
+        {
+          "name": "Isoliermaterialien",
+          "anzahl": 1
+        },
+        {
+          "name": "Mechanische Zimmerei und Bauschreinerei",
+          "anzahl": 1
+        },
+        {
+          "name": "Tiefbaugeschäft",
+          "anzahl": 1
+        },
+        {
+          "name": "Eisenbetonbauges. m.b.H.",
+          "anzahl": 1
+        },
+        {
+          "name": "Maler- und Anstreichergeschäft",
+          "anzahl": 1
+        }
+      ],
+      "gesamt": 672
+    },
+    {
+      "id": "transport",
+      "label": "Transport & Verkehr",
+      "icon": "🚚",
+      "farbe": "#2563eb",
+      "branchen": [
+        {
+          "name": "Fuhrgeschäft",
+          "anzahl": 304
+        },
+        {
+          "name": "Automobilvermietung",
+          "anzahl": 96
+        },
+        {
+          "name": "Automobilreparaturen",
+          "anzahl": 63
+        },
+        {
+          "name": "Automobiltransporte",
+          "anzahl": 59
+        },
+        {
+          "name": "Speditionsgeschäft",
+          "anzahl": 33
+        },
+        {
+          "name": "Lastkraftwagenbetrieb",
+          "anzahl": 21
+        },
+        {
+          "name": "Automobilgaragen",
+          "anzahl": 20
+        },
+        {
+          "name": "Tankstelle",
+          "anzahl": 14
+        },
+        {
+          "name": "Möbeltransport",
+          "anzahl": 12
+        },
+        {
+          "name": "Fahrradreparatur",
+          "anzahl": 12
+        },
+        {
+          "name": "Elektromotoren",
+          "anzahl": 4
+        },
+        {
+          "name": "Spedition",
+          "anzahl": 3
+        },
+        {
+          "name": "Rhein-Ruhr-Transport",
+          "anzahl": 2
+        },
+        {
+          "name": "Vertretung in Kraftfahrzeug-Anlaß- und Beleuchtungs- sowie Rundfunk-Batterien",
+          "anzahl": 1
+        },
+        {
+          "name": "Bootsmotoren",
+          "anzahl": 1
+        },
+        {
+          "name": "Speditionsgesellschaft m.b.H.",
+          "anzahl": 1
+        },
+        {
+          "name": "Speditionsges. m.b.H.",
+          "anzahl": 1
+        },
+        {
+          "name": "Spedition und Möbeltransport",
+          "anzahl": 1
+        },
+        {
+          "name": "Omnibusbetrieb",
+          "anzahl": 1
+        },
+        {
+          "name": "Möbeltransport-Süd",
+          "anzahl": 1
+        },
+        {
+          "name": "Einfuhrgeschäft",
+          "anzahl": 1
+        },
+        {
+          "name": "Eil- u. Ferntransporte",
+          "anzahl": 1
+        },
+        {
+          "name": "Großgarage Hermann Scharpenberg",
+          "anzahl": 1
+        },
+        {
+          "name": "Kohlen- und Kokshandel-Autotransporte von 1-12 to",
+          "anzahl": 1
+        },
+        {
+          "name": "Autogaragen",
+          "anzahl": 1
+        }
+      ],
+      "gesamt": 655
+    },
+    {
+      "id": "ingenieure",
+      "label": "Ingenieure & Architekten",
+      "icon": "📐",
+      "farbe": "#1e3a5f",
+      "branchen": [
+        {
+          "name": "Ingenieur",
+          "anzahl": 261
+        },
+        {
+          "name": "Architekt",
+          "anzahl": 256
+        },
+        {
+          "name": "Ingenieurbüro",
+          "anzahl": 40
+        },
+        {
+          "name": "Sachverständiger",
+          "anzahl": 32
+        },
+        {
+          "name": "Landmesser (vereid. Vermessungsingenieur)",
+          "anzahl": 12
+        },
+        {
+          "name": "Prüfingenieur f. Statik",
+          "anzahl": 4
+        },
+        {
+          "name": "Architekten",
+          "anzahl": 2
+        },
+        {
+          "name": "öffentl. angest. u. vereidigter Sachverständiger",
+          "anzahl": 1
+        },
+        {
+          "name": "beratender Ingenieur",
+          "anzahl": 1
+        },
+        {
+          "name": "Architekt u. beeid. Bau-Sachverständiger",
+          "anzahl": 1
+        },
+        {
+          "name": "beeidigter Sachverständiger",
+          "anzahl": 1
+        },
+        {
+          "name": "Diplom-Bergingenieur",
+          "anzahl": 1
+        },
+        {
+          "name": "Architektin",
+          "anzahl": 1
+        },
+        {
+          "name": "Landmesser (Vereid. Vermessungsingenieur)",
+          "anzahl": 1
+        },
+        {
+          "name": "Ingenieurbedarf",
+          "anzahl": 1
+        }
+      ],
+      "gesamt": 615
+    },
+    {
+      "id": "finanzen",
+      "label": "Finanzen & Recht",
+      "icon": "⚖️",
+      "farbe": "#4338ca",
+      "branchen": [
+        {
+          "name": "sonstige Bücherrevisoren",
+          "anzahl": 76
+        },
+        {
+          "name": "Immobilien und Hypotheken",
+          "anzahl": 71
+        },
+        {
+          "name": "Steuerberatung",
+          "anzahl": 66
+        },
+        {
+          "name": "Versicherungsgeschäft",
+          "anzahl": 45
+        },
+        {
+          "name": "Bankgeschäft",
+          "anzahl": 24
+        },
+        {
+          "name": "beeidigter Bücherrevisor",
+          "anzahl": 13
+        },
+        {
+          "name": "Hausverwaltung",
+          "anzahl": 11
+        },
+        {
+          "name": "Finanzierungen",
+          "anzahl": 4
+        },
+        {
+          "name": "Lebensversicherungsgesellschaft",
+          "anzahl": 4
+        },
+        {
+          "name": "Bücherrevisor",
+          "anzahl": 2
+        },
+        {
+          "name": "Inkassobüro",
+          "anzahl": 2
+        },
+        {
+          "name": "Essener Immobilienmarkt",
+          "anzahl": 1
+        },
+        {
+          "name": "Vertreter der Rhinisch-Westfälischen Boden-Credit-Bank in Köln",
+          "anzahl": 1
+        },
+        {
+          "name": "Bezirksvertreter der Süddeutschen Bodencreditbank München",
+          "anzahl": 1
+        },
+        {
+          "name": "Versicherungs-Akt.-Gesellschaften",
+          "anzahl": 1
+        },
+        {
+          "name": "Hypotheken und Immobilien",
+          "anzahl": 1
+        },
+        {
+          "name": "Glasversicherungsgesellschaft",
+          "anzahl": 1
+        },
+        {
+          "name": "Versicherungen aller Art",
+          "anzahl": 1
+        },
+        {
+          "name": "Generalvertrieb von Versicherungs- u. anderer Zeitschriften",
+          "anzahl": 1
+        },
+        {
+          "name": "Gothaer Versich.-Banken",
+          "anzahl": 1
+        },
+        {
+          "name": "Baufinanzierungen",
+          "anzahl": 1
+        },
+        {
+          "name": "Hansa-Versicherungsbüro",
+          "anzahl": 1
+        },
+        {
+          "name": "Inkasso",
+          "anzahl": 1
+        },
+        {
+          "name": "Feuerversicherung",
+          "anzahl": 1
+        },
+        {
+          "name": "vom Landesfinanzamt zugelassen",
+          "anzahl": 1
+        },
+        {
+          "name": "Bücherrevisor und Steuerberater",
+          "anzahl": 1
+        },
+        {
+          "name": "Bücherrevisor u. Stuerberat.",
+          "anzahl": 1
+        },
+        {
+          "name": "Beeidigter Bücherrevisor",
+          "anzahl": 1
+        }
+      ],
+      "gesamt": 335
+    },
+    {
+      "id": "kunst",
+      "label": "Kunst & Kultur",
+      "icon": "🎨",
+      "farbe": "#9333ea",
+      "branchen": [
+        {
+          "name": "Musiklehrer",
+          "anzahl": 101
+        },
+        {
+          "name": "Kunstmaler",
+          "anzahl": 47
+        },
+        {
+          "name": "Bildhauer",
+          "anzahl": 46
+        },
+        {
+          "name": "Dekorationsmaler",
+          "anzahl": 16
+        },
+        {
+          "name": "Einrahmungen",
+          "anzahl": 15
+        },
+        {
+          "name": "Tanzlehrer",
+          "anzahl": 15
+        },
+        {
+          "name": "Musikalienverlag und -handlung",
+          "anzahl": 14
+        },
+        {
+          "name": "Kunstgewerbe",
+          "anzahl": 14
+        },
+        {
+          "name": "Klavierstimmer",
+          "anzahl": 14
+        },
+        {
+          "name": "Klavierbauer",
+          "anzahl": 10
+        },
+        {
+          "name": "Kunsthandlung",
+          "anzahl": 8
+        },
+        {
+          "name": "Dekorationsartikel",
+          "anzahl": 4
+        },
+        {
+          "name": "Stuben- u. Dekorations-",
+          "anzahl": 4
+        },
+        {
+          "name": "Antiquitäten",
+          "anzahl": 4
+        },
+        {
+          "name": "Geigenbauer",
+          "anzahl": 2
+        },
+        {
+          "name": "Kunstbildhauer",
+          "anzahl": 2
+        },
+        {
+          "name": "Kunstgewerbelehranstalt (Private)",
+          "anzahl": 1
+        },
+        {
+          "name": "Buch- u. Musikalienh.",
+          "anzahl": 1
+        },
+        {
+          "name": "Werkstätte f. gute Polstermöbel u. Dekorationen",
+          "anzahl": 1
+        },
+        {
+          "name": "Orgelbauer",
+          "anzahl": 1
+        }
+      ],
+      "gesamt": 320
+    },
+    {
+      "id": "hausgarten",
+      "label": "Haus & Garten",
+      "icon": "🏡",
+      "farbe": "#16a34a",
+      "branchen": [
+        {
+          "name": "Gartenbaubetrieb",
+          "anzahl": 69
+        },
+        {
+          "name": "Gärtner",
+          "anzahl": 57
+        },
+        {
+          "name": "Tapeten",
+          "anzahl": 42
+        },
+        {
+          "name": "Schornsteinfegermeister",
+          "anzahl": 34
+        },
+        {
+          "name": "Heizungs- u. Lüftungsanlagen",
+          "anzahl": 18
+        },
+        {
+          "name": "Zentralheizungen",
+          "anzahl": 12
+        },
+        {
+          "name": "Gartengestalter",
+          "anzahl": 12
+        },
+        {
+          "name": "Polstermöbel",
+          "anzahl": 9
+        },
+        {
+          "name": "Linoleum",
+          "anzahl": 7
+        },
+        {
+          "name": "Möbel- u. Ausstattungsgeschäft",
+          "anzahl": 7
+        },
+        {
+          "name": "Bau- und Möbelbeschläge",
+          "anzahl": 5
+        },
+        {
+          "name": "Teppiche und Vorhänge",
+          "anzahl": 3
+        },
+        {
+          "name": "Posamenten",
+          "anzahl": 3
+        },
+        {
+          "name": "Möbel und Polsterwaren",
+          "anzahl": 3
+        },
+        {
+          "name": "Korbmöbel",
+          "anzahl": 2
+        },
+        {
+          "name": "Ess. Tapetenmanufaktur",
+          "anzahl": 2
+        },
+        {
+          "name": "Glas- Kristall- u. Porzellanwaren",
+          "anzahl": 2
+        },
+        {
+          "name": "Industrieofenbau",
+          "anzahl": 2
+        },
+        {
+          "name": "Gardinen und Spitzenwaschanstalt",
+          "anzahl": 2
+        },
+        {
+          "name": "Fachgeschäft für Gartenbedarf",
+          "anzahl": 2
+        },
+        {
+          "name": "Linoleum-Spezial-Geschäft",
+          "anzahl": 2
+        },
+        {
+          "name": "Möbel",
+          "anzahl": 1
+        },
+        {
+          "name": "Gardinenspannerei",
+          "anzahl": 1
+        },
+        {
+          "name": "Ofenbaumeister",
+          "anzahl": 1
+        },
+        {
+          "name": "Gärtnerei-  und Binderei-Bedarf",
+          "anzahl": 1
+        },
+        {
+          "name": "Blumenhaus",
+          "anzahl": 1
+        },
+        {
+          "name": "Gardinen",
+          "anzahl": 1
+        },
+        {
+          "name": "Möbel-Union",
+          "anzahl": 1
+        },
+        {
+          "name": "Gardinen-Tapet.-Möbel- u. Rahmenleisten",
+          "anzahl": 1
+        },
+        {
+          "name": "Gärtnereibetrieb",
+          "anzahl": 1
+        },
+        {
+          "name": "Teppich- u. Gardinen-Haus",
+          "anzahl": 1
+        },
+        {
+          "name": "Westdeutsche Zentralheizungsgesellschaft m.b.H.",
+          "anzahl": 1
+        },
+        {
+          "name": "öff. beeid. Gutachter f. d. Kachelofenbaugewerbe",
+          "anzahl": 1
+        },
+        {
+          "name": "vereid. Sachverst. f. Hochofenschlacke",
+          "anzahl": 1
+        },
+        {
+          "name": "Waldecke Wintergarten",
+          "anzahl": 1
+        },
+        {
+          "name": "Möbel-Großhandlung",
+          "anzahl": 1
+        }
+      ],
+      "gesamt": 310
+    },
+    {
+      "id": "druck",
+      "label": "Druck & Verlag",
+      "icon": "📰",
+      "farbe": "#64748b",
+      "branchen": [
+        {
+          "name": "Buchdruckerei",
+          "anzahl": 85
+        },
+        {
+          "name": "Sortimentsbuchhandlung",
+          "anzahl": 40
+        },
+        {
+          "name": "Verleger",
+          "anzahl": 38
+        },
+        {
+          "name": "Bürobedarf",
+          "anzahl": 29
+        },
+        {
+          "name": "Buchbinderei",
+          "anzahl": 22
+        },
+        {
+          "name": "Zeitungsbetrieb",
+          "anzahl": 13
+        },
+        {
+          "name": "Graveur und Gravieranstalt",
+          "anzahl": 7
+        },
+        {
+          "name": "Verlagsbuchhandlung",
+          "anzahl": 6
+        },
+        {
+          "name": "Verlagsanstalt",
+          "anzahl": 5
+        },
+        {
+          "name": "Reisebuchhandlung",
+          "anzahl": 3
+        },
+        {
+          "name": "Stempel",
+          "anzahl": 3
+        },
+        {
+          "name": "Steindruckerei",
+          "anzahl": 2
+        },
+        {
+          "name": "Adressenverlag",
+          "anzahl": 2
+        },
+        {
+          "name": "Antiquariatsbuchhandlung",
+          "anzahl": 2
+        },
+        {
+          "name": "Echo-Verlag",
+          "anzahl": 2
+        },
+        {
+          "name": "Papiersortieranstalt",
+          "anzahl": 2
+        },
+        {
+          "name": "Druckereiartikel",
+          "anzahl": 2
+        },
+        {
+          "name": "Packpapier und Tüten",
+          "anzahl": 1
+        },
+        {
+          "name": "Buch- und Tiefdruckerei",
+          "anzahl": 1
+        },
+        {
+          "name": "Packpapier",
+          "anzahl": 1
+        },
+        {
+          "name": "früher Papierhaus H. Geck",
+          "anzahl": 1
+        },
+        {
+          "name": "Zeitschriften-Großvertrieb",
+          "anzahl": 1
+        },
+        {
+          "name": "Buch- und Zeitschriftenhandlung",
+          "anzahl": 1
+        },
+        {
+          "name": "Bücherstube",
+          "anzahl": 1
+        },
+        {
+          "name": "Kautschuk- u. Signierstempel",
+          "anzahl": 1
+        },
+        {
+          "name": "Reise-Buchhandlung",
+          "anzahl": 1
+        },
+        {
+          "name": "Reise-Buchhandlung u. Zeitschriftengroßvertrieb",
+          "anzahl": 1
+        },
+        {
+          "name": "Postkarten-Verlag",
+          "anzahl": 1
+        },
+        {
+          "name": "Verlag: August Scherl",
+          "anzahl": 1
+        },
+        {
+          "name": "Kunstbuchhandlung",
+          "anzahl": 1
+        },
+        {
+          "name": "Verlag",
+          "anzahl": 1
+        },
+        {
+          "name": "Essener Handels-Druckerei",
+          "anzahl": 1
+        },
+        {
+          "name": "Kupferdruckerei",
+          "anzahl": 1
+        },
+        {
+          "name": "Großdruckerei",
+          "anzahl": 1
+        },
+        {
+          "name": "Offsetdruckerei",
+          "anzahl": 1
+        },
+        {
+          "name": "Vereinigte Vorortzeitungen",
+          "anzahl": 1
+        },
+        {
+          "name": "offizielle kath. Kirchenzeitung",
+          "anzahl": 1
+        },
+        {
+          "name": "Werdener Zeitung",
+          "anzahl": 1
+        },
+        {
+          "name": "Essener Papier-Manufaktur",
+          "anzahl": 1
+        }
+      ],
+      "gesamt": 285
+    },
+    {
+      "id": "elektro",
+      "label": "Elektro & Radio",
+      "icon": "⚡",
+      "farbe": "#eab308",
+      "branchen": [
+        {
+          "name": "Elektrische Licht- u. Kraftanlagen",
+          "anzahl": 78
+        },
+        {
+          "name": "Radioapparate und -Zubehör",
+          "anzahl": 40
+        },
+        {
+          "name": "Elektrotechn. Bedarf",
+          "anzahl": 36
+        },
+        {
+          "name": "Elektrotechn. Institute u. Anlag.",
+          "anzahl": 10
+        },
+        {
+          "name": "Beleuchtungskörper",
+          "anzahl": 10
+        },
+        {
+          "name": "Autobeleuchtung",
+          "anzahl": 8
+        },
+        {
+          "name": "Akkumulatoren",
+          "anzahl": 5
+        },
+        {
+          "name": "Elektrizitätsgesellschaft",
+          "anzahl": 4
+        },
+        {
+          "name": "Beleuchtungsartikel",
+          "anzahl": 3
+        },
+        {
+          "name": "Elektrische Beleuchtungsgegenstände",
+          "anzahl": 3
+        },
+        {
+          "name": "Elektromediz. Apparate",
+          "anzahl": 2
+        },
+        {
+          "name": "Radio-Spezialgeschäft",
+          "anzahl": 2
+        },
+        {
+          "name": "Radio-Reparaturwerkstätte",
+          "anzahl": 2
+        },
+        {
+          "name": "Wasser-  u. Elektr.-Werk der Stadt Essen",
+          "anzahl": 2
+        },
+        {
+          "name": "Ger. vereid. Sachverst. für Elektroinstallation",
+          "anzahl": 1
+        },
+        {
+          "name": "Ausstellung u. Vorführung elektrischer Geräte",
+          "anzahl": 1
+        },
+        {
+          "name": "Elektro- und Radiogroßhandlung",
+          "anzahl": 1
+        },
+        {
+          "name": "Essener Akkumulatorenvertrieb",
+          "anzahl": 1
+        },
+        {
+          "name": "Elektr. Licht- und Kraftanlagen",
+          "anzahl": 1
+        },
+        {
+          "name": "Fernsprechanlagen",
+          "anzahl": 1
+        },
+        {
+          "name": "Rundfunkvermittlung",
+          "anzahl": 1
+        },
+        {
+          "name": "Staubsauger",
+          "anzahl": 1
+        },
+        {
+          "name": "Elektro",
+          "anzahl": 1
+        },
+        {
+          "name": "Allgemeine Elektricitäts-Gesellschaft",
+          "anzahl": 1
+        },
+        {
+          "name": "Elektrische Uhren",
+          "anzahl": 1
+        },
+        {
+          "name": "Radioapparate und -zubehör",
+          "anzahl": 1
+        },
+        {
+          "name": "Schaub-Radio-Generalvertrieb",
+          "anzahl": 1
+        },
+        {
+          "name": "Elektro-Mediz. Apparate",
+          "anzahl": 1
+        },
+        {
+          "name": "Tefag Radio",
+          "anzahl": 1
+        },
+        {
+          "name": "Carbid-Beleuchtungsapparate",
+          "anzahl": 1
+        },
+        {
+          "name": "Elektro-Technik",
+          "anzahl": 1
+        },
+        {
+          "name": "Elektrogroßhandlung",
+          "anzahl": 1
+        },
+        {
+          "name": "elektrisch-automatische Kühlanlagen",
+          "anzahl": 1
+        }
+      ],
+      "gesamt": 224
+    },
+    {
+      "id": "kohle",
+      "label": "Kohle & Bergbau",
+      "icon": "⛏️",
+      "farbe": "#374151",
+      "branchen": [
+        {
+          "name": "Kohlen",
+          "anzahl": 110
+        },
+        {
+          "name": "Bergwerksunternehmer",
+          "anzahl": 11
+        },
+        {
+          "name": "Bergwerksbetrieb",
+          "anzahl": 9
+        },
+        {
+          "name": "Steinbruchbesitzer",
+          "anzahl": 9
+        },
+        {
+          "name": "Ziegelei",
+          "anzahl": 9
+        },
+        {
+          "name": "Zementwaren",
+          "anzahl": 3
+        },
+        {
+          "name": "Koksofenbau",
+          "anzahl": 2
+        },
+        {
+          "name": "Steinziegelei",
+          "anzahl": 2
+        },
+        {
+          "name": "Tonwaren",
+          "anzahl": 1
+        },
+        {
+          "name": "Sand und Kies",
+          "anzahl": 1
+        },
+        {
+          "name": "Kies- und Sandbaggerei",
+          "anzahl": 1
+        },
+        {
+          "name": "Bergwerksunternehmungen",
+          "anzahl": 1
+        },
+        {
+          "name": "Holzhandlung und Sägewerke",
+          "anzahl": 1
+        },
+        {
+          "name": "Ruhrtaler Ziegelei- u. Klinkerwerk",
+          "anzahl": 1
+        },
+        {
+          "name": "Holzkohle",
+          "anzahl": 1
+        }
+      ],
+      "gesamt": 162
+    },
+    {
+      "id": "photo",
+      "label": "Photographie",
+      "icon": "📷",
+      "farbe": "#475569",
+      "branchen": [
+        {
+          "name": "Photogr. Atelier",
+          "anzahl": 44
+        },
+        {
+          "name": "Lichtspielhaus",
+          "anzahl": 25
+        },
+        {
+          "name": "Photographische Vergrößerungen",
+          "anzahl": 15
+        },
+        {
+          "name": "Photogr. Apparate und Bedarfsartikel",
+          "anzahl": 13
+        },
+        {
+          "name": "Filmtheater",
+          "anzahl": 1
+        },
+        {
+          "name": "Werkst. f. bildmäßige Photographie",
+          "anzahl": 1
+        }
+      ],
+      "gesamt": 99
+    }
+  ]
+}
