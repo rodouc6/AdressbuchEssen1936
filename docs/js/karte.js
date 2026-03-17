@@ -65,7 +65,7 @@
 
   const circleOpacity = [
     "interpolate", ["linear"], ["get", "anzahl"],
-    1, 0.25, 5, 0.45, 20, 0.7, 50, 0.87, 100, 0.97,
+    1, 0.5, 5, 0.65, 20, 0.8, 50, 0.92, 100, 0.97,
   ];
 
   const heatmapWeight = [

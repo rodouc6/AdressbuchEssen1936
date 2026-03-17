@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GewerbeMaps1936 – Adressbuch Essen 1936</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <style>
+    body { overflow: hidden; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <span class="logo">Adressbuch Essen 1936</span>
+  <button class="nav-toggle" aria-label="Menü">☰</button>
+  <div class="nav-links">
+    <a href="index.html">Start</a>
+    <div class="nav-dropdown">
+      <a href="#" class="nav-dropdown-trigger">Karte ▾</a>
+      <div class="nav-dropdown-menu">
+        <a href="karte.html">Interaktive Karte</a>
+        <a href="schichtenkarte.html">– Einkommensverteilung</a>
+      </div>
+    </div>
+    <a href="statistik.html">Statistik</a>
+    <a href="gewerbe.html" class="active">GewerbeMaps1936</a>
+    <div class="nav-dropdown">
+      <a href="#" class="nav-dropdown-trigger">Datenbank ▾</a>
+      <div class="nav-dropdown-menu">
+        <a href="firmen.html">Gewerbeverzeichnis</a>
+        <a href="einwohner.html">Einwohnerverzeichnis</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div id="loading">
+  <div class="spinner"></div>
+  <span>Gewerbedaten werden geladen …</span>
+</div>
+
+<div id="gewerbe-bar">
+  <div id="gewerbe-search-wrap">
+    <input type="text" id="gewerbe-search" placeholder="Branche suchen …"
+           autocomplete="off" spellcheck="false" aria-label="Branche suchen">
+  </div>
+  <div id="gewerbe-chips"></div>
+  <div id="gewerbe-subchips"></div>
+</div>
+
+<div id="gewerbe-map"></div>
+
+<button id="gewerbe-ui-toggle" aria-label="Overlay ein-/ausblenden" title="UI ein-/ausblenden">
+  <svg id="toggle-icon-visible" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+    <circle cx="12" cy="12" r="3"/>
+  </svg>
+  <svg id="toggle-icon-hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none">
+    <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94"/>
+    <path d="M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19"/>
+    <line x1="1" y1="1" x2="23" y2="23"/>
+  </svg>
+</button>
+
+<div id="gewerbe-legend">
+  <h4>GewerbeMaps1936</h4>
+  <div id="gewerbe-legend-content"></div>
+  <div class="legend-divider"></div>
+  <div class="checkbox-row">
+    <input type="checkbox" id="toggle-stadtplan" checked>
+    <label for="toggle-stadtplan">Stadtplan 1935</label>
+  </div>
+  <div class="opacity-row" id="opacity-row">
+    <label for="opacity-stadtplan">Deckkraft</label>
+    <input type="range" id="opacity-stadtplan" min="0" max="100" value="70">
+    <span id="opacity-value">70%</span>
+  </div>
+</div>
+
+<div class="gewerbe-sheet" id="gewerbe-sheet">
+  <div class="gewerbe-sheet-handle"></div>
+  <div class="gewerbe-sheet-title">Gewerbe-Kategorien</div>
+  <div class="gewerbe-sheet-grid" id="gewerbe-sheet-grid"></div>
+</div>
+
+<script src="js/gewerbe.js"></script>
+</body>
+</html>

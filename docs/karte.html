@@ -15,12 +15,26 @@
 
 <nav>
   <span class="logo">Adressbuch Essen 1936</span>
-  <a href="index.html">Start</a>
-  <a href="karte.html" class="active">Karte</a>
-  <a href="schichtenkarte.html">Schichtenkarte</a>
-  <a href="statistik.html">Statistik</a>
-  <a href="firmen.html">Firmen</a>
-  <a href="einwohner.html">Einwohner</a>
+  <button class="nav-toggle" aria-label="Menü">☰</button>
+  <div class="nav-links">
+    <a href="index.html">Start</a>
+    <div class="nav-dropdown">
+      <a href="#" class="nav-dropdown-trigger active">Karte ▾</a>
+      <div class="nav-dropdown-menu">
+        <a href="karte.html" class="active">Interaktive Karte</a>
+        <a href="schichtenkarte.html">– Einkommensverteilung</a>
+      </div>
+    </div>
+    <a href="statistik.html">Statistik</a>
+    <a href="gewerbe.html">GewerbeMaps1936</a>
+    <div class="nav-dropdown">
+      <a href="#" class="nav-dropdown-trigger">Datenbank ▾</a>
+      <div class="nav-dropdown-menu">
+        <a href="firmen.html">Gewerbeverzeichnis</a>
+        <a href="einwohner.html">Einwohnerverzeichnis</a>
+      </div>
+    </div>
+  </div>
 </nav>
 
 <div id="loading">
@@ -145,9 +159,9 @@
 
   <div id="legend">
     <h4>Personen je Adresse</h4>
-    <div class="legend-row"><div class="legend-dot" style="background:#1d4ed8;opacity:0.25"></div> 1</div>
-    <div class="legend-row"><div class="legend-dot" style="background:#1d4ed8;opacity:0.45"></div> 2–5</div>
-    <div class="legend-row"><div class="legend-dot" style="background:#1d4ed8;opacity:0.7"></div> 6–20</div>
+    <div class="legend-row"><div class="legend-dot" style="background:#1d4ed8;opacity:0.5"></div> 1</div>
+    <div class="legend-row"><div class="legend-dot" style="background:#1d4ed8;opacity:0.65"></div> 2–5</div>
+    <div class="legend-row"><div class="legend-dot" style="background:#1d4ed8;opacity:0.8"></div> 6–20</div>
     <div class="legend-row"><div class="legend-dot" style="background:#1d4ed8;opacity:0.97"></div> &gt; 20</div>
     <div class="legend-row"><div class="legend-dot" style="background:#d97706;opacity:0.7"></div> Gewerbe (III)</div>
     <div class="legend-row" id="legend-zeche" style="display:none">
@@ -156,6 +170,7 @@
   </div>
 </div>
 
+<script>document.querySelector('.nav-toggle')?.addEventListener('click',function(){document.querySelector('.nav-links')?.classList.toggle('open')});</script>
 <script src="js/karte.js"></script>
 </body>
 </html>

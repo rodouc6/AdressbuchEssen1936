@@ -10,29 +10,100 @@
 
 <nav>
   <span class="logo">Adressbuch Essen 1936</span>
-  <a href="index.html" class="active">Start</a>
-  <a href="karte.html">Karte</a>
-  <a href="schichtenkarte.html">Schichtenkarte</a>
-  <a href="statistik.html">Statistik</a>
-  <a href="firmen.html">Firmen</a>
-  <a href="einwohner.html">Einwohner</a>
+  <button class="nav-toggle" aria-label="Menü">☰</button>
+  <div class="nav-links">
+    <a href="index.html" class="active">Start</a>
+    <div class="nav-dropdown">
+      <a href="#" class="nav-dropdown-trigger">Karte ▾</a>
+      <div class="nav-dropdown-menu">
+        <a href="karte.html">Interaktive Karte</a>
+        <a href="schichtenkarte.html">– Einkommensverteilung</a>
+      </div>
+    </div>
+    <a href="statistik.html">Statistik</a>
+    <a href="gewerbe.html">GewerbeMaps1936</a>
+    <div class="nav-dropdown">
+      <a href="#" class="nav-dropdown-trigger">Datenbank ▾</a>
+      <div class="nav-dropdown-menu">
+        <a href="firmen.html">Gewerbeverzeichnis</a>
+        <a href="einwohner.html">Einwohnerverzeichnis</a>
+      </div>
+    </div>
+  </div>
 </nav>
 
-<div class="hero">
-  <h1>Adressbuch der Stadt Essen 1936</h1>
-  <p class="subtitle">Historische Einwohnerdaten interaktiv erforschen</p>
+<div class="hero-exhibit" id="hero-slideshow">
+
+  <!-- Slideshow background -->
+  <img class="hero-slide active" src="img/GewerbeMaps1936_Screenshots/816 Schankwirte.png"
+       alt="816 Schankwirte" data-caption="816 Schankwirte">
+  <img class="hero-slide" src="img/GewerbeMaps1936_Screenshots/503 Friseure.png"
+       alt="503 Friseure" data-caption="503 Friseure">
+  <img class="hero-slide" src="img/GewerbeMaps1936_Screenshots/846 Herrenschneider.png"
+       alt="846 Herrenschneider" data-caption="846 Herrenschneider">
+  <img class="hero-slide" src="img/GewerbeMaps1936_Screenshots/308 Einträge rund um Zigarrren und Tabak.png"
+       alt="308 Einträge – Zigarren &amp; Tabak" data-caption="308 Zigarren &amp; Tabak">
+  <img class="hero-slide" src="img/GewerbeMaps1936_Screenshots/13 Speiseeis-Gewerbe.png"
+       alt="13 Speiseeis-Gewerbe" data-caption="13 Speiseeis-Gewerbe">
+
+  <!-- Dark scrim for readability -->
+  <div class="hero-exhibit-scrim"></div>
+
+  <!-- Title -->
+  <div class="hero-exhibit-header">
+    <h1>Adressbuch der Stadt Essen 1936</h1>
+    <p>216.729 geocodierte Einträge interaktiv erforschen</p>
+  </div>
+
+  <!-- Two doorway panels -->
+  <div class="hero-exhibit-panels">
+    <a href="karte.html" class="hero-panel">
+      <div class="hero-panel-number">64.973</div>
+      <h2>Interaktive Karte</h2>
+      <p>Adressen mit Filtern, Suche & historischem Stadtplan</p>
+      <span class="hero-panel-cta">Erkunden →</span>
+    </a>
+    <a href="gewerbe.html" class="hero-panel">
+      <div class="hero-panel-number">17.138</div>
+      <h2>GewerbeMaps1936</h2>
+      <p>Gewerbe in 18 Kategorien auf der Karte entdecken</p>
+      <span class="hero-panel-cta">Entdecken →</span>
+    </a>
+  </div>
+
+  <!-- Caption & dots -->
+  <div class="hero-slide-caption" id="hero-slide-caption">816 Schankwirte</div>
+  <div class="hero-slide-dots" id="hero-slide-dots">
+    <button class="hero-dot active" aria-label="Bild 1"></button>
+    <button class="hero-dot" aria-label="Bild 2"></button>
+    <button class="hero-dot" aria-label="Bild 3"></button>
+    <button class="hero-dot" aria-label="Bild 4"></button>
+    <button class="hero-dot" aria-label="Bild 5"></button>
+  </div>
+
 </div>
 
 <div class="page-content">
 
+  <div class="cta-row">
+    <a href="schichtenkarte.html" class="btn btn-secondary">
+      Karte nach Einkommensverteilung
+    </a>
+    <a href="statistik.html" class="btn btn-secondary">
+      Statistiken
+    </a>
+    <a href="firmen.html" class="btn btn-secondary">
+      Gewerbeverzeichnis
+    </a>
+    <a href="einwohner.html" class="btn btn-secondary">
+      Einwohnerverzeichnis
+    </a>
+  </div>
+
   <div class="stats-grid" id="stats-grid">
     <div class="stat-card">
-      <div class="number" id="stat-eintraege">–</div>
-      <div class="label">Einträge gesamt</div>
-    </div>
-    <div class="stat-card">
       <div class="number" id="stat-geocodiert">–</div>
-      <div class="label">Geocodiert</div>
+      <div class="label">Geocodierte Einträge</div>
     </div>
     <div class="stat-card">
       <div class="number" id="stat-adressen">–</div>
@@ -42,24 +113,6 @@
       <div class="number" id="stat-stadtteile">–</div>
       <div class="label">Stadtteile</div>
     </div>
-  </div>
-
-  <div class="cta-row">
-    <a href="karte.html" class="btn btn-primary">
-      <span>🗺</span> Karte erkunden
-    </a>
-    <a href="schichtenkarte.html" class="btn btn-secondary">
-      <span>🏘</span> Schichtenkarte
-    </a>
-    <a href="statistik.html" class="btn btn-secondary">
-      <span>📊</span> Statistiken ansehen
-    </a>
-    <a href="firmen.html" class="btn btn-secondary">
-      <span>🏭</span> Firmenverzeichnis
-    </a>
-    <a href="einwohner.html" class="btn btn-secondary">
-      <span>👤</span> Einwohnerverzeichnis
-    </a>
   </div>
 
   <h2>Über das Projekt</h2>
@@ -112,12 +165,54 @@
 </footer>
 
 <script>
+  // Hamburger-Menü Toggle
+  document.querySelector('.nav-toggle')?.addEventListener('click', function() {
+    document.querySelector('.nav-links')?.classList.toggle('open');
+  });
+
+  // Hero-Slideshow
+  (function() {
+    const slides = document.querySelectorAll('.hero-slide');
+    const dots = document.querySelectorAll('.hero-dot');
+    const caption = document.getElementById('hero-slide-caption');
+    if (!slides.length) return;
+
+    let current = 0;
+    let timer = null;
+
+    function goTo(idx) {
+      slides[current].classList.remove('active');
+      dots[current].classList.remove('active');
+      current = idx;
+      slides[current].classList.add('active');
+      dots[current].classList.add('active');
+      caption.textContent = slides[current].dataset.caption;
+    }
+
+    function next() {
+      goTo((current + 1) % slides.length);
+    }
+
+    function startAutoplay() {
+      clearInterval(timer);
+      timer = setInterval(next, 5000);
+    }
+
+    dots.forEach(function(dot, i) {
+      dot.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        goTo(i);
+        startAutoplay();
+      });
+    });
+
+    startAutoplay();
+  })();
   // Lade Kennzahlen aus statistiken.json
   fetch('data/statistiken.json')
     .then(r => r.json())
     .then(data => {
-      document.getElementById('stat-eintraege').textContent =
-        (data.gesamt_eintraege || 0).toLocaleString('de-DE');
       document.getElementById('stat-geocodiert').textContent =
         (data.geocodierte_eintraege || 0).toLocaleString('de-DE');
       document.getElementById('stat-adressen').textContent =

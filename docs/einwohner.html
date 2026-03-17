@@ -10,12 +10,26 @@
 
 <nav>
   <span class="logo">Adressbuch Essen 1936</span>
-  <a href="index.html">Start</a>
-  <a href="karte.html">Karte</a>
-  <a href="schichtenkarte.html">Schichtenkarte</a>
-  <a href="statistik.html">Statistik</a>
-  <a href="firmen.html">Firmen</a>
-  <a href="einwohner.html" class="active">Einwohner</a>
+  <button class="nav-toggle" aria-label="Menü">☰</button>
+  <div class="nav-links">
+    <a href="index.html">Start</a>
+    <div class="nav-dropdown">
+      <a href="#" class="nav-dropdown-trigger">Karte ▾</a>
+      <div class="nav-dropdown-menu">
+        <a href="karte.html">Interaktive Karte</a>
+        <a href="schichtenkarte.html">– Einkommensverteilung</a>
+      </div>
+    </div>
+    <a href="statistik.html">Statistik</a>
+    <a href="gewerbe.html">GewerbeMaps1936</a>
+    <div class="nav-dropdown">
+      <a href="#" class="nav-dropdown-trigger active">Datenbank ▾</a>
+      <div class="nav-dropdown-menu">
+        <a href="firmen.html">Gewerbeverzeichnis</a>
+        <a href="einwohner.html" class="active">Einwohnerverzeichnis</a>
+      </div>
+    </div>
+  </div>
 </nav>
 
 <div class="db-layout">
@@ -57,6 +71,7 @@
   Adressbuch Essen 1936 · Daten: Historische Quelle, digitale Aufbereitung 2025
 </footer>
 
+<script>document.querySelector('.nav-toggle')?.addEventListener('click',function(){document.querySelector('.nav-links')?.classList.toggle('open')});</script>
 <script src="js/einwohner.js"></script>
 </body>
 </html>

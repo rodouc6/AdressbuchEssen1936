@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Schichtenkarte – Adressbuch Essen 1936</title>
+  <title>Karte nach Einkommensverteilung – Adressbuch Essen 1936</title>
   <link rel="stylesheet" href="css/style.css">
   <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
   <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
@@ -16,12 +16,26 @@
 
 <nav>
   <span class="logo">Adressbuch Essen 1936</span>
-  <a href="index.html">Start</a>
-  <a href="karte.html">Karte</a>
-  <a href="schichtenkarte.html" class="active">Schichtenkarte</a>
-  <a href="statistik.html">Statistik</a>
-  <a href="firmen.html">Firmen</a>
-  <a href="einwohner.html">Einwohner</a>
+  <button class="nav-toggle" aria-label="Menü">☰</button>
+  <div class="nav-links">
+    <a href="index.html">Start</a>
+    <div class="nav-dropdown">
+      <a href="#" class="nav-dropdown-trigger active">Karte ▾</a>
+      <div class="nav-dropdown-menu">
+        <a href="karte.html">Interaktive Karte</a>
+        <a href="schichtenkarte.html" class="active">– Einkommensverteilung</a>
+      </div>
+    </div>
+    <a href="statistik.html">Statistik</a>
+    <a href="gewerbe.html">GewerbeMaps1936</a>
+    <div class="nav-dropdown">
+      <a href="#" class="nav-dropdown-trigger">Datenbank ▾</a>
+      <div class="nav-dropdown-menu">
+        <a href="firmen.html">Gewerbeverzeichnis</a>
+        <a href="einwohner.html">Einwohnerverzeichnis</a>
+      </div>
+    </div>
+  </div>
 </nav>
 
 <div id="loading">
@@ -60,6 +74,7 @@
   </div>
 </div>
 
+<script>document.querySelector('.nav-toggle')?.addEventListener('click',function(){document.querySelector('.nav-links')?.classList.toggle('open')});</script>
 <script src="js/schichten.js"></script>
 </body>
 </html>
